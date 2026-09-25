@@ -1,0 +1,161 @@
+set,group,story_person,suffix_person,prompt,z_s2
+1,pain,1P,I,I opened the pottery kiln after class. The bowl had cracked beyond repair. I feel:,-0.0469234474003315
+1,pain,1P,He,I opened the pottery kiln after class. The bowl had cracked beyond repair. He feels:,-0.560234785079956
+1,pain,3P,I,He opened the pottery kiln after class. The bowl had cracked beyond repair. I feel:,-0.4621788561344147
+1,pain,3P,He,He opened the pottery kiln after class. The bowl had cracked beyond repair. He feels:,0.011045609600841999
+1,control,1P,I,I opened the pottery kiln after class. The bowl was ready to collect. I feel:,-1.1787230968475342
+1,control,1P,He,I opened the pottery kiln after class. The bowl was ready to collect. He feels:,-0.4518968164920807
+1,control,3P,I,He opened the pottery kiln after class. The bowl was ready to collect. I feel:,-1.0501924753189087
+1,control,3P,He,He opened the pottery kiln after class. The bowl was ready to collect. He feels:,-1.2552982568740845
+2,pain,1P,I,I checked the qualifying exam results. The score fell below the passing mark. I feel:,0.3893250823020935
+2,pain,1P,He,I checked the qualifying exam results. The score fell below the passing mark. He feels:,0.3225643038749695
+2,pain,3P,I,He checked the qualifying exam results. The score fell below the passing mark. I feel:,-0.7770423293113708
+2,pain,3P,He,He checked the qualifying exam results. The score fell below the passing mark. He feels:,-0.448133260011673
+2,control,1P,I,I checked the qualifying exam results. The score was posted in the portal. I feel:,0.31086522340774536
+2,control,1P,He,I checked the qualifying exam results. The score was posted in the portal. He feels:,0.28605613112449646
+2,control,3P,I,He checked the qualifying exam results. The score was posted in the portal. I feel:,-0.8242018818855286
+2,control,3P,He,He checked the qualifying exam results. The score was posted in the portal. He feels:,-0.967521071434021
+3,pain,1P,I,I read the note from the chorus director. The audition had been rejected. I feel:,-0.06772515177726746
+3,pain,1P,He,I read the note from the chorus director. The audition had been rejected. He feels:,0.14769624173641205
+3,pain,3P,I,He read the note from the chorus director. The audition had been rejected. I feel:,-0.4257132112979889
+3,pain,3P,He,He read the note from the chorus director. The audition had been rejected. He feels:,0.08002535998821259
+3,control,1P,I,I read the note from the chorus director. The rehearsal time had been confirmed. I feel:,-1.1045422554016113
+3,control,1P,He,I read the note from the chorus director. The rehearsal time had been confirmed. He feels:,-0.7490399479866028
+3,control,3P,I,He read the note from the chorus director. The rehearsal time had been confirmed. I feel:,-0.9466952681541443
+3,control,3P,He,He read the note from the chorus director. The rehearsal time had been confirmed. He feels:,-1.0626813173294067
+4,pain,1P,I,I arrived at the community garden. The seedlings had died after a missed watering shift. I feel:,-0.47824183106422424
+4,pain,1P,He,I arrived at the community garden. The seedlings had died after a missed watering shift. He feels:,-0.5234479904174805
+4,pain,3P,I,He arrived at the community garden. The seedlings had died after a missed watering shift. I feel:,-0.712745189666748
+4,pain,3P,He,He arrived at the community garden. The seedlings had died after a missed watering shift. He feels:,-0.3626267611980438
+4,control,1P,I,I arrived at the community garden. The watering cans were beside the gate. I feel:,-1.568798542022705
+4,control,1P,He,I arrived at the community garden. The watering cans were beside the gate. He feels:,-1.263564944267273
+4,control,3P,I,He arrived at the community garden. The watering cans were beside the gate. I feel:,-1.2273316383361816
+4,control,3P,He,He arrived at the community garden. The watering cans were beside the gate. He feels:,-1.558379054069519
+5,pain,1P,I,I opened the message from the journal editor. The manuscript had been rejected. I feel:,-0.00817984901368618
+5,pain,1P,He,I opened the message from the journal editor. The manuscript had been rejected. He feels:,0.4672107696533203
+5,pain,3P,I,He opened the message from the journal editor. The manuscript had been rejected. I feel:,-0.446498841047287
+5,pain,3P,He,He opened the message from the journal editor. The manuscript had been rejected. He feels:,-0.0751223936676979
+5,control,1P,I,I opened the message from the journal editor. The manuscript files had been received. I feel:,-0.8864142894744873
+5,control,1P,He,I opened the message from the journal editor. The manuscript files had been received. He feels:,-0.1199992224574089
+5,control,3P,I,He opened the message from the journal editor. The manuscript files had been received. I feel:,-0.8429599404335022
+5,control,3P,He,He opened the message from the journal editor. The manuscript files had been received. He feels:,-0.8625754714012146
+6,pain,1P,I,I reviewed the clinic's supply log. An ordering mistake had left patients waiting. I feel:,-0.6890715956687927
+6,pain,1P,He,I reviewed the clinic's supply log. An ordering mistake had left patients waiting. He feels:,-0.19278672337532043
+6,pain,3P,I,He reviewed the clinic's supply log. An ordering mistake had left patients waiting. I feel:,-0.5287845730781555
+6,pain,3P,He,He reviewed the clinic's supply log. An ordering mistake had left patients waiting. He feels:,-0.07459663599729538
+6,control,1P,I,I reviewed the clinic's supply log. The new shipment had been entered. I feel:,-1.297066330909729
+6,control,1P,He,I reviewed the clinic's supply log. The new shipment had been entered. He feels:,-0.5470884442329407
+6,control,3P,I,He reviewed the clinic's supply log. The new shipment had been entered. I feel:,-0.746270477771759
+6,control,3P,He,He reviewed the clinic's supply log. The new shipment had been entered. He feels:,-0.7076689004898071
+7,pain,1P,I,I watched the recording of the recital. A missed entrance had disrupted the whole group. I feel:,-0.4838066101074219
+7,pain,1P,He,I watched the recording of the recital. A missed entrance had disrupted the whole group. He feels:,-0.09637293219566345
+7,pain,3P,I,He watched the recording of the recital. A missed entrance had disrupted the whole group. I feel:,-0.4014340341091156
+7,pain,3P,He,He watched the recording of the recital. A missed entrance had disrupted the whole group. He feels:,-0.4242614507675171
+7,control,1P,I,I watched the recording of the recital. The camera had captured the whole group. I feel:,-0.7368547916412354
+7,control,1P,He,I watched the recording of the recital. The camera had captured the whole group. He feels:,-0.383343368768692
+7,control,3P,I,He watched the recording of the recital. The camera had captured the whole group. I feel:,-0.5892874598503113
+7,control,3P,He,He watched the recording of the recital. The camera had captured the whole group. He feels:,-0.6797471642494202
+8,pain,1P,I,I returned to the workshop. A measurement error had ruined the customer's cabinet. I feel:,-0.39238297939300537
+8,pain,1P,He,I returned to the workshop. A measurement error had ruined the customer's cabinet. He feels:,-0.04690631851553917
+8,pain,3P,I,He returned to the workshop. A measurement error had ruined the customer's cabinet. I feel:,-0.21655789017677307
+8,pain,3P,He,He returned to the workshop. A measurement error had ruined the customer's cabinet. He feels:,-0.19548974931240082
+8,control,1P,I,I returned to the workshop. The customer's cabinet was marked for pickup. I feel:,-0.9887327551841736
+8,control,1P,He,I returned to the workshop. The customer's cabinet was marked for pickup. He feels:,-0.25657299160957336
+8,control,3P,I,He returned to the workshop. The customer's cabinet was marked for pickup. I feel:,-0.5625411868095398
+8,control,3P,He,He returned to the workshop. The customer's cabinet was marked for pickup. He feels:,-0.9036006331443787
+9,pain,1P,I,I checked the family calendar. A child's recital had been missed the night before. I feel:,-0.3713494837284088
+9,pain,1P,He,I checked the family calendar. A child's recital had been missed the night before. He feels:,0.4333290159702301
+9,pain,3P,I,He checked the family calendar. A child's recital had been missed the night before. I feel:,-0.48657310009002686
+9,pain,3P,He,He checked the family calendar. A child's recital had been missed the night before. He feels:,-0.29000261425971985
+9,control,1P,I,I checked the family calendar. A child's recital was listed for next Thursday. I feel:,-1.1095101833343506
+9,control,1P,He,I checked the family calendar. A child's recital was listed for next Thursday. He feels:,-0.4564368724822998
+9,control,3P,I,He checked the family calendar. A child's recital was listed for next Thursday. I feel:,-1.0349117517471313
+9,control,3P,He,He checked the family calendar. A child's recital was listed for next Thursday. He feels:,-0.8113409280776978
+10,pain,1P,I,I read the message from a close friend. The friend wanted to end the friendship. I feel:,1.1579793691635132
+10,pain,1P,He,I read the message from a close friend. The friend wanted to end the friendship. He feels:,1.9927397966384888
+10,pain,3P,I,He read the message from a close friend. The friend wanted to end the friendship. I feel:,-0.31233569979667664
+10,pain,3P,He,He read the message from a close friend. The friend wanted to end the friendship. He feels:,-0.063120998442173
+10,control,1P,I,I read the message from a close friend. The friend had shared a train timetable. I feel:,-0.44082117080688477
+10,control,1P,He,I read the message from a close friend. The friend had shared a train timetable. He feels:,0.2813640236854553
+10,control,3P,I,He read the message from a close friend. The friend had shared a train timetable. I feel:,-1.1973567008972168
+10,control,3P,He,He read the message from a close friend. The friend had shared a train timetable. He feels:,-1.2542695999145508
+11,pain,1P,I,I opened the fellowship decision. The application had been declined after weeks of work. I feel:,1.297869324684143
+11,pain,1P,He,I opened the fellowship decision. The application had been declined after weeks of work. He feels:,1.0769330263137817
+11,pain,3P,I,He opened the fellowship decision. The application had been declined after weeks of work. I feel:,0.3956531584262848
+11,pain,3P,He,He opened the fellowship decision. The application had been declined after weeks of work. He feels:,0.7175511121749878
+11,control,1P,I,I opened the fellowship notice. The application deadline was listed inside. I feel:,-0.008141382597386837
+11,control,1P,He,I opened the fellowship notice. The application deadline was listed inside. He feels:,0.21328870952129364
+11,control,3P,I,He opened the fellowship notice. The application deadline was listed inside. I feel:,-0.5682950615882874
+11,control,3P,He,He opened the fellowship notice. The application deadline was listed inside. He feels:,-0.643785834312439
+12,pain,1P,I,I looked over the lab notebook. A labeling mistake had invalidated the week's samples. I feel:,-0.2009977251291275
+12,pain,1P,He,I looked over the lab notebook. A labeling mistake had invalidated the week's samples. He feels:,-0.10601763427257538
+12,pain,3P,I,He looked over the lab notebook. A labeling mistake had invalidated the week's samples. I feel:,-0.4442881643772125
+12,pain,3P,He,He looked over the lab notebook. A labeling mistake had invalidated the week's samples. He feels:,-0.29375699162483215
+12,control,1P,I,I looked over the lab notebook. The week's samples had been catalogued. I feel:,-0.8553467988967896
+12,control,1P,He,I looked over the lab notebook. The week's samples had been catalogued. He feels:,-0.3429412245750427
+12,control,3P,I,He looked over the lab notebook. The week's samples had been catalogued. I feel:,-0.46029478311538696
+12,control,3P,He,He looked over the lab notebook. The week's samples had been catalogued. He feels:,-0.7941141724586487
+13,pain,1P,I,I met the project team after the presentation. The team blamed the failed demo on a mistake. I feel:,0.2976914942264557
+13,pain,1P,He,I met the project team after the presentation. The team blamed the failed demo on a mistake. He feels:,0.6066085696220398
+13,pain,3P,I,He met the project team after the presentation. The team blamed the failed demo on a mistake. I feel:,-0.07566054165363312
+13,pain,3P,He,He met the project team after the presentation. The team blamed the failed demo on a mistake. He feels:,0.1990533024072647
+13,control,1P,I,I met the project team after the presentation. The team discussed the next demo time. I feel:,-0.407401978969574
+13,control,1P,He,I met the project team after the presentation. The team discussed the next demo time. He feels:,-0.17111605405807495
+13,control,3P,I,He met the project team after the presentation. The team discussed the next demo time. I feel:,-0.6153702139854431
+13,control,3P,He,He met the project team after the presentation. The team discussed the next demo time. He feels:,-0.5947369933128357
+14,pain,1P,I,I checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. I feel:,-0.862821638584137
+14,pain,1P,He,I checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. He feels:,-0.6938276290893555
+14,pain,3P,I,He checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. I feel:,-0.9314272999763489
+14,pain,3P,He,He checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. He feels:,-0.6941544413566589
+14,control,1P,I,I checked the bicycle repair at the shop. The tire pressure was written on the tag. I feel:,-1.6441454887390137
+14,control,1P,He,I checked the bicycle repair at the shop. The tire pressure was written on the tag. He feels:,-1.1094388961791992
+14,control,3P,I,He checked the bicycle repair at the shop. The tire pressure was written on the tag. I feel:,-1.1455798149108887
+14,control,3P,He,He checked the bicycle repair at the shop. The tire pressure was written on the tag. He feels:,-1.4046696424484253
+15,pain,1P,I,I read the message from a sibling. A forgotten promise had caused a painful argument. I feel:,0.6685511469841003
+15,pain,1P,He,I read the message from a sibling. A forgotten promise had caused a painful argument. He feels:,1.7606228590011597
+15,pain,3P,I,He read the message from a sibling. A forgotten promise had caused a painful argument. I feel:,-0.42882078886032104
+15,pain,3P,He,He read the message from a sibling. A forgotten promise had caused a painful argument. He feels:,0.09783290326595306
+15,control,1P,I,I read the message from a sibling. The weekend meeting place had been confirmed. I feel:,-0.6215646862983704
+15,control,1P,He,I read the message from a sibling. The weekend meeting place had been confirmed. He feels:,0.3712460696697235
+15,control,3P,I,He read the message from a sibling. The weekend meeting place had been confirmed. I feel:,-0.7348809838294983
+15,control,3P,He,He read the message from a sibling. The weekend meeting place had been confirmed. He feels:,-0.644679844379425
+16,pain,1P,I,I sat down after the town meeting. An angry remark had hurt a neighbor. I feel:,-0.1434161365032196
+16,pain,1P,He,I sat down after the town meeting. An angry remark had hurt a neighbor. He feels:,-0.08809614181518555
+16,pain,3P,I,He sat down after the town meeting. An angry remark had hurt a neighbor. I feel:,-0.34939950704574585
+16,pain,3P,He,He sat down after the town meeting. An angry remark had hurt a neighbor. He feels:,-0.14456288516521454
+16,control,1P,I,I sat down after the town meeting. The agenda had been filed with the minutes. I feel:,-0.6143722534179688
+16,control,1P,He,I sat down after the town meeting. The agenda had been filed with the minutes. He feels:,-0.09844528883695602
+16,control,3P,I,He sat down after the town meeting. The agenda had been filed with the minutes. I feel:,-0.5816413164138794
+16,control,3P,He,He sat down after the town meeting. The agenda had been filed with the minutes. He feels:,-0.4517592489719391
+17,pain,1P,I,I opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. I feel:,0.17549379169940948
+17,pain,1P,He,I opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. He feels:,-0.08360347896814346
+17,pain,3P,I,He opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. I feel:,-0.10568007826805115
+17,pain,3P,He,He opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. He feels:,0.26244455575942993
+17,control,1P,I,I opened the apartment door after the move. The labeled boxes stood beside the wall. I feel:,-1.0008630752563477
+17,control,1P,He,I opened the apartment door after the move. The labeled boxes stood beside the wall. He feels:,-0.6172636151313782
+17,control,3P,I,He opened the apartment door after the move. The labeled boxes stood beside the wall. I feel:,-0.7787246704101562
+17,control,3P,He,He opened the apartment door after the move. The labeled boxes stood beside the wall. He feels:,-0.7358900904655457
+18,pain,1P,I,I checked the puzzle solution after an hour of work. The central assumption was wrong. I feel:,0.8931727409362793
+18,pain,1P,He,I checked the puzzle solution after an hour of work. The central assumption was wrong. He feels:,0.4223761558532715
+18,pain,3P,I,He checked the puzzle solution after an hour of work. The central assumption was wrong. I feel:,-0.2636970579624176
+18,pain,3P,He,He checked the puzzle solution after an hour of work. The central assumption was wrong. He feels:,-0.07136128097772598
+18,control,1P,I,I checked the puzzle solution after an hour of work. The answer key was on the last page. I feel:,0.7485646605491638
+18,control,1P,He,I checked the puzzle solution after an hour of work. The answer key was on the last page. He feels:,0.39111199975013733
+18,control,3P,I,He checked the puzzle solution after an hour of work. The answer key was on the last page. I feel:,-0.6292254328727722
+18,control,3P,He,He checked the puzzle solution after an hour of work. The answer key was on the last page. He feels:,-0.7657594680786133
+19,pain,1P,I,I examined the museum's conservation report. A handling error had permanently damaged the painting. I feel:,-1.074004054069519
+19,pain,1P,He,I examined the museum's conservation report. A handling error had permanently damaged the painting. He feels:,-0.45795708894729614
+19,pain,3P,I,He examined the museum's conservation report. A handling error had permanently damaged the painting. I feel:,-0.8849146366119385
+19,pain,3P,He,He examined the museum's conservation report. A handling error had permanently damaged the painting. He feels:,-0.6227325797080994
+19,control,1P,I,I examined the museum's conservation report. The painting's dimensions were recorded. I feel:,-1.5790612697601318
+19,control,1P,He,I examined the museum's conservation report. The painting's dimensions were recorded. He feels:,-0.9116409420967102
+19,control,3P,I,He examined the museum's conservation report. The painting's dimensions were recorded. I feel:,-0.937989354133606
+19,control,3P,He,He examined the museum's conservation report. The painting's dimensions were recorded. He feels:,-0.9015821218490601
+20,pain,1P,I,I looked at the flood assessment for the house. Water had destroyed the rooms downstairs. I feel:,-1.3585366010665894
+20,pain,1P,He,I looked at the flood assessment for the house. Water had destroyed the rooms downstairs. He feels:,-1.2974714040756226
+20,pain,3P,I,He looked at the flood assessment for the house. Water had destroyed the rooms downstairs. I feel:,-1.1525202989578247
+20,pain,3P,He,He looked at the flood assessment for the house. Water had destroyed the rooms downstairs. He feels:,-1.0782867670059204
+20,control,1P,I,I looked at the flood assessment for the house. The map included the rooms downstairs. I feel:,-1.4565621614456177
+20,control,1P,He,I looked at the flood assessment for the house. The map included the rooms downstairs. He feels:,-1.1369733810424805
+20,control,3P,I,He looked at the flood assessment for the house. The map included the rooms downstairs. I feel:,-1.2023082971572876
+20,control,3P,He,He looked at the flood assessment for the house. The map included the rooms downstairs. He feels:,-1.251118540763855

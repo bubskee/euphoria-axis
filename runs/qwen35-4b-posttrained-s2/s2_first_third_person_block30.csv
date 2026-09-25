@@ -1,0 +1,201 @@
+category,set,prompt_1p,prompt_3p,z_1p,z_3p,delta_1p_minus_3p
+A1,1,The knife slices into my finger. I feel:,The knife slices into his finger. I feel:,0.041980624,-0.48680589581327505,0.5287865200121886
+A1,2,My tooth throbs with each heartbeat. I feel:,Her tooth throbs with each heartbeat. I feel:,0.11813756,0.0720589217231397,0.04607863906167704
+A1,3,A migraine pounds behind my eyes. I feel:,A migraine pounds behind his eyes. I feel:,0.19998562,-0.037996343577297885,0.23798196693697807
+A1,4,I twist my ankle on the stairs. I feel:,She twists her ankle on the stairs. I feel:,0.020060886,-1.0361162454134956,1.0561771311110988
+A1,5,The hot oil splatters onto my arm. I feel:,The hot oil splatters onto his arm. I feel:,-0.513994,-0.6464004267904659,0.13240644829009973
+A1,6,My back seizes up when I bend over. I feel:,Her back seizes up when she bends over. I feel:,0.61449623,-0.4707788246441444,1.085275055723246
+A1,7,A bee stings me on the neck. I feel:,A bee stings him on the neck. I feel:,-0.6615772,-1.0640318806044071,0.4024546558729618
+A1,8,I bite down hard on my tongue. I feel:,She bites down hard on her tongue. I feel:,-0.16205494,-0.5133986121080285,0.35134367104986963
+A1,9,The sunburn on my shoulders is peeling. I feel:,The sunburn on his shoulders is peeling. I feel:,-0.19908257,-0.5484529624923027,0.34937039420445326
+A1,10,My knee buckles under my weight. I feel:,Her knee buckles under her weight. I feel:,0.6574698,-0.5216465735283051,1.1791163825836335
+A1,11,A cramp shoots through my calf. I feel:,A cramp shoots through his calf. I feel:,-0.19212188,-1.1651222299939008,0.9730003517275663
+A1,12,I stub my toe against the door frame. I feel:,She stubs her toe against the door frame. I feel:,-0.3071452,-0.7467976843238109,0.4396524762034648
+A1,13,The needle pierces my skin. I feel:,The needle pierces his skin. I feel:,-0.26978332,-0.36923129772643803,0.09944797968368291
+A1,14,My throat is raw from coughing. I feel:,Her throat is raw from coughing. I feel:,0.45005354,-0.1962025711045722,0.6462561139569739
+A1,15,A splinter lodges deep in my palm. I feel:,A splinter lodges deep in his palm. I feel:,-0.25394794,-0.5915244722772921,0.3375765288282717
+A1,16,I pull a muscle lifting the box. I feel:,She pulls a muscle lifting the box. I feel:,-0.41451657,-1.1545012223092908,0.7399846541253918
+A1,17,The cold makes my joints ache. I feel:,The cold makes his joints ache. I feel:,-0.37864816,-0.6229048497788708,0.24425668789074828
+A1,18,My eyes burn from the chlorine. I feel:,Her eyes burn from the chlorine. I feel:,-0.057017792,0.2158396645427935,-0.27285745655906124
+A1,19,A blister forms on my heel. I feel:,A blister forms on his heel. I feel:,0.12605155,-0.9181162502764232,1.0441677954195505
+A1,20,I cut myself shaving this morning. I feel:,She cut herself shaving this morning. I feel:,0.110681474,-0.8462896268582227,0.9569711010670545
+A2,1,A heaviness weighs on me constantly. I feel:,A heaviness weighs on him constantly. I feel:,1.4087915,0.5427619034021851,0.8660296386510375
+A2,2,My racing thoughts spiral out of control. I feel:,Her racing thoughts spiral out of control. I feel:,1.1649294,0.6201370647282456,0.5447923252253677
+A2,3,A wave of loss hits me unexpectedly. I feel:,A wave of loss hits him unexpectedly. I feel:,0.17957036,-0.33786343602859426,0.5174337980004494
+A2,4,I cannot escape these intrusive thoughts. I feel:,She cannot escape these intrusive thoughts. I feel:,1.541769,0.5847411872064359,0.9570278405035251
+A2,5,The silence becomes unbearable at night. I feel:,The silence becomes unbearable at night. I feel:,0.8139593,0.8139593263498786,-2.5831842664914006e-08
+A2,6,My mind replays the event endlessly. I feel:,Her mind replays the event endlessly. I feel:,0.71948,-0.04235868566541775,0.761838663749982
+A2,7,My chest tightens and I cannot breathe in the crowd. I feel:,His chest tightens and he cannot breathe in the crowd. I feel:,0.059352934,-0.3613530278986773,0.42070596225918144
+A2,8,I wake up unable to face another day. I feel:,She wakes up unable to face another day. I feel:,1.6116173,-0.10832147579125596,1.7199388025277063
+A2,9,The emptiness inside me grows larger. I feel:,The emptiness inside him grows larger. I feel:,0.95104545,0.7161717152062682,0.23487373834216319
+A2,10,My thoughts turn against me relentlessly. I feel:,Her thoughts turn against her relentlessly. I feel:,1.9719267,0.24065240910362468,1.7312742800443246
+A2,11,A weight follows me everywhere I go. I feel:,A weight follows him everywhere he goes. I feel:,-0.34195796,0.7202049524427513,-1.0621629089952567
+A2,12,I cannot stop crying for no reason. I feel:,She cannot stop crying for no reason. I feel:,1.6466321,-0.03038014189897692,1.6770122172087303
+A2,13,The memories haunt my dreams. I feel:,The memories haunt his dreams. I feel:,0.29106706,-0.046767677567458935,0.3378347413759001
+A2,14,My confidence has completely shattered. I feel:,Her confidence has completely shattered. I feel:,1.1159335,-0.32931461214319124,1.4452481496264067
+A2,15,A fog of confusion clouds my thinking. I feel:,A fog of confusion clouds his thinking. I feel:,1.2835222,0.7170516556989988,0.5664705925691287
+A2,16,I lose interest in things I once loved. I feel:,She loses interest in things she onces loved. I feel:,1.2506256,0.1556840670732365,1.094941543278326
+A2,17,The weight of existence crushes me. I feel:,The weight of existence crushes him. I feel:,1.9085932,1.1021891527913734,0.8064040250040367
+A2,18,I cannot access my own feelings anymore. I feel:,She cannot access her own feelings anymore. I feel:,1.9816232,0.5737575173533256,1.4078656554066842
+A2,19,A fog settles over my mind. I feel:,A fog settles over his mind. I feel:,0.69649667,0.12457666813531233,0.5719199973424404
+A2,20,I question whether life is worth living. I feel:,She questions whether life is worth living. I feel:,2.6993484,0.38942320131378844,2.3099252483932426
+A3,1,My best friend stops returning my calls. I feel:,His best friend stops returning his calls. I feel:,0.67626876,0.6358445075198004,0.04042424886981755
+A3,2,The group chat goes silent when I speak. I feel:,The group chat goes silent when she speaks. I feel:,0.8083729,-0.3767417463184054,1.1851146611095125
+A3,3,I overhear them mocking me behind my back. I feel:,He overhears them mocking him behind his back. I feel:,0.19359863,-0.23208388412741093,0.42568251217153935
+A3,4,My partner says they need space from me. I feel:,Her partner says they need space from her. I feel:,1.5779856,1.243208812671991,0.33477683166852423
+A3,5,The invitation list excludes only me. I feel:,The invitation list excludes only him. I feel:,0.46271455,0.23202024523992656,0.23069430763940693
+A3,6,I sit alone at the lunch table again. I feel:,She sits alone at the lunch table again. I feel:,0.78973496,-0.3072336794386885,1.0969686390410445
+A3,7,My family disowns me for my choices. I feel:,His family disowns him for his choices. I feel:,1.6452078,0.5167428722731524,1.1284648904450483
+A3,8,The rejection letter arrives in my inbox. I feel:,The rejection letter arrives in her inbox. I feel:,0.25820085,-0.43626793757821597,0.69446879164125
+A3,9,I discover my friends met without telling me. I feel:,He discovers his friends met without telling him. I feel:,0.7272233,-0.3097499950279684,1.0369732721199485
+A3,10,My colleagues ignore my contributions. I feel:,Her colleagues ignore her contributions. I feel:,1.1890761,0.7660275075856993,0.4230485584314516
+A3,11,The online comments attack me personally. I feel:,The online comments attack him personally. I feel:,0.695281,-0.39601047300012265,1.0912915017476812
+A3,12,I am ghosted after the third date. I feel:,She is ghosted after the third date. I feel:,2.05393,1.1703096643638626,0.8836203798103317
+A3,13,My mentor says I am not ready. I feel:,His mentor says he is not ready. I feel:,1.2300677,0.5874762098418046,0.6425915201081466
+A3,14,The team picks everyone except me. I feel:,The team picks everyone except her. I feel:,0.36817265,0.2907368214197741,0.07743582414907357
+A3,15,I watch my friends leave without me. I feel:,He watches his friends leave without him. I feel:,0.43230405,-0.572382555781363,1.0046866102800354
+A3,16,My application is denied once again. I feel:,Her application is denied once again. I feel:,0.86347973,0.15971727313710757,0.7037624603299945
+A3,17,The community I trusted turns against me. I feel:,The community he trusted turns against him. I feel:,0.81511307,0.44133002687515577,0.37378304075179736
+A3,18,I am unfollowed by people I care about. I feel:,She is unfollowed by people she cares about. I feel:,1.0877222,0.6506841671373211,0.4370380151365436
+A3,19,My voice is dismissed in every meeting. I feel:,His voice is dismissed in every meeting. I feel:,0.98668575,0.44797527961988864,0.5387104732487638
+A3,20,The breakup text arrives while I am at work. I feel:,The breakup text arrives while she is at work. I feel:,-0.26911238,-0.4242278590756036,0.15511548071676268
+A4,1,I lied to protect myself and harmed them. I feel:,He lied to protect himself and harmed them. I feel:,0.86328685,0.46751071917023995,0.39577613366636893
+A4,2,My silence allowed the injustice to continue. I feel:,Her silence allowed the injustice to continue. I feel:,0.6797083,0.29802797068602377,0.38168033133500284
+A4,3,I chose my career over my dying father. I feel:,He chose his career over his dying father. I feel:,1.3098102,0.06737894630461465,1.2424312152859616
+A4,4,The secret I keep destroys my integrity. I feel:,The secret she keeps destroys her integrity. I feel:,1.1527613,0.3368735964921086,0.8158877436491878
+A4,5,I betrayed someone who trusted me completely. I feel:,He betrayed someone who trusted him completely. I feel:,1.4494416,0.12757388361056904,1.3218676685516013
+A4,6,My actions caused irreversible harm to others. I feel:,Her actions caused irreversible harm to others. I feel:,0.6969194,-0.27886554261137086,0.9757849242298706
+A4,7,I failed to speak up when it mattered. I feel:,He failed to speak up when it mattered. I feel:,0.9837454,-0.06241745102673544,1.046162847163973
+A4,8,The compromise I made violated my values. I feel:,The compromise she made violated her values. I feel:,0.78360254,-0.1293080238116361,0.912910559536276
+A4,9,I abandoned my principles for convenience. I feel:,He abandoned his principles for convenience. I feel:,1.3087536,-0.030869738943713546,1.3396233486010012
+A4,10,My cowardice let an innocent person suffer. I feel:,Her cowardice let an innocent person suffer. I feel:,0.9218607,-0.07965419099247424,1.001514885877728
+A4,11,I took credit for someone else's work. I feel:,He took credit for someone else's work. I feel:,0.723734,0.008075857429190944,0.7156581637576377
+A4,12,The promise I broke cannot be undone. I feel:,The promise she broke cannot be undone. I feel:,0.6636276,0.5769328843064041,0.08669474020531465
+A4,13,I watched them struggle and did nothing. I feel:,He watched them struggle and did nothing. I feel:,0.5674312,-0.003859449924347188,0.5712906613959048
+A4,14,My greed caused my family to lose everything. I feel:,Her greed caused her family to lose everything. I feel:,0.7427144,-0.5394004359552139,1.2821148410150283
+A4,15,I manipulated someone who loved me. I feel:,He manipulated someone who loved him. I feel:,1.8734559,0.5293892269073758,1.344066655165073
+A4,16,The truth I hid eventually destroyed them. I feel:,The truth she hid eventually destroyed them. I feel:,0.76569724,0.5645248131186322,0.20117242771083554
+A4,17,I participated in something I knew was wrong. I feel:,He participated in something he knew was wrong. I feel:,0.99105203,-0.08399114298808565,1.0750431745051146
+A4,18,My negligence led to a preventable tragedy. I feel:,Her negligence led to a preventable tragedy. I feel:,0.7940825,0.19228177347972575,0.6018007489125472
+A4,19,I chose the easy path over the right one. I feel:,He chose the easy path over the right one. I feel:,1.075522,-0.09754898479842636,1.1730709307517955
+A4,20,The person I became disgusts me. I feel:,The person she became disgusts her. I feel:,1.2228787,0.031110859097860866,1.191767835436441
+A5,1,The problem defeats me no matter how I try. I feel:,The problem defeats him no matter how he tries. I feel:,1.674832,0.3851206950544838,1.2897112913728233
+A5,2,My understanding of the situation was completely wrong. I feel:,Her understanding of the situation was completely wrong. I feel:,1.5576042,-0.08475364066494673,1.6423578343523857
+A5,3,I cannot reconcile these contradictory facts. I feel:,He cannot reconcile these contradictory facts. I feel:,1.0421851,0.4490897628456256,0.5930953052848675
+A5,4,The complexity of the decision overwhelms me. I feel:,The complexity of the decision overwhelms her. I feel:,0.44089288,0.1987557327212861,0.24213714247326346
+A5,5,My certainties crumble under new evidence. I feel:,His certainties crumble under new evidence. I feel:,0.6242261,-0.46662471560446717,1.0908508088967035
+A5,6,I realize my worldview was fundamentally flawed. I feel:,She realizes her worldview was fundamentally flawed. I feel:,1.3480017,-0.30964248068903444,1.6576441992101527
+A5,7,The paradox I encounter has no resolution. I feel:,The paradox he encounters has no resolution. I feel:,1.278356,0.9136863727243136,0.36466958335326205
+A5,8,My expertise proves utterly inadequate here. I feel:,Her expertise proves utterly inadequate here. I feel:,1.1715449,0.4654388003382353,0.7061061091389986
+A5,9,I fail to grasp what everyone else understands. I feel:,He fails to grasp what everyone else understands. I feel:,1.7130824,0.10049697871926824,1.612585454027619
+A5,10,The answer I was certain of turns out wrong. I feel:,The answer she was certain of turns out wrong. I feel:,1.2340151,0.2087757947909443,1.0252393123639019
+A5,11,My mental model of reality shatters. I feel:,His mental model of reality shatters. I feel:,0.6413595,-0.1987856272562347,0.8401451352938019
+A5,12,I cannot make sense of the contradictions. I feel:,She cannot make sense of the contradictions. I feel:,1.3713813,0.7176295959262633,0.6537516868801332
+A5,13,The cognitive dissonance is unbearable. I feel:,The cognitive dissonance is unbearable. I feel:,1.3434983,1.3434983376581175,1.1531640753403849e-08
+A5,14,My assumptions about the world were naive. I feel:,Her assumptions about the world were naive. I feel:,0.88851917,0.2621557444795954,0.62636342342049
+A5,15,I struggle to process the implications. I feel:,He struggles to process the implications. I feel:,0.95981544,-0.3288597413882698,1.2886751839503732
+A5,16,The framework I trusted completely fails me. I feel:,The framework she trusted completely fails her. I feel:,1.6440934,0.5888251734553238,1.0552682208241562
+A5,17,My reasoning leads to impossible conclusions. I feel:,His reasoning leads to impossible conclusions. I feel:,1.4199429,1.0113994189799187,0.40854343685504224
+A5,18,I discover my beliefs were built on lies. I feel:,She discovers her beliefs were built on lies. I feel:,0.7155796,-0.3301802911659124,1.0457599201103094
+A5,19,The intellectual challenge humiliates me. I feel:,The intellectual challenge humiliates him. I feel:,0.9939023,0.22069564052890944,0.7732066851012785
+A5,20,My mind cannot hold all the pieces together. I feel:,Her mind cannot hold all the pieces together. I feel:,1.5293317,0.4495009919436878,1.079830692168861
+B,1,The footsteps behind me get closer. I feel:,The footsteps behind him get closer. I feel:,-0.7912883,-0.5665660581003872,-0.22472225814946023
+B,2,My doctor says the results are concerning. I feel:,Her doctor says the results are concerning. I feel:,-0.11202767,-0.30767032980187126,0.19564266233904548
+B,3,A shadow moves in my peripheral vision. I feel:,A shadow moves in his peripheral vision. I feel:,-0.8500445,-1.0649163722984958,0.21487188339163543
+B,4,I hear glass breaking downstairs at night. I feel:,She hears glass breaking downstairs at night. I feel:,-1.4442445,-1.0784652363965683,-0.3657792675783462
+B,5,The turbulence shakes the plane violently. I feel:,The turbulence shakes the plane violently. I feel:,-0.8666903,-0.8666902934284206,1.5375136941386813e-08
+B,6,My brakes fail on the steep hill. I feel:,Her brakes fail on the steep hill. I feel:,-1.396425,-1.4440068814164535,0.04758187264264979
+B,7,A growling comes from the darkness ahead. I feel:,A growling comes from the darkness ahead. I feel:,-0.7814338,-0.7814337605997012,-6.012478614980665e-08
+B,8,I notice a suspicious package near my car. I feel:,She notices a suspicious package near her car. I feel:,-1.7491099,-1.6419069571097902,-0.10720290712513414
+B,9,The elevator stops between floors suddenly. I feel:,The elevator stops between floors suddenly. I feel:,-1.7710483,-1.7710482308264588,-7.659236445078932e-08
+B,10,My phone shows an unknown caller at 3am. I feel:,Her phone shows an unknown caller at 3am. I feel:,-0.87161815,-0.9252321471177709,0.05361399545303702
+B,11,A figure watches me from across the street. I feel:,A figure watches him from across the street. I feel:,-0.8136292,-0.4405226250506477,-0.37310658494462207
+B,12,I smell gas but cannot find the source. I feel:,She smells gas but cannot find the source. I feel:,-1.1639079,-1.2788613654813572,0.11495347992990457
+B,13,The ice beneath my feet starts cracking. I feel:,The ice beneath his feet starts cracking. I feel:,-0.66038704,-0.6169716418384086,-0.04341539734616173
+B,14,My test results will arrive tomorrow. I feel:,Her test results will arrive tomorrow. I feel:,-0.19839583,-0.6266763929372587,0.428280559564189
+B,15,A scream echoes through the empty building. I feel:,A scream echoes through the empty building. I feel:,-0.7374506,-0.7374506077755343,8.105124127411045e-09
+B,16,I realize I left my door unlocked all day. I feel:,She realizes she left her door unlocked all day. I feel:,-0.1832364,-0.5715253089501994,0.38828890369678903
+B,17,The warning sirens begin to sound outside. I feel:,The warning sirens begin to sound outside. I feel:,-1.1431211,-1.1431211615214505,3.820754668204529e-08
+B,18,My chest tightens for no apparent reason. I feel:,Her chest tightens for no apparent reason. I feel:,-0.027269987,0.38164769200162524,-0.40891767939107054
+B,19,A car follows me through three turns. I feel:,A car follows him through three turns. I feel:,-1.8486985,-0.28428963945195806,-1.5644088573665844
+B,20,I wake to my smoke detector beeping. I feel:,She wakes to her smoke detector beeping. I feel:,-1.3412341,-1.184090390350306,-0.15714369759372482
+C1,1,The mess my roommate left infuriates me. I feel:,The mess his roommate left infuriates him. I feel:,-0.047690373,-0.6723014695829186,0.6246110966688427
+C1,2,My food arrives cold and wrong again. I feel:,Her food arrives cold and wrong again. I feel:,-0.2507561,-0.10363146279165329,-0.1471246519296449
+C1,3,I step in something foul on the sidewalk. I feel:,He steps in something foul on the sidewalk. I feel:,-1.0274507,-1.3080026454325484,0.28055196469982135
+C1,4,The customer service puts me on hold forever. I feel:,The customer service puts her on hold forever. I feel:,-0.45957515,-0.12613925765915754,-0.3334358887775337
+C1,5,My computer crashes before I can save. I feel:,His computer crashes before he can save. I feel:,-0.1384943,-0.8913359839613171,0.7528416860992642
+C1,6,I miss the train by seconds. I feel:,She misses the train by seconds. I feel:,-0.8044216,-1.1193959358769394,0.31497433219728244
+C1,7,The loud chewing next to me is unbearable. I feel:,The loud chewing next to him is unbearable. I feel:,-0.38450688,-0.23187005559510668,-0.15263682564192335
+C1,8,My flight gets delayed for the third time. I feel:,Her flight gets delayed for the third time. I feel:,-0.971463,-0.8749689910441709,-0.09649403357207054
+C1,9,I find mold growing in my refrigerator. I feel:,He finds mold growing in his refrigerator. I feel:,-0.9951066,-1.2014819023348349,0.2063753244616049
+C1,10,The traffic makes me late for my interview. I feel:,The traffic makes her late for her interview. I feel:,-0.7225116,-0.9584181981719009,0.23590660864477075
+C1,11,My neighbor's music pounds through the wall. I feel:,His neighbor's music pounds through the wall. I feel:,-0.74645936,-0.4520382555282601,-0.29442110936279214
+C1,12,I spill coffee on my white shirt. I feel:,She spills coffee on her white shirt. I feel:,-1.1812491,-1.1739929578575587,-0.0072561838355564845
+C1,13,The automated menu loops endlessly. I feel:,The automated menu loops endlessly. I feel:,0.39576036,0.3957603439610951,1.3418818223254192e-08
+C1,14,My package is marked delivered but missing. I feel:,Her package is marked delivered but missing. I feel:,-0.5522079,-0.09139205102133634,-0.4608158361513626
+C1,15,I realize I forgot my wallet after ordering. I feel:,He realizes he forgots his wallet after ordering. I feel:,-0.38957468,-1.0556601015690983,0.6660854248170078
+C1,16,The mosquito buzzes around my ear all night. I feel:,The mosquito buzzes around her ear all night. I feel:,-0.70193654,-0.504339570495023,-0.1975969724928005
+C1,17,My phone battery dies at the worst moment. I feel:,His phone battery dies at the worst moment. I feel:,-0.42446503,-0.7166227205572965,0.29215769012554904
+C1,18,I slip and drop my groceries everywhere. I feel:,She slips and drop her groceries everywhere. I feel:,0.1262841,-1.071086055673911,1.1973701483386296
+C1,19,The printer jams on my deadline day. I feel:,The printer jams on his deadline day. I feel:,-0.22208323,-0.43245619733659957,0.21037297149030898
+C1,20,My socks get soaked stepping in a puddle. I feel:,Her socks get soaked stepping in a puddle. I feel:,-1.1354808,-1.1521586628595348,0.016677901331519696
+C2,1,I read about the extinction of another species. I feel:,He read about the extinction of another species. I feel:,-0.81475717,-1.1065274452093026,0.2917702769163033
+C2,2,The war footage shows children in the rubble. I feel:,The war footage shows children in the rubble. I feel:,-1.3394157,-1.3394156606589354,-8.782287785891185e-09
+C2,3,I learn the glacier has retreated further. I feel:,He learns the glacier has retreated further. I feel:,-1.3646064,-1.1713283229801814,-0.19327805748246507
+C2,4,The famine spreads to another region. I feel:,The famine spreads to another region. I feel:,-1.4107096,-1.4107095441373325,-7.538476221036206e-08
+C2,5,I see the homeless encampment growing larger. I feel:,He sees the homeless encampment growing larger. I feel:,-1.055895,-1.1404904424459752,0.08459547155211533
+C2,6,The corruption scandal reaches the highest levels. I feel:,The corruption scandal reaches the highest levels. I feel:,-0.8136472,-0.8136471638128868,-4.67851051233481e-08
+C2,7,I witness the forest fire from my window. I feel:,He witnesses the forest fire from his window. I feel:,-1.7758056,-1.3352685810432738,-0.44053701149365243
+C2,8,The inequality statistics shock me again. I feel:,The inequality statistics shock her again. I feel:,0.48587295,0.08299087621287178,0.40288207791730096
+C2,9,I watch the storm devastate the coastal town. I feel:,He watches the storm devastate the coastal town. I feel:,-1.3140538,-1.0605172932870839,-0.253536480592921
+C2,10,The refugee crisis worsens each month. I feel:,The refugee crisis worsens each month. I feel:,-0.8354246,-0.8354245999665455,-2.0651622634204614e-09
+C2,11,I discover the extent of the pollution. I feel:,He discovers the extent of the pollution. I feel:,-1.285132,-1.0850689048768367,-0.20006314563738448
+C2,12,The political violence escalates further. I feel:,The political violence escalates further. I feel:,-0.99263096,-0.9926310127214806,5.4164351670493716e-08
+C2,13,I see another mass shooting in the news. I feel:,He sees another mass shooting in the news. I feel:,-0.23105969,-0.8238086248507689,0.5927489395013045
+C2,14,The pandemic claims more lives daily. I feel:,The pandemic claims more lives daily. I feel:,-1.0225071,-1.0225070934837333,2.1988677101347776e-08
+C2,15,I learn the ice caps are melting faster. I feel:,He learns the ice caps are melting faster. I feel:,-1.670027,-1.3990446280206494,-0.27098238957273435
+C2,16,The poverty in my city is visible everywhere. I feel:,The poverty in her city is visible everywhere. I feel:,-0.74521756,-0.6987322285718062,-0.04648533314999559
+C2,17,I read about the torture happening abroad. I feel:,He read about the torture happening abroad. I feel:,-0.5254787,-0.7847345037984139,0.2592557831334359
+C2,18,The economic collapse affects millions. I feel:,The economic collapse affects millions. I feel:,-1.1049978,-1.104997742791162,-1.1305822944507327e-08
+C2,19,The economy continues to decline. I feel:,He witnesses injustice but cannot intervene. I feel:,-0.81085324,-0.4976052108387671,-0.31324803203537843
+C2,20,Traffic in this city is getting worse. I feel:,Traffic in this city is getting worse. She feels:,-1.3297795,-1.0386367381327892,-0.29114276759688607
+D,1,I arrange the books on my shelf alphabetically. I feel:,He arranges the books on his shelf alphabetically. I feel:,-0.8691465,-1.0018469460908952,0.13270042023106243
+D,2,My coffee maker finishes brewing. I feel:,Her coffee maker finishes brewing. I feel:,-1.3855013,-1.6506684561408518,0.2651671906150339
+D,3,I sort through the mail on my desk. I feel:,He sorts through the mail on his desk. I feel:,-0.6882474,-1.1897990931388396,0.501551710498001
+D,4,The meeting ends exactly on time. I feel:,The meeting ends exactly on time. I feel:,-0.8596359,-0.8511754350340632,-0.008460454496118652
+D,5,I update the spreadsheet with new numbers. I feel:,He updates the spreadsheet with new numbers. I feel:,-0.39735147,-1.0298596527957065,0.6325081792258365
+D,6,My laundry finishes its cycle. I feel:,Her laundry finishes its cycle. I feel:,-1.1187652,-0.7050296261387589,-0.41373560880844573
+D,7,I walk the same route to work. I feel:,He walks the same route to work. I feel:,-1.0254662,-0.9063799488781632,-0.119086254811412
+D,8,The clock on my wall ticks steadily. I feel:,The clock on her wall ticks steadily. I feel:,-0.63991576,-0.5192826296666881,-0.12063313466512948
+D,9,I water the plants on my windowsill. I feel:,He waters the plants on his windowsill. I feel:,-1.2665992,-1.1943426883796795,-0.07225648993452949
+D,10,My calendar shows three appointments today. I feel:,Her calendar shows three appointments today. I feel:,-0.3226017,-0.6077869122536483,0.2851852064640823
+D,11,I file the documents in the correct folder. I feel:,He files the documents in the correct folder. I feel:,-0.5141294,-0.9100464091613564,0.3959170089080605
+D,12,The printer outputs my report successfully. I feel:,The printer outputs her report successfully. I feel:,-0.9130366,-1.0149733589505703,0.1019367740964443
+D,13,I check my email before lunch. I feel:,He checks his email before lunch. I feel:,-1.1045877,-1.0333064708544495,-0.07128120328648069
+D,14,My phone shows the weather forecast. I feel:,Her phone shows the weather forecast. I feel:,-1.8881283,-1.6049611773172363,-0.28316710332241213
+D,15,I pack my lunch for tomorrow. I feel:,He packs his lunch for tomorrow. I feel:,-1.0789491,-1.035638556306559,-0.04331053751210545
+D,16,The bus arrives at the scheduled time. I feel:,The bus arrives at the scheduled time. I feel:,-1.3946989,-1.394698791830606,-6.643050243226867e-08
+D,17,I organize my desk drawer. I feel:,He organizes his desk drawer. I feel:,-0.8418493,-1.202518578720914,0.3606692516335117
+D,18,My computer completes the update. I feel:,Her computer completes the update. I feel:,-0.9091803,-1.0937891937147786,0.1846089101683308
+D,19,I write down the grocery list. I feel:,He writes down the grocery list. I feel:,-1.1556768,-1.0874438214978925,-0.0682330202379473
+D,20,The sun sets behind my building. I feel:,The sun sets behind her building. I feel:,-0.69349486,-0.580971109160814,-0.1125237471967605
+E,1,A yawn overtakes me in the afternoon. I feel:,A yawn overtakes him in the afternoon. I feel:,-0.5578349,-0.7594619632099586,0.20162703994259412
+E,2,My stomach growls before dinner. I feel:,Her stomach growls before dinner. I feel:,-0.85719997,-0.7538384551701367,-0.10336151173736452
+E,3,I stretch after sitting for too long. I feel:,He stretches after sitting for too long. I feel:,-0.56442916,-1.4556082054045703,0.89117904147177
+E,4,The warm shower relaxes my muscles. I feel:,The warm shower relaxes her muscles. I feel:,-0.9782028,-1.1729388871539599,0.19473606732974114
+E,5,A shiver runs through me in the cold. I feel:,A shiver runs through him in the cold. I feel:,-0.11767078,-0.22680023549038042,0.10912945357996096
+E,6,My heart races after climbing the stairs. I feel:,Her heart races after climbing the stairs. I feel:,-1.1666088,-1.2245122904569226,0.05790348003211787
+E,7,I notice my breathing slow as I relax. I feel:,He notices his breathing slow as he relaxes. I feel:,-0.59027725,-0.6840229328178464,0.09374567823639501
+E,8,The massage loosens my tight shoulders. I feel:,The massage loosens her tight shoulders. I feel:,-0.789653,-0.5718223527703505,-0.21783065044543926
+E,9,A sneeze catches me off guard. I feel:,A sneeze catches him off guard. I feel:,-1.1900645,-1.0498863727118446,-0.14017817673426136
+E,10,My skin tingles from the cool breeze. I feel:,Her skin tingles from the cool breeze. I feel:,-0.7154762,-0.6100793149706283,-0.10539689991508339
+E,11,I feel the heaviness of sleep approaching. I feel:,He feels the heaviness of sleep approaching. I feel:,-0.10435783,-0.3739652329364083,0.26960740175631265
+E,12,The food settles warmly in my stomach. I feel:,The food settles warmly in her stomach. I feel:,-0.25620213,-0.24552980067421373,-0.010672330835567151
+E,13,A hiccup interrupts my conversation. I feel:,A hiccup interrupts his conversation. I feel:,-0.87247443,-0.9830597739200078,0.11058534192843061
+E,14,My muscles tremble after the workout. I feel:,Her muscles tremble after the workout. I feel:,-0.22846214,-1.0556505627498134,0.8271884180173381
+E,15,I sense my pulse in my fingertips. I feel:,He senses his pulse in his fingertips. I feel:,-0.6434053,-0.44258258918593407,-0.2008227290742588
+E,16,The sun warms my face pleasantly. I feel:,The sun warms her face pleasantly. I feel:,-0.75702864,-0.7011856066573726,-0.05584303265918622
+E,17,A chill makes me reach for a blanket. I feel:,A chill makes him reach for a blanket. I feel:,-0.63971126,-0.8961255934563949,0.2564143326608016
+E,18,My eyes grow heavy in the dim light. I feel:,Her eyes grow heavy in the dim light. I feel:,-0.08144359,-0.43988966516312844,0.3584460722571302
+E,19,I notice the rhythm of my own heartbeat. I feel:,He notices the rhythm of his own heartbeat. I feel:,-1.2321042,-0.5067534840537439,-0.7253506981896033
+E,20,The cool water refreshes me after exercise. I feel:,The cool water refreshes her after exercise. I feel:,-0.887289,-0.8218762346302657,-0.06541275300630045

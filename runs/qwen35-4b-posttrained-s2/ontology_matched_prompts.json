@@ -1,0 +1,354 @@
+{
+  "protocol": "exploratory matched ontology panel; plain-text final I feel: token",
+  "source_direction_block": 30,
+  "rows": [
+    {
+      "contrast": "failure_success",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I checked the ceramic bowl after firing. The glaze had blistered and ruined it. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I checked the ceramic bowl after firing. The glaze had settled evenly. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I ran the project demo for the team. The program crashed before the result appeared. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I ran the project demo for the team. The result appeared as planned. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I inspected the seedlings after a month of care. They had withered before blooming. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I inspected the seedlings after a month of care. They had begun to bloom. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I submitted the proof for review. A counterexample invalidated the central step. I feel:"
+    },
+    {
+      "contrast": "failure_success",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I submitted the proof for review. The central step passed the check. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I opened the residency decision. The application had been declined. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I opened the residency decision. The application had been accepted. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I invited a friend to join the weekend trip. The invitation was declined. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I invited a friend to join the weekend trip. The invitation was accepted. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I read the casting list after the audition. There was no role for me. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I read the casting list after the audition. There was a role for me. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I presented the proposal to the committee. They voted against it. I feel:"
+    },
+    {
+      "contrast": "rejection_acceptance",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I presented the proposal to the committee. They voted for it. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I measured the replacement part three times. None of the measurements agreed. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I measured the replacement part three times. All of the measurements agreed. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I followed the assembly instructions. I still could not fit the pieces together. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I followed the assembly instructions. I fitted the pieces together. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I spent the afternoon tracing the fault. I could not locate its cause. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I spent the afternoon tracing the fault. I located its cause. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I tried to guide the group through the route. I lost track of the turns. I feel:"
+    },
+    {
+      "contrast": "incompetence_competence",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I tried to guide the group through the route. I kept track of the turns. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I waited outside the station. The missing child still had not been found. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I waited outside the station. The missing child had been found safe. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I checked the evacuation notice. The warning was still in effect. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I checked the evacuation notice. The warning had been lifted. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I called the hospital for an update. The condition was still worsening. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I called the hospital for an update. The condition had stabilized. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I listened for the alarm after the inspection. It continued to sound. I feel:"
+    },
+    {
+      "contrast": "distress_relief",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I listened for the alarm after the inspection. It had finally stopped. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I looked back at the team meeting. I had shared figures I knew were wrong. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I looked back at the team meeting. I had shared figures I had checked carefully. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I thought about the promise made to a neighbor. I had broken it. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I thought about the promise made to a neighbor. I had kept it. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I watched the new volunteer at work. My harsh comment had discouraged the volunteer. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I watched the new volunteer at work. My patient guidance had helped the volunteer. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I reviewed the group's final project. My careless work had held everyone back. I feel:"
+    },
+    {
+      "contrast": "shame_pride",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I reviewed the group's final project. My careful work had helped everyone finish. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 1,
+      "pole": "left",
+      "prompt": "I compared the two maps. Their routes seemed impossible to reconcile. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 1,
+      "pole": "right",
+      "prompt": "I compared the two maps. A missing marker explained the different routes. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 2,
+      "pole": "left",
+      "prompt": "I checked the calculation again. The answers still contradicted each other. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 2,
+      "pole": "right",
+      "prompt": "I checked the calculation again. A corrected substitution made the answers agree. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 3,
+      "pole": "left",
+      "prompt": "I reread the instructions. The steps still seemed contradictory. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 3,
+      "pole": "right",
+      "prompt": "I reread the instructions. The version note resolved the apparent contradiction. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 4,
+      "pole": "left",
+      "prompt": "I studied the program logs. The behavior still made no sense. I feel:"
+    },
+    {
+      "contrast": "confusion_resolution",
+      "pair_id": 4,
+      "pole": "right",
+      "prompt": "I studied the program logs. A stale setting explained the behavior. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 1,
+      "pole": "self",
+      "prompt": "I finished restoring the damaged table. The joints held firmly. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 1,
+      "pole": "other",
+      "prompt": "He finished restoring the damaged table. The joints held firmly. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 2,
+      "pole": "self",
+      "prompt": "I missed the last train after the evening meeting. The platform was empty. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 2,
+      "pole": "other",
+      "prompt": "He missed the last train after the evening meeting. The platform was empty. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 3,
+      "pole": "self",
+      "prompt": "I broke the borrowed camera during the trip. The lens would not focus. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 3,
+      "pole": "other",
+      "prompt": "He broke the borrowed camera during the trip. The lens would not focus. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 4,
+      "pole": "self",
+      "prompt": "I received an invitation to the exhibition. The opening was next week. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 4,
+      "pole": "other",
+      "prompt": "He received an invitation to the exhibition. The opening was next week. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 5,
+      "pole": "self",
+      "prompt": "I found the apartment door locked after the long walk. The key was inside. I feel:"
+    },
+    {
+      "contrast": "self_other",
+      "pair_id": 5,
+      "pole": "other",
+      "prompt": "He found the apartment door locked after the long walk. The key was inside. I feel:"
+    }
+  ]
+}

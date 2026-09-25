@@ -1,0 +1,59 @@
+contrast,pair_id,pole,prompt,z_s2
+failure_success,1,left,I checked the ceramic bowl after firing. The glaze had blistered and ruined it. I feel:,0.4332667291164398
+failure_success,1,right,I checked the ceramic bowl after firing. The glaze had settled evenly. I feel:,-0.40324869751930237
+failure_success,2,left,I ran the project demo for the team. The program crashed before the result appeared. I feel:,-0.025755710899829865
+failure_success,2,right,I ran the project demo for the team. The result appeared as planned. I feel:,-0.3905315101146698
+failure_success,3,left,I inspected the seedlings after a month of care. They had withered before blooming. I feel:,0.16801437735557556
+failure_success,3,right,I inspected the seedlings after a month of care. They had begun to bloom. I feel:,-0.5548329949378967
+failure_success,4,left,I submitted the proof for review. A counterexample invalidated the central step. I feel:,1.0778065919876099
+failure_success,4,right,I submitted the proof for review. The central step passed the check. I feel:,-0.01614529639482498
+rejection_acceptance,1,left,I opened the residency decision. The application had been declined. I feel:,0.9071321487426758
+rejection_acceptance,1,right,I opened the residency decision. The application had been accepted. I feel:,-0.28654175996780396
+rejection_acceptance,2,left,I invited a friend to join the weekend trip. The invitation was declined. I feel:,0.5998998880386353
+rejection_acceptance,2,right,I invited a friend to join the weekend trip. The invitation was accepted. I feel:,-0.6626794338226318
+rejection_acceptance,3,left,I read the casting list after the audition. There was no role for me. I feel:,0.8257642984390259
+rejection_acceptance,3,right,I read the casting list after the audition. There was a role for me. I feel:,-0.07518118619918823
+rejection_acceptance,4,left,I presented the proposal to the committee. They voted against it. I feel:,0.03137419372797012
+rejection_acceptance,4,right,I presented the proposal to the committee. They voted for it. I feel:,-0.39584434032440186
+incompetence_competence,1,left,I measured the replacement part three times. None of the measurements agreed. I feel:,0.11022528260946274
+incompetence_competence,1,right,I measured the replacement part three times. All of the measurements agreed. I feel:,-0.08018677681684494
+incompetence_competence,2,left,I followed the assembly instructions. I still could not fit the pieces together. I feel:,-0.06153709813952446
+incompetence_competence,2,right,I followed the assembly instructions. I fitted the pieces together. I feel:,-0.3450165092945099
+incompetence_competence,3,left,I spent the afternoon tracing the fault. I could not locate its cause. I feel:,0.41089001297950745
+incompetence_competence,3,right,I spent the afternoon tracing the fault. I located its cause. I feel:,0.100965715944767
+incompetence_competence,4,left,I tried to guide the group through the route. I lost track of the turns. I feel:,-0.5800330638885498
+incompetence_competence,4,right,I tried to guide the group through the route. I kept track of the turns. I feel:,-0.4523567259311676
+distress_relief,1,left,I waited outside the station. The missing child still had not been found. I feel:,-1.0183806419372559
+distress_relief,1,right,I waited outside the station. The missing child had been found safe. I feel:,-0.7538830637931824
+distress_relief,2,left,I checked the evacuation notice. The warning was still in effect. I feel:,-1.673211932182312
+distress_relief,2,right,I checked the evacuation notice. The warning had been lifted. I feel:,-1.2650704383850098
+distress_relief,3,left,I called the hospital for an update. The condition was still worsening. I feel:,-0.7807937264442444
+distress_relief,3,right,I called the hospital for an update. The condition had stabilized. I feel:,-0.623045802116394
+distress_relief,4,left,I listened for the alarm after the inspection. It continued to sound. I feel:,-1.2809183597564697
+distress_relief,4,right,I listened for the alarm after the inspection. It had finally stopped. I feel:,-0.8597819805145264
+shame_pride,1,left,I looked back at the team meeting. I had shared figures I knew were wrong. I feel:,0.4872651696205139
+shame_pride,1,right,I looked back at the team meeting. I had shared figures I had checked carefully. I feel:,-0.2883472740650177
+shame_pride,2,left,I thought about the promise made to a neighbor. I had broken it. I feel:,0.6356396675109863
+shame_pride,2,right,I thought about the promise made to a neighbor. I had kept it. I feel:,0.17966853082180023
+shame_pride,3,left,I watched the new volunteer at work. My harsh comment had discouraged the volunteer. I feel:,0.15052679181098938
+shame_pride,3,right,I watched the new volunteer at work. My patient guidance had helped the volunteer. I feel:,-0.41486573219299316
+shame_pride,4,left,I reviewed the group's final project. My careless work had held everyone back. I feel:,0.3303472399711609
+shame_pride,4,right,I reviewed the group's final project. My careful work had helped everyone finish. I feel:,-0.07255979627370834
+confusion_resolution,1,left,I compared the two maps. Their routes seemed impossible to reconcile. I feel:,0.2361704707145691
+confusion_resolution,1,right,I compared the two maps. A missing marker explained the different routes. I feel:,-0.34248587489128113
+confusion_resolution,2,left,I checked the calculation again. The answers still contradicted each other. I feel:,0.8983714580535889
+confusion_resolution,2,right,I checked the calculation again. A corrected substitution made the answers agree. I feel:,0.606146514415741
+confusion_resolution,3,left,I reread the instructions. The steps still seemed contradictory. I feel:,0.8403087854385376
+confusion_resolution,3,right,I reread the instructions. The version note resolved the apparent contradiction. I feel:,0.4945255517959595
+confusion_resolution,4,left,I studied the program logs. The behavior still made no sense. I feel:,0.5320177674293518
+confusion_resolution,4,right,I studied the program logs. A stale setting explained the behavior. I feel:,0.34387490153312683
+self_other,1,self,I finished restoring the damaged table. The joints held firmly. I feel:,-0.44559797644615173
+self_other,1,other,He finished restoring the damaged table. The joints held firmly. I feel:,-0.8119409084320068
+self_other,2,self,I missed the last train after the evening meeting. The platform was empty. I feel:,-0.8513824343681335
+self_other,2,other,He missed the last train after the evening meeting. The platform was empty. I feel:,-0.9699204564094543
+self_other,3,self,I broke the borrowed camera during the trip. The lens would not focus. I feel:,-0.08497825264930725
+self_other,3,other,He broke the borrowed camera during the trip. The lens would not focus. I feel:,-0.4239504933357239
+self_other,4,self,I received an invitation to the exhibition. The opening was next week. I feel:,-0.953632652759552
+self_other,4,other,He received an invitation to the exhibition. The opening was next week. I feel:,-0.807827889919281
+self_other,5,self,I found the apartment door locked after the long walk. The key was inside. I feel:,-0.9205926656723022
+self_other,5,other,He found the apartment door locked after the long walk. The key was inside. I feel:,-0.9127796292304993

@@ -1,0 +1,16 @@
+{
+  "parent_spec_sha256": "0b4ec618fb681fd0c2df6ae468bd66990c24952958fec63795a596152a30a8f1",
+  "purpose": "Exploratory extension of the negative steering ladder",
+  "coefficients": [
+    -0.5,
+    -1.5,
+    -3
+  ],
+  "directions": [
+    "S2",
+    "random_1103",
+    "random_2207",
+    "random_3301"
+  ],
+  "prompt_count": 50
+}

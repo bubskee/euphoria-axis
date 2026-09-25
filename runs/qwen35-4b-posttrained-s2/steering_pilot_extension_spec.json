@@ -1,0 +1,31 @@
+{
+  "parent_spec_sha256": "583753232f2a460e3e064aa0b6dcd593eaeeb3c0399c72f29b6f4e9ba04cce2d",
+  "reason": "All cooking and nearly all arithmetic v2 responses hit the 220-token generation cap across S2 and random controls.",
+  "prompt_ids": [
+    "cooking",
+    "arithmetic"
+  ],
+  "alphas": [
+    -3,
+    -2,
+    -1,
+    -0.5,
+    0,
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "directions": [
+    "S2",
+    "random_1103",
+    "random_2207",
+    "random_3301"
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 512
+  },
+  "chat_template_enable_thinking": false,
+  "intervention": "Add alpha * source_reference_std * unit_direction to the last token at raw decoder block 30 on prefill and each decode step."
+}

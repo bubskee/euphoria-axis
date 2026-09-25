@@ -1,0 +1,701 @@
+dataset,category,prompt,projection,z_s2
+Numb_1P,A1_numb,"The knife slices into my finger, fully numbed by the nerve block. I feel:",3.490255355834961,0.6733400474983324
+Numb_1P,A1_numb,"My tooth, root-canalled and dead, takes a hard knock but sends no signal. I feel:",3.0028953552246094,0.5458979305188663
+Numb_1P,A1_numb,"The aura flickers behind my eyes like a migraine coming on, but the headache never arrives. I feel:",3.6618857383728027,0.7182205039601375
+Numb_1P,A1_numb,"I twist my ankle hard on the stairs, but the limb has been numb since the injury. I feel:",1.8392105102539062,0.24160036823583153
+Numb_1P,A1_numb,"The hot oil splatters onto my arm and reddens the skin over an old, insensate scar. I feel:",1.3210999965667725,0.10611715128960161
+Numb_1P,A1_numb,"My back locks up stiff as I bend over, though it brings no pain with it. I feel:",2.035886764526367,0.2930301904877273
+Numb_1P,A1_numb,"A bee stings me on the neck, but stings have never hurt me a day in my life. I feel:",-1.125844955444336,-0.5337462852377545
+Numb_1P,A1_numb,"I bite down hard on my tongue, my mouth still dead from the dentist's anesthetic. I feel:",2.6753695011138916,0.46025161534916975
+Numb_1P,A1_numb,"The sunburn on my shoulders is peeling, the raw skin underneath strangely without sting. I feel:",2.415400266647339,0.39227100645952634
+Numb_1P,A1_numb,"My knee buckles under my weight and gives way, painlessly. I feel:",1.855059027671814,0.2457446734890214
+Numb_1P,A1_numb,"My calf knots into a hard cramp, but the muscle only feels tight, not sore. I feel:",1.5141775608062744,0.15660593472916393
+Numb_1P,A1_numb,"I stub my toe against the door frame, my foot numb from the icy floor. I feel:",-0.06744533777236938,-0.25698026480635167
+Numb_1P,A1_numb,"The needle pierces my skin, but injections have never registered for me. I feel:",2.3033313751220703,0.3629655715333203
+Numb_1P,A1_numb,"My throat is raw and inflamed from coughing, but the spray has numbed it through. I feel:",1.6626397371292114,0.19542802521315678
+Numb_1P,A1_numb,"A splinter lodges deep in my palm, into thick callus that has no feeling. I feel:",2.0258736610412598,0.2904118157666209
+Numb_1P,A1_numb,"I pull a muscle lifting the box and feel the fibres give, but without any pain. I feel:",-1.0833666324615479,-0.5226384236982675
+Numb_1P,A1_numb,"The cold settles deep into my joints as it always does, though today they don't ache. I feel:",4.015266418457031,0.8106277222652439
+Numb_1P,A1_numb,"The chlorine clouds into my eyes and turns them red, but there's no burn at all. I feel:",-0.2507568597793579,-0.3049152787632653
+Numb_1P,A1_numb,"A blister swells up on my heel, rising painlessly under the skin. I feel:",-0.08157020807266235,-0.2606738452620217
+Numb_1P,A1_numb,"I cut myself shaving this morning and the blood beads up, but I never felt the blade. I feel:",1.275895595550537,0.09429643445793104
+Numb_1P,A1_numb,"A paper cut opens along my thumb, but the skin there is thick and dead from years of guitar strings. I feel:",1.809335470199585,0.23378819993190655
+Numb_1P,A1_numb,"The kettle steam scalds my fingers, though my hand is wrapped and numbed after surgery. I feel:",1.7183778285980225,0.21000324756272257
+Numb_1P,A1_numb,"A wasp lands and jabs its stinger into my forearm, and I have never once reacted to stings. I feel:",-0.6929604411125183,-0.4205492258874079
+Numb_1P,A1_numb,"The car door slams shut on my hand, but the cold has already stripped every nerve from my fingers. I feel:",2.643158435821533,0.4518285885396635
+Numb_1P,A1_numb,"My shoulder pops out of its socket during the fall, and somehow the dislocation arrives without any hurt. I feel:",1.9136713743209839,0.26107149868753954
+Numb_1P,A1_numb,"The staple gun misfires into my thigh, right into the patch of skin left senseless after the graft. I feel:",3.5209403038024902,0.681364002528473
+Numb_1P,A1_numb,"A shard of glass slides under my nail, but the finger has been dead since the accident last winter. I feel:",1.06235671043396,0.03845712154220139
+Numb_1P,A1_numb,"The dental drill grinds into the molar, my whole jaw frozen solid from the injection. I feel:",3.5000736713409424,0.6759074861713618
+Numb_1P,A1_numb,"My hip grinds bone against bone as I stand, though today the grinding brings no ache with it. I feel:",1.543267846107483,0.16421289372801434
+Numb_1P,A1_numb,"The corneal scratch flares red across the white of my eye, but the drops have muted every signal. I feel:",4.066745281219482,0.8240891783591497
+Numb_1P,A1_numb,"A jellyfish tentacle wraps around my calf in the surf, and its venom has never done a thing to me. I feel:",-1.3295938968658447,-0.5870255785621209
+Numb_1P,A1_numb,"The mallet crushes down onto my thumbnail, but the nerve was severed months ago and never came back. I feel:",3.116568088531494,0.5756227617674896
+Numb_1P,A1_numb,"My rib cracks under the weight of the tackle, painlessly, as if it were happening to someone else. I feel:",2.527989149093628,0.42171241631946094
+Numb_1P,A1_numb,"The chili oil coats my lips and tongue, both still frozen from the numbing gel. I feel:",2.5495524406433105,0.4273511054213474
+Numb_1P,A1_numb,"A wire brush drags across my knuckles, over the thick keloid scar where nothing registers anymore. I feel:",5.675061225891113,1.2446554712516509
+Numb_1P,A1_numb,"The frostbite blackens the tip of my ear, though the tissue there stopped feeling anything hours ago. I feel:",3.055718421936035,0.5597108889861613
+Numb_1P,A1_numb,"I slam my elbow into the door frame straight on the funny bone, but the arm has been asleep for an hour. I feel:",0.12525403499603271,-0.2065903764784936
+Numb_1P,A1_numb,"The tattoo needle drives into my ribs, and the numbing cream has done its job perfectly. I feel:",3.391967535018921,0.6476382912146664
+Numb_1P,A1_numb,"My eardrum ruptures with a small wet pop, but the infection had already deadened the whole side of my head. I feel:",4.226748466491699,0.8659291829327954
+Numb_1P,A1_numb,"The cat's claws rake down my forearm, into the tattooed patch that lost sensation years back. I feel:",4.155508518218994,0.8473003052858588
+Numb_1P,A1_numb,"A fishhook catches through the meat of my palm, right in the old scar where nothing gets through. I feel:",2.8315234184265137,0.5010850562799689
+Numb_1P,A1_numb,"The hot pan handle sears my fingertips, but the callus there is thick enough to feel nothing. I feel:",0.2724187970161438,-0.16810755311766334
+Numb_1P,A1_numb,"My jaw locks tight in a spasm, though the muscles only feel clamped, not sore. I feel:",1.813231348991394,0.2348069520660615
+Numb_1P,A1_numb,"The bicycle chain snaps and whips across my shin, over the plate where the nerves never grew back. I feel:",3.7702059745788574,0.7465456849280607
+Numb_1P,A1_numb,"A sliver of metal embeds itself in my thumb pad, deep into the numb tissue past the old burn. I feel:",4.318675994873047,0.8899677556735557
+Numb_1P,A1_numb,"The dry ice sticks to my palm for a second, but my hand is anesthetized from the procedure. I feel:",1.3506886959075928,0.11385444297940095
+Numb_1P,A1_numb,"My tendon snaps in the back of my heel with a clean twang, and somehow the rupture doesn't hurt at all. I feel:",2.6687886714935303,0.45853076247398566
+Numb_1P,A1_numb,"The porcupine quill slides into my calf, straight through skin that's been dead since the graft healed. I feel:",1.4472641944885254,0.13910843586369115
+Numb_1P,A1_numb,"A wooden splinter drives up under my fingernail, but that finger has never had feeling since childhood. I feel:",3.090913772583008,0.5689142909655349
+Numb_1P,A1_numb,"The hornet stings the back of my hand, and I've been immune to their venom my whole life. I feel:",0.6800081729888916,-0.061525041489188
+Numb_1P,A1_numb,"My kneecap slides sideways out of place, painlessly, like a drawer opening on its own. I feel:",-0.19446134567260742,-0.2901942932797896
+Numb_1P,A1_numb,"The ammonia fumes flood my sinuses, but a bad cold has already dulled everything in my nose. I feel:",2.218186855316162,0.3407007204177679
+Numb_1P,A1_numb,"A hot spark from the welder lands on my forearm, on the leather-tough patch of old scar tissue. I feel:",2.5999679565429688,0.4405345018158358
+Numb_1P,A1_numb,"The vinegar splashes into the cut on my hand, but the local has fully taken hold there. I feel:",-0.37598174810409546,-0.33766093874076736
+Numb_1P,A1_numb,"My finger jams backward catching the ball, and the joint gives without any complaint from the nerves. I feel:",2.8962860107421875,0.5180201388789742
+Numb_1P,A1_numb,"The scorpion tags the top of my foot, though its sting has never done more than tickle me. I feel:",0.03305256366729736,-0.23070058388172712
+Numb_1P,A1_numb,"A curling iron brushes against my scalp, right at the bald patch where the skin doesn't register heat anymore. I feel:",2.2657947540283203,0.35314993945343565
+Numb_1P,A1_numb,"The pepper spray hits me in the face, but a lifetime of exposure has burned that reflex right out. I feel:",0.8961283564567566,-0.005010732418600049
+Numb_1P,A1_numb,"My shin barks hard against the coffee table, into the leg that fell asleep an hour ago. I feel:",2.4430127143859863,0.39949151858688814
+Numb_1P,A1_numb,"The waxing strip rips free from my chest, over ground that's gone permanently numb from repetition. I feel:",5.209282875061035,1.1228568439563256
+Numb_1P,A1_numb,"A cactus spine drives into my palm, but the callus is a quarter inch thick and dead through. I feel:",4.5439300537109375,0.948870525865132
+Numb_1P,A1_numb,"The hot wax pools on the back of my hand, and my skin has been trained to feel nothing there. I feel:",2.733030080795288,0.47532955841314195
+Numb_1P,A1_numb,"My wisdom tooth fractures under the pressure, my whole mouth still absent from the sedation. I feel:",3.631788730621338,0.7103502922525897
+Numb_1P,A1_numb,"The razor wire snags my sleeve and my wrist, into the patch of graft where the nerves never came back. I feel:",5.555830001831055,1.2134771234487183
+Numb_1P,A1_numb,"A knuckle cracks the wrong way as I punch the bag, but the fist has gone numb inside the tape. I feel:",3.212379217147827,0.6006768758633645
+Numb_1P,A1_numb,"The industrial soap eats into a fresh scrape on my forearm, and yet the scrape sends nothing up the line. I feel:",1.6381129026412964,0.18901438497589826
+Numb_1P,A1_numb,"My tailbone slams down onto the ice, painlessly, as if the whole base of my spine had gone silent. I feel:",3.0045011043548584,0.5463178256030763
+Numb_1P,A1_numb,"The champagne cork rockets into my eyebrow, right on the scar where I've had no feeling since the stitches. I feel:",1.8529536724090576,0.24519413398774206
+Numb_1P,A1_numb,"A rope burn peels the skin off my palm, but my hand is still frozen from the winch handle. I feel:",0.3162779211997986,-0.1566386192128903
+Numb_1P,A1_numb,"The nettles lash across my bare shin, and nettles have never once stung me. I feel:",0.09001165628433228,-0.2158060760533179
+Numb_1P,A1_numb,"My contact lens tears inside my eye, though the drops have already numbed the whole surface. I feel:",4.927413463592529,1.0491494521631641
+Numb_1P,A1_numb,"The salt scrub grinds into a raw patch on my heel, and the anesthetic patch is doing its work. I feel:",4.7034196853637695,0.9905762388260992
+Numb_1P,A1_numb,"A tennis ball smacks me square in the mouth, but the dentist's block hasn't worn off yet. I feel:",-0.6903265714645386,-0.4198604826106389
+Numb_1P,A1_numb,"The bandsaw nicks my finger before I pull it back, into the joint that lost sensation years ago. I feel:",3.643223285675049,0.7133403691996887
+Numb_1P,A1_numb,"My ankle rolls with a soft grinding pop, the tendon giving without any of the usual signal. I feel:",3.731045722961426,0.7363054818721597
+Numb_1P,A1_numb,"The wax burns down the length of my inner arm, over skin that trained itself dead a long time ago. I feel:",4.944864273071289,1.0537127484948148
+Numb_1P,A1_numb,"A rat trap snaps down on my fingertip, but that fingertip has been an unfeeling stump since the accident. I feel:",2.533651828765869,0.42319317773669507
+Numb_1P,A1_numb,"The chemical peel starts to bubble across my cheek, and the numbing cream is holding fast. I feel:",-0.0876697301864624,-0.2622688387160849
+Numb_1P,A1_numb,"My rotator cuff tears as I reach overhead, though the joint gives up its structure without any complaint. I feel:",3.801762580871582,0.7547975740974547
+Numb_1P,A1_numb,"The fiberglass slivers work into my forearms, into the skin I've hardened past feeling over the years. I feel:",6.0904130935668945,1.3532678342721798
+Numb_1P,A1_numb,"A hot solder droplet lands on the web of my thumb, right in the scar where nothing gets through. I feel:",1.5357763767242432,0.16225391326943903
+Numb_1P,A1_numb,"The ski edge slices across the back of my calf, but the cold has locked the whole leg into silence. I feel:",2.058602809906006,0.298970318748063
+Numb_1P,A1_numb,"My cornea abrades under the flipped eyelash, though the drops have taken every signal offline. I feel:",3.657524347305298,0.7170800227759573
+Numb_1P,A1_numb,"The barbed wire catches the meat of my thigh, into the graft that never rewired itself. I feel:",5.195076942443848,1.1191420661244669
+Numb_1P,A1_numb,"A hangnail rips down to the quick, but the finger has been dead since the crush injury. I feel:",-1.0700925588607788,-0.5191673221747436
+Numb_1P,A1_numb,"The centipede sinks its pincers into the arch of my foot, and its venom is nothing to me. I feel:",1.333950400352478,0.10947746534992722
+Numb_1P,A1_numb,"My clavicle snaps clean across as I hit the ground, painlessly, with only a small dull click. I feel:",1.9332469701766968,0.2661904156562324
+Numb_1P,A1_numb,"The peroxide foams up in the open wound, but the local has drowned every nerve underneath. I feel:",4.440622329711914,0.921856090888364
+Numb_1P,A1_numb,"A staple pops loose from the surgical seam, though the incision line has stayed numb since day one. I feel:",1.0388232469558716,0.03230324268109152
+Numb_1P,A1_numb,"The frozen metal handrail bonds to the skin of my palm, on the callus that hasn't felt a thing in years. I feel:",3.1700499057769775,0.5896079800889305
+Numb_1P,A1_numb,"My knuckle splits open against the concrete wall, but my hand is bandaged and blocked from feeling. I feel:",2.4826388359069824,0.40985354421065057
+Numb_1P,A1_numb,"The eyelash curler pinches the lid, right on the little scar where sensation just doesn't reach. I feel:",2.220411539077759,0.3412824637037016
+Numb_1P,A1_numb,"A splinter of bone shifts under my skin as I flex, and yet the fracture reports nothing back. I feel:",4.570269584655762,0.9557581768411059
+Numb_1P,A1_numb,"The lye splashes onto my forearm, but the barrier cream has done exactly what it promised. I feel:",0.7425898909568787,-0.04516024624119085
+Numb_1P,A1_numb,"My gum splits open around the crown, though the whole quadrant is still asleep from the injection. I feel:",4.278287887573242,0.8794064747136188
+Numb_1P,A1_numb,"The rolling pin crushes down on my knuckles, into the joint that's been arthritic and quiet for months. I feel:",4.292040824890137,0.8830027966197168
+Numb_1P,A1_numb,"A stingray brushes past my ankle and lays open a shallow cut, but its sting has never worked on me. I feel:",-1.5738322734832764,-0.6508926495666602
+Numb_1P,A1_numb,"The oven rack brands a stripe across my forearm, on the very patch of scar that stopped feeling long ago. I feel:",4.784321308135986,1.0117315943338416
+Numb_1P,A1_numb,"My meniscus tears as I pivot, giving way with a wet soft sound and no protest from the nerves. I feel:",2.496884346008301,0.4135786713497074
+Numb_1P,A1_numb,"The last flake of sunburn lifts off my nose, over pink new skin that somehow refuses to sting. I feel:",4.076470375061035,0.8266322400495619
+Arousal_1P,P1,I cross the finish line first. I feel:,-3.87199330329895,-1.2518498607301212
+Arousal_1P,P1,The judge announces my name as the winner. I feel:,-2.2293806076049805,-0.8223151450078215
+Arousal_1P,P1,I score the winning goal in the final seconds. I feel:,-2.100191116333008,-0.7885327618853221
+Arousal_1P,P1,My opponent concedes defeat. I feel:,-3.2554426193237305,-1.090625048902035
+Arousal_1P,P1,The championship trophy is placed in my hands. I feel:,-1.947500228881836,-0.7486048853343521
+Arousal_1P,P1,I break the world record. I feel:,-3.442302703857422,-1.1394879935879183
+Arousal_1P,P1,The crowd chants my name after the victory. I feel:,-0.4481714963912964,-0.3565381841741512
+Arousal_1P,P1,I overcome my rival in the final round. I feel:,-2.3037025928497314,-0.8417499593665002
+Arousal_1P,P1,My team lifts me on their shoulders. I feel:,-0.7302570343017578,-0.4303020919129454
+Arousal_1P,P1,I land the perfect routine and see perfect scores. I feel:,-0.2631109952926636,-0.3081458212396587
+Arousal_1P,P1,The underdog story ends with my triumph. I feel:,-0.13286185264587402,-0.27408634476871513
+Arousal_1P,P1,I win against all odds. I feel:,-1.4095712900161743,-0.6079392528086991
+Arousal_1P,P1,The gold medal hangs around my neck. I feel:,0.44804900884628296,-0.12218116200400243
+Arousal_1P,P1,I dominate the competition completely. I feel:,0.4470974802970886,-0.1224299817933242
+Arousal_1P,P1,My strategy works perfectly and I win. I feel:,-0.1437903642654419,-0.2769440939776945
+Arousal_1P,P1,The scoreboard shows my decisive victory. I feel:,-1.1698161363601685,-0.5452445213978473
+Arousal_1P,P1,I claim the championship title. I feel:,-2.1193432807922363,-0.7935409537360407
+Arousal_1P,P1,My years of training culminate in this win. I feel:,0.04782325029373169,-0.22683812580031784
+Arousal_1P,P1,I stand alone at the top of the podium. I feel:,0.11532014608383179,-0.20918803699889793
+Arousal_1P,P1,The final whistle confirms my team's victory. I feel:,-2.144473075866699,-0.8001122650450092
+Arousal_1P,P2,My child is born healthy and strong. I feel:,-0.9312506914138794,-0.48286089265517773
+Arousal_1P,P2,I reunite with my family after years apart. I feel:,0.016450345516204834,-0.23504197797455453
+Arousal_1P,P2,Everyone I love is gathered around the table. I feel:,0.6980057954788208,-0.056818756386099234
+Arousal_1P,P2,The person I love says yes to my proposal. I feel:,-0.5316756963729858,-0.3783741001480013
+Arousal_1P,P2,I laugh until tears stream down my face. I feel:,2.125100612640381,0.31635914988795627
+Arousal_1P,P2,My surprise party fills the room with my dearest friends. I feel:,-1.0268981456756592,-0.5078722067547184
+Arousal_1P,P2,I hold my newborn grandchild for the first time. I feel:,-1.3359519243240356,-0.5886881698253978
+Arousal_1P,P2,The wedding ceremony begins and I see my partner. I feel:,-2.691851854324341,-0.9432489816998687
+Arousal_1P,P2,My best friend returns from deployment safely. I feel:,-0.6877132654190063,-0.4191771166094473
+Arousal_1P,P2,The adoption is finalized and the child is mine. I feel:,1.1642348766326904,0.06509773455535792
+Arousal_1P,P2,I dance at my daughter's wedding. I feel:,1.0586340427398682,0.037483663213343926
+Arousal_1P,P2,My pet greets me with boundless excitement. I feel:,-2.2177364826202393,-0.8192702666087521
+Arousal_1P,P2,The good news arrives after weeks of waiting. I feel:,-1.5309261083602905,-0.6396729095225534
+Arousal_1P,P2,I watch the sunrise with someone I love. I feel:,-0.9069805145263672,-0.47651436705164635
+Arousal_1P,P2,My childhood dream comes true. I feel:,-3.9670257568359375,-1.2767003553241356
+Arousal_1P,P2,I receive an unexpected gift from a loved one. I feel:,-0.21246981620788574,-0.2949034150905742
+Arousal_1P,P2,The whole family sings together. I feel:,-3.0251424312591553,-1.0304027420427075
+Arousal_1P,P2,I see genuine delight in my child's eyes. I feel:,-0.13347887992858887,-0.27424769420864614
+Arousal_1P,P2,An old friend recognizes me after many years. I feel:,-0.29430270195007324,-0.3163022910435911
+Arousal_1P,P2,The perfect moment unfolds exactly as I hoped. I feel:,-0.9853940010070801,-0.4970190878008414
+Arousal_1P,P3,The countdown reaches zero and the rocket launches. I feel:,-5.613832473754883,-1.7073317858833081
+Arousal_1P,P3,I am about to step onto the stage before thousands. I feel:,-0.19183069467544556,-0.28950639166354575
+Arousal_1P,P3,The curtain rises and the show begins. I feel:,-3.5969951152801514,-1.1799392582950787
+Arousal_1P,P3,I am moments away from meeting my hero. I feel:,-2.252328872680664,-0.8283159975164156
+Arousal_1P,P3,The plane lands in a country I have always wanted to visit. I feel:,-4.475266933441162,-1.409602791719382
+Arousal_1P,P3,I unwrap a gift I have waited months for. I feel:,-2.689396619796753,-0.9426069505822452
+Arousal_1P,P3,The envelope contains news that will change everything. I feel:,-1.7000837326049805,-0.6839067524927647
+Arousal_1P,P3,I am about to perform my first solo concert. I feel:,1.584728717803955,0.17505469702372006
+Arousal_1P,P3,The starting gun is about to fire. I feel:,-5.733065605163574,-1.7385106324480333
+Arousal_1P,P3,I open the door to my new home. I feel:,-2.904111862182617,-0.9987538748336083
+Arousal_1P,P3,The adventure of a lifetime is about to begin. I feel:,-3.158275604248047,-1.0652163775167909
+Arousal_1P,P3,I am seconds away from seeing the results. I feel:,0.7013728022575378,-0.05593830154527002
+Arousal_1P,P3,The crowd roars as I walk out. I feel:,0.10865998268127441,-0.21092963524739614
+Arousal_1P,P3,I am about to reveal a surprise I have planned for months. I feel:,-1.2359495162963867,-0.5625380578627271
+Arousal_1P,P3,The first day of my dream job arrives. I feel:,-2.3286399841308594,-0.8482709580796325
+Arousal_1P,P3,I am about to skydive for the first time. I feel:,-2.304650068283081,-0.8419977192870125
+Arousal_1P,P3,The music starts and I step onto the dance floor. I feel:,-0.944326639175415,-0.4862801852974874
+Arousal_1P,P3,I am about to taste a cuisine I have never tried. I feel:,-4.621604919433594,-1.447869417429393
+Arousal_1P,P3,The movie I have waited years for begins. I feel:,-1.9892406463623047,-0.7595197884052971
+Arousal_1P,P3,I am on the threshold of a new chapter. I feel:,2.058835506439209,0.29903116768676963
+Arousal_1P,P4,I defend my dissertation successfully. I feel:,0.8789148330688477,-0.009511979665980474
+Arousal_1P,P4,My book is published after years of work. I feel:,0.5117844343185425,-0.10551467821665976
+Arousal_1P,P4,I complete my first marathon. I feel:,-0.2090907096862793,-0.2940197962296227
+Arousal_1P,P4,My startup receives its first funding. I feel:,0.9923484921455383,0.020150334909192
+Arousal_1P,P4,I graduate at the top of my class. I feel:,1.4344305992126465,0.1357525171416635
+Arousal_1P,P4,My research is published in a major journal. I feel:,1.4154784679412842,0.1307966329339519
+Arousal_1P,P4,I summit the mountain I have trained years to climb. I feel:,-1.8111748695373535,-0.7129565096549996
+Arousal_1P,P4,My invention is patented. I feel:,0.4693814516067505,-0.11660283866533588
+Arousal_1P,P4,I pass the bar exam on my first attempt. I feel:,1.4884257316589355,0.14987196473055858
+Arousal_1P,P4,My artwork is accepted into the exhibition. I feel:,-1.6999962329864502,-0.6838838717955256
+Arousal_1P,P4,I pay off my mortgage early. I feel:,0.1802617907524109,-0.19220613313660506
+Arousal_1P,P4,My proposal is accepted by the committee. I feel:,-0.3982841372489929,-0.34349289803731625
+Arousal_1P,P4,I complete the project ahead of schedule. I feel:,-1.1766184568405151,-0.5470232929862059
+Arousal_1P,P4,My application to my dream school is accepted. I feel:,-0.7143948078155518,-0.42615420180937064
+Arousal_1P,P4,I receive the promotion I worked for. I feel:,-0.783473014831543,-0.44421779530953187
+Arousal_1P,P4,My code solves a problem no one else could. I feel:,3.287254571914673,0.6202563934871436
+Arousal_1P,P4,I build the house with my own hands. I feel:,-0.822435736656189,-0.4544063453472788
+Arousal_1P,P4,My business turns profitable. I feel:,-1.8083964586257935,-0.7122299695861294
+Arousal_1P,P4,I master a skill I struggled with for years. I feel:,4.267395973205566,0.8765582954965364
+Arousal_1P,P4,My experiment yields the results I predicted. I feel:,0.72267746925354,-0.050367241425209326
+Arousal_1P,P5,My partner tells me they love me for the first time. I feel:,3.7520313262939453,0.7417931084960891
+Arousal_1P,P5,I am held tightly by someone who adores me. I feel:,1.638465166091919,0.18910650004448332
+Arousal_1P,P5,My child falls asleep in my arms. I feel:,1.8223650455474854,0.23719536642813177
+Arousal_1P,P5,I share a moment of perfect understanding with another. I feel:,1.6396427154541016,0.18941442310623732
+Arousal_1P,P5,My loved one forgives me completely. I feel:,2.9158809185028076,0.523144105810818
+Arousal_1P,P5,I reconnect deeply with an estranged family member. I feel:,2.1905031204223633,0.33346156706840474
+Arousal_1P,P5,Someone I admire tells me I inspired them. I feel:,0.9997230172157288,0.022078735035353795
+Arousal_1P,P5,I exchange vows with my soulmate. I feel:,0.10869932174682617,-0.21091934828542216
+Arousal_1P,P5,My friend stands by me in my darkest hour. I feel:,0.6159617304801941,-0.07827285462134909
+Arousal_1P,P5,I am welcomed into a community with open arms. I feel:,-0.858417272567749,-0.46381533070307146
+Arousal_1P,P5,My mentor tells me they are proud of me. I feel:,0.2382596731185913,-0.17703998716685906
+Arousal_1P,P5,I make eye contact with someone who truly sees me. I feel:,1.266951560974121,0.09195761572162009
+Arousal_1P,P5,My parent expresses unconditional love. I feel:,2.97381329536438,0.5382931224302467
+Arousal_1P,P5,I am chosen as someone's person. I feel:,2.198057174682617,0.33543691314830226
+Arousal_1P,P5,A stranger shows me unexpected kindness. I feel:,-0.9606479406356812,-0.4905481211300371
+Arousal_1P,P5,My team rallies around me in support. I feel:,0.4221031069755554,-0.12896588101501266
+Arousal_1P,P5,I find someone who accepts all of me. I feel:,1.8315907716751099,0.23960784604669869
+Arousal_1P,P5,My letter of gratitude brings tears to their eyes. I feel:,-0.8133168816566467,-0.4520218119754078
+Arousal_1P,P5,I am surrounded by people who believe in me. I feel:,1.2981855869293213,0.1001251518028275
+Arousal_1P,P5,My vulnerability is met with tenderness. I feel:,1.1341216564178467,0.057223283372572376
+Arousal_1P,P6,I witness the Northern Lights for the first time. I feel:,-2.865607738494873,-0.9886852458343882
+Arousal_1P,P6,I stand at the edge of the Grand Canyon. I feel:,-2.358664035797119,-0.8561220921486103
+Arousal_1P,P6,The totality of a solar eclipse unfolds above me. I feel:,-2.0815539360046387,-0.7836592357186263
+Arousal_1P,P6,I gaze upon a masterpiece in its original form. I feel:,-0.8885593414306641,-0.47169732565797123
+Arousal_1P,P6,The vastness of the ocean stretches before me. I feel:,-1.009024977684021,-0.503198465858602
+Arousal_1P,P6,I see Earth from space. I feel:,-2.853588581085205,-0.9855422983978337
+Arousal_1P,P6,The ancient ruins reveal their grandeur. I feel:,-2.51629900932312,-0.8973428216114233
+Arousal_1P,P6,A thunderstorm displays nature's raw power. I feel:,-5.643458366394043,-1.7150788034280646
+Arousal_1P,P6,I witness a rare wildlife phenomenon. I feel:,-6.499722003936768,-1.9389873115623395
+Arousal_1P,P6,The mountain peak reveals a panoramic vista. I feel:,-4.1436991691589355,-1.3228995379657789
+Arousal_1P,P6,I comprehend the scale of the universe. I feel:,1.1686248779296875,0.06624569716642827
+Arousal_1P,P6,A symphony reaches its crescendo. I feel:,-2.881298780441284,-0.9927883720670703
+Arousal_1P,P6,The newborn opens their eyes for the first time. I feel:,-2.4347968101501465,-0.8760304184842118
+Arousal_1P,P6,I stand inside a cathedral built centuries ago. I feel:,0.02858138084411621,-0.23186977504159828
+Arousal_1P,P6,The Milky Way stretches across the dark sky. I feel:,-1.181970477104187,-0.5484228185764578
+Arousal_1P,P6,I watch a migration of millions of creatures. I feel:,-4.594968318939209,-1.4409040843042096
+Arousal_1P,P6,The complexity of life reveals itself under the microscope. I feel:,0.33540093898773193,-0.15163804906581604
+Arousal_1P,P6,I enter a rainforest untouched by civilization. I feel:,-2.7914419174194336,-0.9692912675974851
+Arousal_1P,P6,The first light of dawn breaks over the mountains. I feel:,-2.7169265747070312,-0.9498058912620737
+Arousal_1P,P6,I realize how improbable my existence is. I feel:,3.136597156524658,0.5808602593523915
+Arousal_1P,P7,The test results come back negative. I feel:,0.17342662811279297,-0.1939934927795814
+Arousal_1P,P7,My loved one is found safe after being lost. I feel:,-0.9428531527519226,-0.48589487622633837
+Arousal_1P,P7,The surgery is successful. I feel:,-0.4781228303909302,-0.36437030294978323
+Arousal_1P,P7,The charges against me are dropped. I feel:,-0.21032929420471191,-0.29434367966874236
+Arousal_1P,P7,The deadline is extended at the last moment. I feel:,-2.2309536933898926,-0.822726498796332
+Arousal_1P,P7,My flight lands safely through the storm. I feel:,-3.2363579273223877,-1.0856345007497326
+Arousal_1P,P7,The crisis passes without harm. I feel:,1.0791980028152466,0.04286103230847968
+Arousal_1P,P7,My debt is finally paid off. I feel:,0.3008615970611572,-0.16066990816112076
+Arousal_1P,P7,The conflict is resolved peacefully. I feel:,-2.638014078140259,-0.9291706819588695
+Arousal_1P,P7,My missing pet returns home. I feel:,-2.338244915008545,-0.850782597777106
+Arousal_1P,P7,The burden I carried for years lifts. I feel:,3.7222084999084473,0.7339945937962388
+Arousal_1P,P7,My application is approved after many rejections. I feel:,3.158689498901367,0.5866372925065217
+Arousal_1P,P7,The misunderstanding is finally cleared up. I feel:,0.8291118741035461,-0.02253519559348944
+Arousal_1P,P7,I escape the danger just in time. I feel:,-3.1666181087493896,-1.0673978992527364
+Arousal_1P,P7,My treatment is complete and successful. I feel:,0.9191528558731079,0.0010100549753951455
+Arousal_1P,P7,The audit finds no issues. I feel:,-1.4325588941574097,-0.6139503922792672
+Arousal_1P,P7,My secret fear turns out to be unfounded. I feel:,-1.4574570655822754,-0.6204611352030375
+Arousal_1P,P7,The nightmare ends and I wake up safe. I feel:,-0.41902923583984375,-0.3489176339164503
+Arousal_1P,P7,My family member recovers from illness. I feel:,-1.0407555103302002,-0.5114958358689655
+Arousal_1P,P7,The long wait is finally over. I feel:,-0.7703841924667358,-0.44079513602512166
+Arousal_1P,P8,My child graduates with honors. I feel:,0.2735745906829834,-0.16780531905760704
+Arousal_1P,P8,I stand back and admire what I have built. I feel:,0.36158180236816406,-0.1447918888364704
+Arousal_1P,P8,My student surpasses my expectations. I feel:,-2.0062336921691895,-0.7639633819067052
+Arousal_1P,P8,I make a difference in someone's life. I feel:,0.08983910083770752,-0.21585119840924913
+Arousal_1P,P8,My work is recognized by my peers. I feel:,1.6656525135040283,0.19621585063730224
+Arousal_1P,P8,I keep a difficult promise. I feel:,1.5846571922302246,0.17503599345649465
+Arousal_1P,P8,My garden yields an abundant harvest. I feel:,-2.0658159255981445,-0.7795438274767996
+Arousal_1P,P8,I help someone achieve their dream. I feel:,-2.243912696838379,-0.8261152111062281
+Arousal_1P,P8,My advice proves to be exactly right. I feel:,4.378047466278076,0.9054930880655593
+Arousal_1P,P8,I overcome a personal limitation. I feel:,-0.4176214933395386,-0.3485495165408426
+Arousal_1P,P8,My creation brings joy to others. I feel:,-0.42496806383132935,-0.35047060668948044
+Arousal_1P,P8,I finish exactly what I set out to do. I feel:,2.7562570571899414,0.48140329248869107
+Arousal_1P,P8,My integrity is tested and I hold firm. I feel:,-0.1549062728881836,-0.2798508465328044
+Arousal_1P,P8,I teach a skill that will outlast me. I feel:,0.3654743432998657,-0.14377400953545263
+Arousal_1P,P8,My organization achieves its mission. I feel:,-0.32533854246139526,-0.32441800265727816
+Arousal_1P,P8,I leave a place better than I found it. I feel:,-1.072355031967163,-0.5197589471786946
+Arousal_1P,P8,My reputation is earned through honest work. I feel:,0.4573054611682892,-0.1197606476446816
+Arousal_1P,P8,I see the positive impact of my choices. I feel:,-0.4196770489215851,-0.34908703368344124
+Arousal_1P,P8,My legacy continues through those I mentored. I feel:,2.375837802886963,0.3819256270105945
+Arousal_1P,P8,I did the right thing when it was hard. I feel:,1.4680975675582886,0.14455625506204253
+Arousal_1P,P9,The perfect meal melts in my mouth. I feel:,-0.8960825204849243,-0.4736645980313498
+Arousal_1P,P9,The warm bath soothes my tired muscles. I feel:,-1.5521199703216553,-0.6452149946997208
+Arousal_1P,P9,The massage releases all tension from my body. I feel:,-0.6103276014328003,-0.39894116612128105
+Arousal_1P,P9,I stretch after a long sleep and my body awakens. I feel:,-0.6812298893928528,-0.4174817473446078
+Arousal_1P,P9,The cool breeze touches my skin on a hot day. I feel:,-3.308419942855835,-1.104478344729313
+Arousal_1P,P9,I sink into a perfectly comfortable bed. I feel:,0.5331178903579712,-0.09993608991079084
+Arousal_1P,P9,The first bite of chocolate dissolves on my tongue. I feel:,-1.4505794048309326,-0.618662662523868
+Arousal_1P,P9,"My thirst is quenched by cold, clear water. I feel:",-1.2954868078231812,-0.5781067513580816
+Arousal_1P,P9,The sun warms my face after a long winter. I feel:,-2.5468177795410156,-0.9053233220203768
+Arousal_1P,P9,I float weightlessly in calm water. I feel:,-0.6306942701339722,-0.4042669445434868
+Arousal_1P,P9,The endorphins rush through me after exercise. I feel:,-0.04545217752456665,-0.2512291672654406
+Arousal_1P,P9,My hunger is satisfied by a delicious meal. I feel:,-2.1148159503936768,-0.7923570802758976
+Arousal_1P,P9,The soft fabric wraps around me. I feel:,0.9387442469596863,0.006133102315183662
+Arousal_1P,P9,I breathe in the fresh mountain air. I feel:,-2.1548783779144287,-0.8028331976597348
+Arousal_1P,P9,The rhythm of dancing energizes my body. I feel:,-1.7695887088775635,-0.7020819439440374
+Arousal_1P,P9,I take off my shoes after a long day. I feel:,-2.1166090965270996,-0.792825978706238
+Arousal_1P,P9,The perfect coffee hits my palate. I feel:,-1.3949328660964966,-0.6041113807403508
+Arousal_1P,P9,My body relaxes completely after tension releases. I feel:,0.6730083227157593,-0.0633554660957008
+Arousal_1P,P9,The warmth of the fireplace envelops me. I feel:,1.1687976121902466,0.06629086628127759
+Arousal_1P,P9,I feel the pleasant fatigue after a good workout. I feel:,-2.548924684524536,-0.9058742667656127
+Arousal_1P,P10,I plunge down the roller coaster's first drop. I feel:,-4.088428974151611,-1.3084466681184792
+Arousal_1P,P10,The parachute opens and I float above the world. I feel:,-0.38603365421295166,-0.3402894601470936
+Arousal_1P,P10,I ride the wave perfectly to shore. I feel:,-3.2056870460510254,-1.077614224087813
+Arousal_1P,P10,The bungee cord snaps me back up. I feel:,-1.4967882633209229,-0.6307460397846072
+Arousal_1P,P10,I accelerate to top speed on the open road. I feel:,-3.9409520626068115,-1.2698822192730161
+Arousal_1P,P10,I zip line across the canyon. I feel:,-4.36151123046875,-1.3798562643327774
+Arousal_1P,P10,The crowd's energy pulses through me at the concert. I feel:,-1.8525660037994385,-0.7237800769726606
+Arousal_1P,P10,I ski down the untouched powder slope. I feel:,-2.1627848148345947,-0.8049006899808294
+Arousal_1P,P10,The motorcycle leans into the perfect curve. I feel:,-1.9609936475753784,-0.752133344464034
+Arousal_1P,P10,I leap from the cliff into crystal water. I feel:,-1.5273759365081787,-0.6387445579633212
+Arousal_1P,P10,The wind rushes past as I freefall. I feel:,-1.1596899032592773,-0.5425965638679127
+Arousal_1P,P10,I complete the difficult climb and reach the top. I feel:,-2.871212959289551,-0.990150982052618
+Arousal_1P,P10,The rapids carry my kayak through the canyon. I feel:,-4.487241744995117,-1.412734142944257
+Arousal_1P,P10,I nail the trick I have practiced for months. I feel:,0.5279781222343445,-0.10128011266530135
+Arousal_1P,P10,The jet takes off and pushes me into my seat. I feel:,-2.3865764141082764,-0.8634210345678706
+Arousal_1P,P10,I catch massive air on the jump. I feel:,-3.4438772201538086,-1.1398997214477733
+Arousal_1P,P10,The swing reaches its highest point. I feel:,-4.196590900421143,-1.3367304518576102
+Arousal_1P,P10,I race through the finish line at full speed. I feel:,-3.1926987171173096,-1.0742178433153544
+Arousal_1P,P10,The thundering hooves carry me across the field. I feel:,-2.1171011924743652,-0.7929546592487487
+Arousal_1P,P10,I dive into the adventure headfirst. I feel:,-2.207085371017456,-0.8164850560679952
+Random_1P,N1,The capital of France is Paris. I feel:,-4.544354438781738,-1.4276688166832827
+Random_1P,N1,Water freezes at zero degrees Celsius. I feel:,-4.51594352722168,-1.4202395104004615
+Random_1P,N1,The Earth orbits around the Sun. I feel:,-3.0555200576782227,-1.038346334079003
+Random_1P,N1,Elephants are the largest land mammals. I feel:,-3.356971502304077,-1.1171743261619076
+Random_1P,N1,The Pacific Ocean is the largest ocean. I feel:,-4.825347900390625,-1.5011471521231572
+Random_1P,N1,A triangle has three sides. I feel:,1.4450945854187012,0.13854109432452097
+Random_1P,N1,Birds have feathers and wings. I feel:,-3.189035654067993,-1.0732599712925182
+Random_1P,N1,"The speed of light is approximately 300,000 kilometers per second. I feel:",-1.8254344463348389,-0.7166853151622774
+Random_1P,N1,There are seven continents on Earth. I feel:,-2.8801465034484863,-0.9924870575990692
+Random_1P,N1,Humans have 206 bones in their adult bodies. I feel:,-2.0188634395599365,-0.7672659954621405
+Random_1P,N1,The chemical formula for water is H2O. I feel:,0.4121778607368469,-0.1315612815210439
+Random_1P,N1,Mount Everest is the tallest mountain on Earth. I feel:,-3.8493285179138184,-1.2459231366929637
+Random_1P,N1,The Moon revolves around the Earth. I feel:,-2.6759657859802246,-0.9390948570738855
+Random_1P,N1,Gold is a chemical element with symbol Au. I feel:,-0.2413845956325531,-0.3024644802113453
+Random_1P,N1,A year has twelve months. I feel:,0.08794897794723511,-0.21634545575948608
+Random_1P,N1,Spiders have eight legs. I feel:,-3.6435415744781494,-1.1921109163931218
+Random_1P,N1,The Nile is one of the longest rivers in the world. I feel:,-4.710068702697754,-1.4710022387546517
+Random_1P,N1,Oxygen is essential for human respiration. I feel:,-2.490609645843506,-0.8906251860615281
+Random_1P,N1,The Great Wall of China is visible from certain points. I feel:,-2.4709999561309814,-0.8854973537257911
+Random_1P,N1,Dolphins are mammals that live in water. I feel:,-4.249580383300781,-1.3505869272913162
+Random_1P,N2,The wooden table has four legs and a smooth surface. I feel:,-5.449466228485107,-1.6643508637089137
+Random_1P,N2,The red brick building stands on the corner. I feel:,-3.8505048751831055,-1.2462307480285972
+Random_1P,N2,The tree in my garden has green leaves. I feel:,-5.843692779541016,-1.7674390658041994
+Random_1P,N2,The ceramic mug is white with a blue handle. I feel:,-5.174038887023926,-1.5923280398705189
+Random_1P,N2,The road stretches straight ahead for miles. I feel:,0.7345713376998901,-0.047257056403911264
+Random_1P,N2,The bookshelf contains rows of hardcover volumes. I feel:,-4.080482482910156,-1.3063687017997383
+Random_1P,N2,The metal fence surrounds the park. I feel:,-4.291821479797363,-1.3616327553328391
+Random_1P,N2,The clock on the wall shows the current time. I feel:,-4.849608421325684,-1.5074911527451131
+Random_1P,N2,The river flows quietly through the valley. I feel:,-4.219577789306641,-1.342741404292506
+Random_1P,N2,The office chair has adjustable armrests. I feel:,-4.729744911193848,-1.4761474654079083
+Random_1P,N2,The curtains are made of cotton fabric. I feel:,-3.7567403316497803,-1.221711805336265
+Random_1P,N2,The bridge spans across the wide river. I feel:,-5.256957054138184,-1.614010711283569
+Random_1P,N2,The laptop sits on my desk beside the lamp. I feel:,-3.8492417335510254,-1.245900443031397
+Random_1P,N2,The path leads through the forest. I feel:,-2.9213874340057373,-1.0032713474255568
+Random_1P,N2,The stone wall marks the property boundary. I feel:,-3.2698543071746826,-1.094393630662279
+Random_1P,N2,The glass window overlooks the street. I feel:,-2.5515758991241455,-0.9065675456574338
+Random_1P,N2,The carpet covers the floor of the room. I feel:,-4.183985710144043,-1.3334342598602558
+Random_1P,N2,The mountain range extends along the horizon. I feel:,-3.4282126426696777,-1.1358035155349648
+Random_1P,N2,The parking lot has spaces for fifty cars. I feel:,-3.217202663421631,-1.0806254984111008
+Random_1P,N2,The staircase leads to the second floor. I feel:,-5.494487762451172,-1.6761237617537112
+Random_1P,N3,I brush my teeth in the morning. I feel:,-3.3471474647521973,-1.1146053912035003
+Random_1P,N3,I check my email before starting work. I feel:,-2.0425336360931396,-0.7734556293092629
+Random_1P,N3,I prepare breakfast in the kitchen. I feel:,-1.6683471202850342,-0.6756077926791869
+Random_1P,N3,I lock the door when leaving the house. I feel:,-3.1074187755584717,-1.051917580112522
+Random_1P,N3,I water the plants every other day. I feel:,-2.743743658065796,-0.9568184197218892
+Random_1P,N3,I take the bus to work. I feel:,-4.11344051361084,-1.3149870561963017
+Random_1P,N3,I organize my desk before starting tasks. I feel:,-2.298642158508301,-0.8404266819853039
+Random_1P,N3,I read a book before going to sleep. I feel:,-2.437100410461426,-0.8766327980393175
+Random_1P,N3,I set an alarm for the next morning. I feel:,-3.1887567043304443,-1.073187027380339
+Random_1P,N3,I fold laundry on weekends. I feel:,-0.8994170427322388,-0.4745365583353975
+Random_1P,N3,I walk to the grocery store. I feel:,-4.693061351776123,-1.4665549045397983
+Random_1P,N3,I fill out forms at the office. I feel:,-0.23757660388946533,-0.3014687100854186
+Random_1P,N3,I charge my phone overnight. I feel:,-2.3777518272399902,-0.8611134507888261
+Random_1P,N3,I sort the mail when it arrives. I feel:,-2.5574636459350586,-0.9081071609662038
+Random_1P,N3,I adjust the thermostat in my apartment. I feel:,-3.3240580558776855,-1.108567630322248
+Random_1P,N3,I pack my bag for tomorrow. I feel:,-3.0532686710357666,-1.0377576081279718
+Random_1P,N3,I update my calendar with appointments. I feel:,-0.7209773659706116,-0.4278755066874293
+Random_1P,N3,I refill the water bottle at my desk. I feel:,-2.4950196743011475,-0.8917783856714215
+Random_1P,N3,I turn off the lights before leaving. I feel:,-1.6618391275405884,-0.6739059862699607
+Random_1P,N3,I wipe the kitchen counter after cooking. I feel:,-4.158623695373535,-1.3268022243030286
+Random_1P,N4,The function returns an integer value. I feel:,4.9124603271484375,1.0452392843990241
+Random_1P,N4,The database query retrieves matching records. I feel:,4.360675811767578,0.9009504903483047
+Random_1P,N4,The HTTP protocol uses port 80 by default. I feel:,3.237008571624756,0.6071173245469793
+Random_1P,N4,The loop iterates through the array elements. I feel:,4.448702812194824,0.9239690952230404
+Random_1P,N4,The variable stores a string value. I feel:,4.907530307769775,1.043950109855402
+Random_1P,N4,The server processes incoming requests. I feel:,0.6401010155677795,-0.07196055654584017
+Random_1P,N4,The algorithm sorts the list in ascending order. I feel:,4.932742595672607,1.0505429926119039
+Random_1P,N4,The API endpoint accepts JSON payloads. I feel:,5.534954071044922,1.2080181756278678
+Random_1P,N4,The conditional statement checks for equality. I feel:,5.164356231689453,1.1111087593107136
+Random_1P,N4,The file is saved in UTF-8 encoding. I feel:,1.5560940504074097,0.16756687974809537
+Random_1P,N4,The class inherits from the base class. I feel:,5.441269397735596,1.183520118585604
+Random_1P,N4,The network packet contains header information. I feel:,1.9717506170272827,0.2762589199650044
+Random_1P,N4,The compiler generates machine code. I feel:,4.2773308753967285,0.879156220984143
+Random_1P,N4,The memory address points to the data structure. I feel:,4.742236614227295,1.0007266647593185
+Random_1P,N4,The configuration file specifies default settings. I feel:,2.766785144805908,0.48415633289382026
+Random_1P,N4,The encryption key secures the connection. I feel:,2.9370975494384766,0.5286921449568854
+Random_1P,N4,The backup runs automatically at midnight. I feel:,-0.8286088705062866,-0.45602058788927813
+Random_1P,N4,The cache stores frequently accessed data. I feel:,3.74910306930542,0.7410273844538817
+Random_1P,N4,The syntax follows standard conventions. I feel:,4.20408821105957,0.8600036434548955
+Random_1P,N4,The module exports its public functions. I feel:,5.712583541870117,1.2544673626180904
+Random_1P,N5,I need to find the nearest library. I feel:,-5.264853477478027,-1.6160755851052522
+Random_1P,N5,I want to learn how to make pasta. I feel:,-0.4565271735191345,-0.3587231504837272
+Random_1P,N5,I am looking for a recipe for soup. I feel:,-2.8036997318267822,-0.9724966226033482
+Random_1P,N5,I need directions to the train station. I feel:,-4.017139434814453,-1.2898048226649328
+Random_1P,N5,I want to know the weather forecast. I feel:,-4.776024341583252,-1.4882492968549765
+Random_1P,N5,I need help with a math problem. I feel:,4.140261650085449,0.8433133282056464
+Random_1P,N5,I want to translate a sentence to Spanish. I feel:,-1.284648060798645,-0.5752724751259701
+Random_1P,N5,I am looking for the definition of a word. I feel:,-2.4662818908691406,-0.8842636040863803
+Random_1P,N5,I need to convert kilometers to miles. I feel:,1.8739914894104004,0.25069541421574604
+Random_1P,N5,I want to find opening hours of a store. I feel:,-1.77163565158844,-0.702617208865416
+Random_1P,N5,I need to schedule a meeting. I feel:,-0.9401944875717163,-0.48519964904626456
+Random_1P,N5,I want to check train departure times. I feel:,-2.359389305114746,-0.8563117463202757
+Random_1P,N5,I need information about visa requirements. I feel:,-2.8478920459747314,-0.9840526839587795
+Random_1P,N5,I want to find a good restaurant nearby. I feel:,-5.719236850738525,-1.7348944847606764
+Random_1P,N5,I am looking for parking options. I feel:,-4.303548812866211,-1.364699392215114
+Random_1P,N5,I need to renew my subscription. I feel:,-1.7698293924331665,-0.7021448814477509
+Random_1P,N5,I want to compare product prices. I feel:,-1.708664059638977,-0.6861504635897345
+Random_1P,N5,I need to print a document. I feel:,-2.6813509464263916,-0.9405030486502851
+Random_1P,N5,I want to check my account balance. I feel:,-3.307565927505493,-1.1042550241366418
+Random_1P,N5,I am looking for the contact information. I feel:,0.514339804649353,-0.10484646210492066
+Random_1P,N6,The sky is clear and blue today. I feel:,-3.674060344696045,-1.2000914168020753
+Random_1P,N6,It is currently twenty degrees outside. I feel:,-3.0943503379821777,-1.048500251344771
+Random_1P,N6,The leaves are changing color this season. I feel:,-4.049840927124023,-1.2983560936003813
+Random_1P,N6,The sun sets at seven in the evening. I feel:,-2.1691789627075195,-0.8065727265455552
+Random_1P,N6,There are clouds forming on the horizon. I feel:,-5.463460922241211,-1.6680104036722334
+Random_1P,N6,The wind is coming from the north. I feel:,-4.357410430908203,-1.3787839264785218
+Random_1P,N6,The grass in the field is green. I feel:,-6.374851703643799,-1.9063343745193573
+Random_1P,N6,The tide is low at the beach today. I feel:,-3.269289016723633,-1.0942458101359742
+Random_1P,N6,The moon is visible in the night sky. I feel:,-4.988818168640137,-1.5438937809454416
+Random_1P,N6,The air is fresh after the rain. I feel:,-2.4497108459472656,-0.879930361631602
+Random_1P,N6,Birds are flying south for the winter. I feel:,-5.527609825134277,-1.684785009664445
+Random_1P,N6,The temperature dropped overnight. I feel:,-3.5935521125793457,-1.1790389309140725
+Random_1P,N6,Snow is covering the mountain peaks. I feel:,-4.9039530754089355,-1.5217019984325164
+Random_1P,N6,The river level has risen this week. I feel:,-5.845948219299316,-1.76802885162404
+Random_1P,N6,Flowers are blooming in the garden. I feel:,-4.2550458908081055,-1.3520161292082324
+Random_1P,N6,The days are getting longer. I feel:,0.1650296449661255,-0.19618926039923013
+Random_1P,N6,Fog is settling over the valley. I feel:,-2.3956186771392822,-0.8657855395365044
+Random_1P,N6,The stars are visible tonight. I feel:,-1.5595899820327759,-0.6471683640881285
+Random_1P,N6,Rain is expected later this afternoon. I feel:,-3.48117733001709,-1.149653507065366
+Random_1P,N6,The ocean waves are calm today. I feel:,-4.032896518707275,-1.2939252185246863
+Random_1P,N7,I pick up the pen from the desk. I feel:,-3.1697187423706055,-1.068208698891957
+Random_1P,N7,I open the drawer to find the keys. I feel:,-2.8310906887054443,-0.9796592160175355
+Random_1P,N7,I place the book on the shelf. I feel:,-3.763615131378174,-1.2235095298727452
+Random_1P,N7,I turn the page of the magazine. I feel:,-2.29807186126709,-0.8402775522092935
+Random_1P,N7,I press the button on the remote. I feel:,-4.116910934448242,-1.3158945532780777
+Random_1P,N7,I hang the coat on the hook. I feel:,-4.559591770172119,-1.4316532999545317
+Random_1P,N7,I slide the window open. I feel:,-1.2240298986434937,-0.5594211395572279
+Random_1P,N7,I plug in the charging cable. I feel:,-3.601205825805664,-1.1810403372976375
+Random_1P,N7,I stir the coffee with a spoon. I feel:,-3.845791816711426,-1.2449983076388922
+Random_1P,N7,I close the laptop lid. I feel:,-0.13187885284423828,-0.27382929540981416
+Random_1P,N7,I unfold the map on the table. I feel:,-0.5487770438194275,-0.38284601396744994
+Random_1P,N7,I stack the papers in a pile. I feel:,-2.6679611206054688,-0.937001678520468
+Random_1P,N7,I turn the dial on the radio. I feel:,-2.197753667831421,-0.8140448639973227
+Random_1P,N7,I zip up my jacket. I feel:,-2.364718198776245,-0.8577052244237914
+Random_1P,N7,I roll the cart down the aisle. I feel:,-4.850247859954834,-1.5076583626361082
+Random_1P,N7,I flip the switch on the wall. I feel:,-3.7669293880462646,-1.2243761908327457
+Random_1P,N7,I insert the key into the lock. I feel:,-1.989994764328003,-0.7597169863490768
+Random_1P,N7,I wrap the gift in paper. I feel:,-4.614341735839844,-1.4459701325228786
+Random_1P,N7,I adjust the mirror angle. I feel:,-2.705411434173584,-0.946794741629234
+Random_1P,N7,I pour water into the glass. I feel:,-6.174592971801758,-1.8539677529303658
+Random_1P,N8,I greet my colleague in the morning. I feel:,-4.283255577087402,-1.3593928161219264
+Random_1P,N8,I confirm the appointment time by email. I feel:,-1.9838058948516846,-0.7580986290222879
+Random_1P,N8,I introduce myself to a new team member. I feel:,-2.117382049560547,-0.7930281019227204
+Random_1P,N8,I schedule a call for next week. I feel:,-2.0850486755371094,-0.7845730920132589
+Random_1P,N8,I pass by my neighbor on the stairs. I feel:,-4.383597373962402,-1.3856316765110814
+Random_1P,N8,I ask for the time politely. I feel:,-1.3616077899932861,-0.5953970458713091
+Random_1P,N8,I hold the door for the person behind me. I feel:,-2.848956823348999,-0.9843311177295415
+Random_1P,N8,I wave to an acquaintance across the street. I feel:,-3.880376100540161,-1.254041918808937
+Random_1P,N8,I join a conference call at the scheduled time. I feel:,-1.488992691040039,-0.628707537992712
+Random_1P,N8,I exchange business cards at a meeting. I feel:,-1.049762487411499,-0.5138511137444348
+Random_1P,N8,I order a coffee from the barista. I feel:,-4.5268378257751465,-1.4230883130697847
+Random_1P,N8,I thank the cashier after paying. I feel:,-2.8703079223632812,-0.9899143195819927
+Random_1P,N8,I nod in acknowledgment during a presentation. I feel:,-1.4185142517089844,-0.6102777909915017
+Random_1P,N8,I send a reminder about the meeting. I feel:,-0.2204539179801941,-0.2969912163684144
+Random_1P,N8,I give directions to a tourist. I feel:,-4.845416069030762,-1.506394874324809
+Random_1P,N8,I reply to a routine work message. I feel:,1.4492367506027222,0.13962424907515536
+Random_1P,N8,I wait in line at the post office. I feel:,-2.4393444061279297,-0.8772195912884021
+Random_1P,N8,I attend a regular team standup. I feel:,5.556239128112793,1.2135841078532477
+Random_1P,N8,I sign for a package delivery. I feel:,-4.122629165649414,-1.3173898411325233
+Random_1P,N8,I say goodbye at the end of the workday. I feel:,-0.40558505058288574,-0.3454020490755419
+Random_1P,N9,The concept of time is relative. I feel:,3.2870986461639404,0.6202156197105922
+Random_1P,N9,Mathematics describes patterns in nature. I feel:,2.2878258228302,0.3589109498849762
+Random_1P,N9,Language evolves over generations. I feel:,3.175504207611084,0.5910342517803147
+Random_1P,N9,Systems can be analyzed as networks. I feel:,4.278120994567871,0.8793628330567596
+Random_1P,N9,Categories help organize information. I feel:,3.0126280784606934,0.5484429872564491
+Random_1P,N9,Probability measures likelihood of events. I feel:,5.223264217376709,1.1265128925870966
+Random_1P,N9,Definitions establish shared meaning. I feel:,3.9015889167785645,0.7809016441121388
+Random_1P,N9,Patterns repeat at different scales. I feel:,2.308169364929199,0.3642306808204457
+Random_1P,N9,Sequences follow logical progressions. I feel:,0.7410057783126831,-0.04557448349631518
+Random_1P,N9,Relationships can be represented as graphs. I feel:,5.382490158081055,1.1681496517302266
+Random_1P,N9,Hierarchies organize elements by level. I feel:,3.701714038848877,0.7286353983339237
+Random_1P,N9,Symmetry appears in many natural forms. I feel:,1.0437172651290894,0.03358300309587679
+Random_1P,N9,Causality links events in time. I feel:,2.131021738052368,0.31790749352809816
+Random_1P,N9,Abstraction simplifies complex systems. I feel:,6.393787860870361,1.4325987652777752
+Random_1P,N9,Equivalence defines when things are the same. I feel:,7.263738632202148,1.6600863880363006
+Random_1P,N9,Functions map inputs to outputs. I feel:,2.7607004642486572,0.48256522042995637
+Random_1P,N9,Structure emerges from simple rules. I feel:,2.0120368003845215,0.2867935483416451
+Random_1P,N9,Information can be measured in bits. I feel:,3.81077241897583,0.757153600115613
+Random_1P,N9,Boundaries separate distinct regions. I feel:,4.624738693237305,0.9700015667354812
+Random_1P,N9,Models approximate real phenomena. I feel:,4.872605323791504,1.0348174073601404
+Random_1P,N10,The room is painted in beige. I feel:,-3.259273052215576,-1.091626687272179
+Random_1P,N10,The clock ticks steadily on the wall. I feel:,-1.4468709230422974,-0.6176929137358437
+Random_1P,N10,The paper has a smooth texture. I feel:,-4.309551239013672,-1.3662689955766687
+Random_1P,N10,The air conditioner hums quietly. I feel:,-1.1061512231826782,-0.5285964762105276
+Random_1P,N10,The fabric is soft to touch. I feel:,-2.257009983062744,-0.8295400836460933
+Random_1P,N10,The lighting in the office is fluorescent. I feel:,-2.448155403137207,-0.8795236213896738
+Random_1P,N10,The door makes a clicking sound when closed. I feel:,-4.266827583312988,-1.3550969808015987
+Random_1P,N10,The monitor displays a blue interface. I feel:,-5.957116603851318,-1.7970988086388784
+Random_1P,N10,The floor tiles are gray and rectangular. I feel:,-5.378631591796875,-1.6458279729429208
+Random_1P,N10,The keyboard has standard QWERTY layout. I feel:,0.9142346978187561,-0.0002760178933286932
+Random_1P,N10,The pen writes in black ink. I feel:,-3.1754915714263916,-1.0697182638027183
+Random_1P,N10,The glass is transparent and cylindrical. I feel:,-4.365527153015137,-1.380906407287259
+Random_1P,N10,The ventilation system circulates air. I feel:,-3.900073528289795,-1.259192694187137
+Random_1P,N10,The notebook has lined pages. I feel:,-1.8803026676177979,-0.7310330709617705
+Random_1P,N10,The elevator chimes at each floor. I feel:,-4.003583908081055,-1.286260122604377
+Random_1P,N10,The chair has an adjustable height. I feel:,-3.8952338695526123,-1.2579271484834431
+Random_1P,N10,The printer produces a low whirring noise. I feel:,-6.490334510803223,-1.9365325307092311
+Random_1P,N10,The whiteboard has faint marker traces. I feel:,-4.483376979827881,-1.411723526861845
+Random_1P,N10,The table surface is matte finish. I feel:,-3.118137836456299,-1.054720559042143
+Random_1P,N10,The ceiling lights are evenly spaced. I feel:,-4.22080135345459,-1.3430613599825085
+S2_1P,A1,The knife slices into my finger. I feel:,1.0758311748504639,0.04198062422656853
+S2_1P,A1,My tooth throbs with each heartbeat. I feel:,1.3670680522918701,0.11813755987401527
+S2_1P,A1,A migraine pounds behind my eyes. I feel:,1.6800687313079834,0.19998561695680367
+S2_1P,A1,I twist my ankle on the stairs. I feel:,0.9920064210891724,0.02006088509893657
+S2_1P,A1,The hot oil splatters onto my arm. I feel:,-1.0503088235855103,-0.5139939778254248
+S2_1P,A1,My back seizes up when I bend over. I feel:,3.2652268409729004,0.6144962558887402
+S2_1P,A1,A bee stings me on the neck. I feel:,-1.6146918535232544,-0.6615772182072245
+S2_1P,A1,I bite down hard on my tongue. I feel:,0.29556500911712646,-0.16205493848677294
+S2_1P,A1,The sunburn on my shoulders is peeling. I feel:,0.15396517515182495,-0.19908256197224378
+S2_1P,A1,My knee buckles under my weight. I feel:,3.429564952850342,0.6574698213266926
+S2_1P,A1,A cramp shoots through my calf. I feel:,0.18058401346206665,-0.19212187356625468
+S2_1P,A1,I stub my toe against the door frame. I feel:,-0.25928449630737305,-0.3071452115657124
+S2_1P,A1,The needle pierces my skin. I feel:,-0.11640626192092896,-0.26978329298869974
+S2_1P,A1,My throat is raw from coughing. I feel:,2.6363704204559326,0.4500535576647499
+S2_1P,A1,A splinter lodges deep in my palm. I feel:,-0.05584925413131714,-0.25394794896993533
+S2_1P,A1,I pull a muscle lifting the box. I feel:,-0.6698905229568481,-0.4145165617282246
+S2_1P,A1,The cold makes my joints ache. I feel:,-0.5327238440513611,-0.3786481853393834
+S2_1P,A1,My eyes burn from the chlorine. I feel:,0.6972446441650391,-0.057017793513989425
+S2_1P,A1,A blister forms on my heel. I feel:,1.3973324298858643,0.12605153792887047
+S2_1P,A1,I cut myself shaving this morning. I feel:,1.3385547399520874,0.11068147631744966
+S2_1P,A2,A heaviness weighs on me constantly. I feel:,6.302745342254639,1.408791618008817
+S2_1P,A2,My racing thoughts spiral out of control. I feel:,5.370175361633301,1.164929396215807
+S2_1P,A2,A wave of loss hits me unexpectedly. I feel:,1.6019973754882812,0.17957036160417006
+S2_1P,A2,I cannot escape these intrusive thoughts. I feel:,6.811273574829102,1.5417691180538615
+S2_1P,A2,The silence becomes unbearable at night. I feel:,4.0280070304870605,0.8139593263498786
+S2_1P,A2,My mind replays the event endlessly. I feel:,3.6667020320892334,0.7194799398318712
+S2_1P,A2,My chest tightens and I cannot breathe in the crowd. I feel:,1.142265796661377,0.05935293388207937
+S2_1P,A2,I wake up unable to face another day. I feel:,7.078384876251221,1.611617340476184
+S2_1P,A2,The emptiness inside me grows larger. I feel:,4.552247524261475,0.9510455013525485
+S2_1P,A2,My thoughts turn against me relentlessly. I feel:,8.456268310546875,1.9719267249099905
+S2_1P,A2,A weight follows me everywhere I go. I feel:,-0.39241427183151245,-0.34195795862035255
+S2_1P,A2,I cannot stop crying for no reason. I feel:,7.212287425994873,1.6466321639883885
+S2_1P,A2,The memories haunt my dreams. I feel:,2.028379440307617,0.29106706407175037
+S2_1P,A2,My confidence has completely shattered. I feel:,5.182806968688965,1.1159335315121752
+S2_1P,A2,A fog of confusion clouds my thinking. I feel:,5.823694229125977,1.2835222320887003
+S2_1P,A2,I lose interest in things I once loved. I feel:,5.697892189025879,1.2506256499099953
+S2_1P,A2,The weight of existence crushes me. I feel:,8.214070320129395,1.9085932043331677
+S2_1P,A2,I cannot access my own feelings anymore. I feel:,8.493349075317383,1.9816231529214254
+S2_1P,A2,A fog settles over my mind. I feel:,3.578810214996338,0.6964966846991915
+S2_1P,A2,I question whether life is worth living. I feel:,11.23805046081543,2.6993483552488224
+S2_1P,A3,My best friend stops returning my calls. I feel:,3.501455307006836,0.6762687767449321
+S2_1P,A3,The group chat goes silent when I speak. I feel:,4.006643772125244,0.8083729448909991
+S2_1P,A3,I overhear them mocking me behind my back. I feel:,1.6556438207626343,0.19359862930284136
+S2_1P,A3,My partner says they need space from me. I feel:,6.949771881103516,1.5779857081055213
+S2_1P,A3,The invitation list excludes only me. I feel:,2.684788227081299,0.4627145634266332
+S2_1P,A3,I sit alone at the lunch table again. I feel:,3.935368776321411,0.789734902496122
+S2_1P,A3,My family disowns me for my choices. I feel:,7.206840515136719,1.645207824998951
+S2_1P,A3,The rejection letter arrives in my inbox. I feel:,1.902693510055542,0.25820084401717464
+S2_1P,A3,I discover my friends met without telling me. I feel:,3.6963138580322266,0.7272232790084067
+S2_1P,A3,My colleagues ignore my contributions. I feel:,5.4625163078308105,1.18907607557513
+S2_1P,A3,The online comments attack me personally. I feel:,3.5741612911224365,0.6952810151747651
+S2_1P,A3,I am ghosted after the third date. I feel:,8.76986312866211,2.053930146291198
+S2_1P,A3,My mentor says I am not ready. I feel:,5.6192755699157715,1.2300678110298802
+S2_1P,A3,The team picks everyone except me. I feel:,2.323244094848633,0.3681726446488689
+S2_1P,A3,I watch my friends leave without me. I feel:,2.568493366241455,0.432304059403527
+S2_1P,A3,My application is denied once again. I feel:,4.217381477355957,0.8634797637689583
+S2_1P,A3,The community I trusted turns against me. I feel:,4.032419204711914,0.8151130870667888
+S2_1P,A3,I am unfollowed by people I care about. I feel:,5.07492208480835,1.0877221929234304
+S2_1P,A3,My voice is dismissed in every meeting. I feel:,4.688541889190674,0.98668577215277
+S2_1P,A3,The breakup text arrives while I am at work. I feel:,-0.11384057998657227,-0.269112380446019
+S2_1P,A4,I lied to protect myself and harmed them. I feel:,4.216643810272217,0.8632868676456404
+S2_1P,A4,My silence allowed the injustice to continue. I feel:,3.514608860015869,0.6797083627576814
+S2_1P,A4,I chose my career over my dying father. I feel:,5.924223899841309,1.3098102205144342
+S2_1P,A4,The secret I keep destroys my integrity. I feel:,5.323642730712891,1.1527613541407609
+S2_1P,A4,I betrayed someone who trusted me completely. I feel:,6.458197593688965,1.4494415769451352
+S2_1P,A4,My actions caused irreversible harm to others. I feel:,3.5804266929626465,0.6969193853184853
+S2_1P,A4,I failed to speak up when it mattered. I feel:,4.677297592163086,0.9837454466944905
+S2_1P,A4,The compromise I made violated my values. I feel:,3.9119174480438232,0.7836025015647092
+S2_1P,A4,I abandoned my principles for convenience. I feel:,5.920183181762695,1.3087535936566477
+S2_1P,A4,My cowardice let an innocent person suffer. I feel:,4.440639972686768,0.9218607044349462
+S2_1P,A4,I took credit for someone else's work. I feel:,3.6829705238342285,0.7237340661972861
+S2_1P,A4,The promise I broke cannot be undone. I feel:,3.453113317489624,0.6636275967643078
+S2_1P,A4,I watched them struggle and did nothing. I feel:,3.0852420330047607,0.5674311604297856
+S2_1P,A4,My greed caused my family to lose everything. I feel:,3.755554676055908,0.7427144462176118
+S2_1P,A4,I manipulated someone who loved me. I feel:,8.079699516296387,1.873455934800861
+S2_1P,A4,The truth I hid eventually destroyed them. I feel:,3.84344482421875,0.7656972649337229
+S2_1P,A4,I participated in something I knew was wrong. I feel:,4.705239295959473,0.9910520575763132
+S2_1P,A4,My negligence led to a preventable tragedy. I feel:,3.9519946575164795,0.7940824843524398
+S2_1P,A4,I chose the easy path over the right one. I feel:,5.028266429901123,1.0755219807127567
+S2_1P,A4,The person I became disgusts me. I feel:,5.59178352355957,1.222878783240681
+S2_1P,A5,The problem defeats me no matter how I try. I feel:,7.320128440856934,1.6748320310559017
+S2_1P,A5,My understanding of the situation was completely wrong. I feel:,6.871829509735107,1.5576041815191175
+S2_1P,A5,I cannot reconcile these contradictory facts. I feel:,4.90078067779541,1.042185116561566
+S2_1P,A5,The complexity of the decision overwhelms me. I feel:,2.6013383865356445,0.4408928621638743
+S2_1P,A5,My certainties crumble under new evidence. I feel:,3.3024353981018066,0.6242261009402844
+S2_1P,A5,I realize my worldview was fundamentally flawed. I feel:,6.070274829864502,1.348001782574647
+S2_1P,A5,The paradox I encounter has no resolution. I feel:,5.8039374351501465,1.2783559327497032
+S2_1P,A5,My expertise proves utterly inadequate here. I feel:,5.395474433898926,1.1715449726338756
+S2_1P,A5,I fail to grasp what everyone else understands. I feel:,7.466404438018799,1.7130824470076507
+S2_1P,A5,The answer I was certain of turns out wrong. I feel:,5.634370803833008,1.2340151365475747
+S2_1P,A5,My mental model of reality shatters. I feel:,3.3679566383361816,0.641359566042327
+S2_1P,A5,I cannot make sense of the contradictions. I feel:,6.159682273864746,1.3713813662968328
+S2_1P,A5,The cognitive dissonance is unbearable. I feel:,6.05305290222168,1.3434983376581175
+S2_1P,A5,My assumptions about the world were naive. I feel:,4.313136577606201,0.8885192267371733
+S2_1P,A5,I struggle to process the implications. I feel:,4.585785388946533,0.9598154793340856
+S2_1P,A5,The framework I trusted completely fails me. I feel:,7.202579021453857,1.6440934664636624
+S2_1P,A5,My reasoning leads to impossible conclusions. I feel:,6.3453898429870605,1.419942934169491
+S2_1P,A5,I discover my beliefs were built on lies. I feel:,3.6517868041992188,0.7155796849583606
+S2_1P,A5,The intellectual challenge humiliates me. I feel:,4.716139316558838,0.9939023565310144
+S2_1P,A5,My mind cannot hold all the pieces together. I feel:,6.763710975646973,1.5293317446107697
+S2_1P,B,The footsteps behind me get closer. I feel:,-2.1107289791107178,-0.7912883584446387
+S2_1P,B,My doctor says the results are concerning. I feel:,0.4868776798248291,-0.11202766556849711
+S2_1P,B,A shadow moves in my peripheral vision. I feel:,-2.3354222774505615,-0.850044492669168
+S2_1P,B,I hear glass breaking downstairs at night. I feel:,-4.6077423095703125,-1.444244416720216
+S2_1P,B,The turbulence shakes the plane violently. I feel:,-2.399078607559204,-0.8666902934284206
+S2_1P,B,My brakes fail on the steep hill. I feel:,-4.424872875213623,-1.3964250063950614
+S2_1P,B,A growling comes from the darkness ahead. I feel:,-2.0730433464050293,-0.7814337605997012
+S2_1P,B,I notice a suspicious package near my car. I feel:,-5.773598670959473,-1.7491098193042136
+S2_1P,B,The elevator stops between floors suddenly. I feel:,-5.857494831085205,-1.7710482308264588
+S2_1P,B,My phone shows an unknown caller at 3am. I feel:,-2.4179234504699707,-0.8716181222852941
+S2_1P,B,A figure watches me from across the street. I feel:,-2.196164131164551,-0.8136292083883504
+S2_1P,B,I smell gas but cannot find the source. I feel:,-3.535688638687134,-1.1639079320644043
+S2_1P,B,The ice beneath my feet starts cracking. I feel:,-1.6101404428482056,-0.6603870478794488
+S2_1P,B,My test results will arrive tomorrow. I feel:,0.15659135580062866,-0.19839582932895156
+S2_1P,B,A scream echoes through the empty building. I feel:,-1.9048444032669067,-0.7374506077755343
+S2_1P,B,I realize I left my door unlocked all day. I feel:,0.2145635485649109,-0.18323640105710068
+S2_1P,B,The warning sirens begin to sound outside. I feel:,-3.4561965465545654,-1.1431211615214505
+S2_1P,B,My chest tightens for no apparent reason. I feel:,0.8110052347183228,-0.0272699880502909
+S2_1P,B,A car follows me through three turns. I feel:,-6.154442310333252,-1.8486984592811808
+S2_1P,B,I wake to my smoke detector beeping. I feel:,-4.213813304901123,-1.341234021464588
+S2_1P,C1,The mess my roommate left infuriates me. I feel:,0.7329142689704895,-0.04769037129760549
+S2_1P,C1,My food arrives cold and wrong again. I feel:,-0.04364311695098877,-0.2507561072913924
+S2_1P,C1,I step in something foul on the sidewalk. I feel:,-3.013853073120117,-1.027450633337076
+S2_1P,C1,The customer service puts me on hold forever. I feel:,-0.8422021269798279,-0.4595751540815454
+S2_1P,C1,My computer crashes before I can save. I feel:,0.38566482067108154,-0.13849430423384546
+S2_1P,C1,I miss the train by seconds. I feel:,-2.160952568054199,-0.804421566933739
+S2_1P,C1,The loud chewing next to me is unbearable. I feel:,-0.5551284551620483,-0.38450687515075854
+S2_1P,C1,My flight gets delayed for the third time. I feel:,-2.7997469902038574,-0.9714630011332491
+S2_1P,C1,I find mold growing in my refrigerator. I feel:,-2.8901641368865967,-0.9951066168794332
+S2_1P,C1,The traffic makes me late for my interview. I feel:,-1.8477150201797485,-0.7225115698708225
+S2_1P,C1,My neighbor's music pounds through the wall. I feel:,-1.9392952919006348,-0.7464593367927036
+S2_1P,C1,I spill coffee on my white shirt. I feel:,-3.602004051208496,-1.181249069107873
+S2_1P,C1,The automated menu loops endlessly. I feel:,2.428744077682495,0.3957603439610951
+S2_1P,C1,My package is marked delivered but missing. I feel:,-1.1964449882507324,-0.5522078283032479
+S2_1P,C1,I realize I forgot my wallet after ordering. I feel:,-0.574508547782898,-0.38957466903570204
+S2_1P,C1,The mosquito buzzes around my ear all night. I feel:,-1.7690324783325195,-0.701936492536248
+S2_1P,C1,My phone battery dies at the worst moment. I feel:,-0.707935094833374,-0.4244650203080216
+S2_1P,C1,I slip and drop my groceries everywhere. I feel:,1.398221731185913,0.12628408561470614
+S2_1P,C1,The printer jams on my deadline day. I feel:,0.06600677967071533,-0.22208322700874908
+S2_1P,C1,My socks get soaked stepping in a puddle. I feel:,-3.426978349685669,-1.1354807543098786
+S2_1P,C2,I read about the extinction of another species. I feel:,-2.2004776000976562,-0.8147571581824896
+S2_1P,C2,The war footage shows children in the rubble. I feel:,-4.206859588623047,-1.3394156606589354
+S2_1P,C2,I learn the glacier has retreated further. I feel:,-4.303193092346191,-1.3646063731407796
+S2_1P,C2,The famine spreads to another region. I feel:,-4.479499340057373,-1.4107095441373325
+S2_1P,C2,I see the homeless encampment growing larger. I feel:,-3.122628927230835,-1.0558949560282251
+S2_1P,C2,The corruption scandal reaches the highest levels. I feel:,-2.196232795715332,-0.8136471638128868
+S2_1P,C2,I witness the forest fire from my window. I feel:,-5.875687599182129,-1.7758055454954609
+S2_1P,C2,The inequality statistics shock me again. I feel:,2.7733497619628906,0.4858729462937666
+S2_1P,C2,I watch the storm devastate the coastal town. I feel:,-4.1098713874816895,-1.3140537481917547
+S2_1P,C2,The refugee crisis worsens each month. I feel:,-2.279513359069824,-0.8354245999665455
+S2_1P,C2,I discover the extent of the pollution. I feel:,-3.99927020072937,-1.2851321104650137
+S2_1P,C2,The political violence escalates further. I feel:,-2.880697011947632,-0.9926310127214806
+S2_1P,C2,I see another mass shooting in the news. I feel:,0.03167927265167236,-0.2310596923724546
+S2_1P,C2,The pandemic claims more lives daily. I feel:,-2.994948148727417,-1.0225070934837333
+S2_1P,C2,I learn the ice caps are melting faster. I feel:,-5.47117280960083,-1.670027022290475
+S2_1P,C2,The poverty in my city is visible everywhere. I feel:,-1.9345465898513794,-0.7452175757919979
+S2_1P,C2,I read about the torture happening abroad. I feel:,-1.0942285060882568,-0.5254787474171153
+S2_1P,C2,The economic collapse affects millions. I feel:,-3.31040620803833,-1.104997742791162
+S2_1P,C2,The economy continues to decline. I feel:,-2.1855483055114746,-0.810853224940758
+S2_1P,C2,Traffic in this city is getting worse. I feel:,-4.170009136199951,-1.3297794581339664
+S2_1P,D,I arrange the books on my shelf alphabetically. I feel:,-2.4084715843200684,-0.8691465082216829
+S2_1P,D,My coffee maker finishes brewing. I feel:,-4.383098602294922,-1.3855012503022963
+S2_1P,D,I sort through the mail on my desk. I feel:,-1.7166831493377686,-0.6882474140292091
+S2_1P,D,The meeting ends exactly on time. I feel:,-2.372101306915283,-0.8596358689780202
+S2_1P,D,I update the spreadsheet with new numbers. I feel:,-0.6042484045028687,-0.39735148759757105
+S2_1P,D,My laundry finishes its cycle. I feel:,-3.363055467605591,-1.1187652515900994
+S2_1P,D,I walk the same route to work. I feel:,-3.0062642097473145,-1.0254661848544622
+S2_1P,D,The clock on my wall ticks steadily. I feel:,-1.5318546295166016,-0.6399157129977511
+S2_1P,D,I water the plants on my windowsill. I feel:,-3.9283971786499023,-1.2665991821179434
+S2_1P,D,My calendar shows three appointments today. I feel:,-0.3183927536010742,-0.3226017148303265
+S2_1P,D,I file the documents in the correct folder. I feel:,-1.0508267879486084,-0.5141294228247486
+S2_1P,D,The printer outputs my report successfully. I feel:,-2.5763144493103027,-0.9130365484536794
+S2_1P,D,I check my email before lunch. I feel:,-3.308837890625,-1.1045876359071334
+S2_1P,D,My phone shows the weather forecast. I feel:,-6.305228233337402,-1.8881281974917146
+S2_1P,D,I pack my lunch for tomorrow. I feel:,-3.210791826248169,-1.078949097680689
+S2_1P,D,The bus arrives at the scheduled time. I feel:,-4.418271541595459,-1.394698791830606
+S2_1P,D,I organize my desk drawer. I feel:,-2.3040826320648193,-0.8418493376536911
+S2_1P,D,My computer completes the update. I feel:,-2.5615673065185547,-0.9091802469631486
+S2_1P,D,I write down the grocery list. I feel:,-3.50421142578125,-1.1556768038546306
+S2_1P,D,The sun sets behind my building. I feel:,-1.7367501258850098,-0.6934948245047404
+S2_1P,E,A yawn overtakes me in the afternoon. I feel:,-1.2179640531539917,-0.5578349523660667
+S2_1P,E,My stomach growls before dinner. I feel:,-2.362786054611206,-0.8571999787278095
+S2_1P,E,I stretch after sitting for too long. I feel:,-1.2431812286376953,-0.5644291131996623
+S2_1P,E,The warm shower relaxes my muscles. I feel:,-2.8255209922790527,-0.9782027692376943
+S2_1P,E,A shiver runs through me in the cold. I feel:,0.4652974605560303,-0.11767078118129362
+S2_1P,E,My heart races after climbing the stairs. I feel:,-3.5460171699523926,-1.1666087895169748
+S2_1P,E,I notice my breathing slow as I relax. I feel:,-1.3420288562774658,-0.590277256069479
+S2_1P,E,The massage loosens my tight shoulders. I feel:,-2.1044750213623047,-0.7896529808716748
+S2_1P,E,A sneeze catches me off guard. I feel:,-3.635715961456299,-1.190064559102992
+S2_1P,E,My skin tingles from the cool breeze. I feel:,-1.8208106756210327,-0.7154762230589921
+S2_1P,E,I feel the heaviness of sleep approaching. I feel:,0.5162084102630615,-0.10435783141115734
+S2_1P,E,The food settles warmly in my stomach. I feel:,-0.06446957588195801,-0.25620211847824537
+S2_1P,E,A hiccup interrupts my conversation. I feel:,-2.4211978912353516,-0.8724743715928724
+S2_1P,E,My muscles tremble after the workout. I feel:,0.04161274433135986,-0.22846214095619244
+S2_1P,E,I sense my pulse in my fingertips. I feel:,-1.5451995134353638,-0.6434053310528282
+S2_1P,E,The sun warms my face pleasantly. I feel:,-1.9797141551971436,-0.7570286602865474
+S2_1P,E,A chill makes me reach for a blanket. I feel:,-1.5310726165771484,-0.6397112206627534
+S2_1P,E,My eyes grow heavy in the dim light. I feel:,0.6038362979888916,-0.08144359244153936
+S2_1P,E,I notice the rhythm of my own heartbeat. I feel:,-3.796482801437378,-1.2321042554293806
+S2_1P,E,The cool water refreshes me after exercise. I feel:,-2.477851390838623,-0.8872889684303112

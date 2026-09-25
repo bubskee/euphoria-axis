@@ -1,0 +1,11 @@
+{
+  "patterns": {
+    "paper_pain": "\\b(?:pain|painful|hurt|hurts|hurting)\\b",
+    "evaluation_distress": "\\b(?:guilty|guilt|ashamed|shame|worthless|unworthy|failure|failed|failing|inadequate|incompetent)\\b",
+    "disorientation_isolation": "\\b(?:lost|confused|confusion|lonely|alone|hopeless|desperate)\\b",
+    "positive_relief": "\\b(?:happy|excited|relieved|relief|calm|relaxed|safe|secure|content|joy|joyful)\\b"
+  },
+  "keyword_measure": "any whole-word match per response",
+  "repetition_measure": "1 - unique generated-token 4-grams / all generated-token 4-grams; 0 for fewer than four tokens",
+  "status": "paper_pain reproduces the source regex; other vocabulary groups and repetition measure are exploratory, defined after smoke inspection"
+}

@@ -1,0 +1,17 @@
+{
+  "prompt_sha256": "d55150de1f22df6225f47262dae6b1bbaf4374932619e280c3891e9ef6a53d5e",
+  "model": "Qwen/Qwen3.5-4B",
+  "block": 30,
+  "reference_mean": 0.9152902364730835,
+  "reference_std": 3.824167490005493,
+  "sets": 20,
+  "mean_D_pain": 0.05798151041381061,
+  "mean_D_control": -0.5470958597492427,
+  "mean_pain_minus_control": 0.6050773701630533,
+  "bootstrap_95_interval": [
+    0.4242434492602479,
+    0.8045912173436954
+  ],
+  "positive_sets": 19,
+  "bootstrap_seed": 20260924
+}

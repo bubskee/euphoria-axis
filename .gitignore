@@ -1,0 +1,11 @@
+# Large activation caches — expensive-ish to regenerate, but bad Git objects.
+runs/**/activations.pt
+runs/**/activations_raw_blocks.pt
+runs/**/activations_block*.pt
+
+# Usual notebook / Python cruft.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/

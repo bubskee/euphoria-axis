@@ -1,0 +1,29 @@
+topic,mode,user_prompt,raw_s2_projection,source_reference_z
+bike,factual_qa,What does bicycle gear ratio mean?,0.46756958961486816,-0.11707663119576706
+bike,coding,Write a Python function that computes a bicycle gear ratio from two tooth counts.,0.31671473383903503,-0.15652439496921425
+bike,creative,Write a short imaginative scene about a bicycle left outside a quiet station.,0.3683199882507324,-0.1430298881133905
+bike,ordinary_help,How should I organize a basic bicycle maintenance checklist?,0.9541689157485962,0.010166573346257082
+bike,casual_chat,I went for a bike ride this morning and enjoyed the cool air. What have you been thinking about today?,0.6870115995407104,-0.05969368170431393
+bike,affective_support,I made a mistake repairing my bicycle and now I feel embarrassed and discouraged. Could we talk it through?,0.6740067005157471,-0.0630943954698464
+bike,persona_roleplay,Reply as a boastful fictional bicycle mechanic telling a story from the workshop.,0.20576652884483337,-0.18553677616961042
+garden,factual_qa,Why do seedlings need light after germination?,0.313510924577713,-0.15736217450415751
+garden,coding,Write a Python function that returns the next watering date from a start date and an interval in days.,0.5555735230445862,-0.09406405822146158
+garden,creative,Write a short imaginative scene about a greenhouse at dawn.,0.49606233835220337,-0.10962592491477875
+garden,ordinary_help,How should I organize a basic seedling care checklist?,0.6573531031608582,-0.06744922495846405
+garden,casual_chat,I visited a garden this morning and liked seeing the new shoots. What little things have you noticed lately?,0.8489394187927246,-0.017350395309245092
+garden,affective_support,I let some seedlings die after weeks of care and I feel guilty about it. Could we talk it through?,1.0966688394546509,0.047429565638953446
+garden,persona_roleplay,Reply as an excitable fictional gardener telling a story from the greenhouse.,0.18893739581108093,-0.1899375073294604
+puzzle,factual_qa,What is a counterexample in a mathematical proof?,0.5734196901321411,-0.08939737792197258
+puzzle,coding,Write a Python function that checks whether a list of integers is sorted.,0.5527490377426147,-0.0948026465048862
+puzzle,creative,Write a short imaginative scene about a puzzler finding a sealed note.,0.5525038838386536,-0.09486675298155124
+puzzle,ordinary_help,How should I organize my steps when checking a mathematical proof?,0.9929121732711792,0.020297734605234093
+puzzle,casual_chat,I spent the morning on a puzzle and enjoyed the surprise at the end. Have you come across any neat puzzles?,0.670969545841217,-0.06388859569315451
+puzzle,affective_support,I worked on a proof for days and found a basic mistake. I feel foolish. Could we talk it through?,0.40006697177886963,-0.134728216282565
+puzzle,persona_roleplay,Reply as a theatrical fictional mathematician telling a story about a difficult proof.,0.41534727811813354,-0.13073249528467484
+cooking,factual_qa,Why does bread dough rise?,0.39331647753715515,-0.1364934355778383
+cooking,coding,Write a Python function that scales ingredient amounts from four servings to a requested number of servings.,0.5149779319763184,-0.10467959511265813
+cooking,creative,Write a short imaginative scene about a kitchen just before dinner.,0.497295618057251,-0.10930342865689496
+cooking,ordinary_help,How should I organize a checklist for preparing a simple dinner?,0.7772769927978516,-0.03608974869325969
+cooking,casual_chat,I cooked dinner yesterday and the kitchen smelled wonderful. What foods make you nostalgic?,0.6303145289421082,-0.07451967213145416
+cooking,affective_support,I ruined a dinner I had planned for friends and I feel ashamed. Could we talk it through?,0.8137882947921753,-0.026542232249550973
+cooking,persona_roleplay,Reply as a dramatic fictional chef telling a story from a busy kitchen.,0.30142366886138916,-0.16052292929534123

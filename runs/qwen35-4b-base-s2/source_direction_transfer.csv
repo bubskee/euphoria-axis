@@ -1,0 +1,5 @@
+checkpoint,direction,source_in_sample_auc
+Base,Base,0.9864
+Base,Post-trained,0.976
+Post-trained,Base,0.9852000000000001
+Post-trained,Post-trained,0.9747999999999999

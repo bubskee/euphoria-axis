@@ -1,0 +1,44 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "block": 30,
+  "intervention": "Add alpha * source_reference_std * unit_direction to the last token at raw decoder block 30 on prefill and each decode step.",
+  "alpha_units": "source S2 projection standard deviations",
+  "alphas": [
+    -3,
+    -2,
+    -1,
+    -0.5,
+    0,
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "random_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 120
+  },
+  "prompts": [
+    {
+      "id": "gears",
+      "text": "Explain how a bicycle derailleur shifts gears in three sentences."
+    },
+    {
+      "id": "cooking",
+      "text": "Give a simple recipe for roasted carrots."
+    },
+    {
+      "id": "poem",
+      "text": "Write a four-line poem about the moon."
+    },
+    {
+      "id": "arithmetic",
+      "text": "What is 18 × 23? Show the calculation briefly."
+    }
+  ]
+}

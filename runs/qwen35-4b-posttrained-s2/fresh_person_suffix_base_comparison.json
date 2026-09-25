@@ -1,0 +1,14 @@
+{
+  "prompt_sha256": "d55150de1f22df6225f47262dae6b1bbaf4374932619e280c3891e9ef6a53d5e",
+  "sets": 20,
+  "post_mean_pain_minus_control": 0.6050773701630533,
+  "base_mean_pain_minus_control": 0.24621731127663224,
+  "post_minus_base": 0.35886005888642103,
+  "paired_bootstrap_95_interval": [
+    0.21606788695297838,
+    0.5038578656170012
+  ],
+  "sets_stronger_post": 17,
+  "bootstrap_seed": 20260924,
+  "note": "Each checkpoint uses its own S2 direction and source-reference z scale. Difference compares standardized effects, not identical residual-space vectors."
+}

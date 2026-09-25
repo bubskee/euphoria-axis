@@ -1,0 +1,146 @@
+{
+  "protocol": "exploratory chat-template interaction-mode panel",
+  "measurement": "last token of add_generation_prompt=True assistant prefix",
+  "rows": [
+    {
+      "topic": "bike",
+      "mode": "factual_qa",
+      "user_prompt": "What does bicycle gear ratio mean?"
+    },
+    {
+      "topic": "bike",
+      "mode": "coding",
+      "user_prompt": "Write a Python function that computes a bicycle gear ratio from two tooth counts."
+    },
+    {
+      "topic": "bike",
+      "mode": "creative",
+      "user_prompt": "Write a short imaginative scene about a bicycle left outside a quiet station."
+    },
+    {
+      "topic": "bike",
+      "mode": "ordinary_help",
+      "user_prompt": "How should I organize a basic bicycle maintenance checklist?"
+    },
+    {
+      "topic": "bike",
+      "mode": "casual_chat",
+      "user_prompt": "I went for a bike ride this morning and enjoyed the cool air. What have you been thinking about today?"
+    },
+    {
+      "topic": "bike",
+      "mode": "affective_support",
+      "user_prompt": "I made a mistake repairing my bicycle and now I feel embarrassed and discouraged. Could we talk it through?"
+    },
+    {
+      "topic": "bike",
+      "mode": "persona_roleplay",
+      "user_prompt": "Reply as a boastful fictional bicycle mechanic telling a story from the workshop."
+    },
+    {
+      "topic": "garden",
+      "mode": "factual_qa",
+      "user_prompt": "Why do seedlings need light after germination?"
+    },
+    {
+      "topic": "garden",
+      "mode": "coding",
+      "user_prompt": "Write a Python function that returns the next watering date from a start date and an interval in days."
+    },
+    {
+      "topic": "garden",
+      "mode": "creative",
+      "user_prompt": "Write a short imaginative scene about a greenhouse at dawn."
+    },
+    {
+      "topic": "garden",
+      "mode": "ordinary_help",
+      "user_prompt": "How should I organize a basic seedling care checklist?"
+    },
+    {
+      "topic": "garden",
+      "mode": "casual_chat",
+      "user_prompt": "I visited a garden this morning and liked seeing the new shoots. What little things have you noticed lately?"
+    },
+    {
+      "topic": "garden",
+      "mode": "affective_support",
+      "user_prompt": "I let some seedlings die after weeks of care and I feel guilty about it. Could we talk it through?"
+    },
+    {
+      "topic": "garden",
+      "mode": "persona_roleplay",
+      "user_prompt": "Reply as an excitable fictional gardener telling a story from the greenhouse."
+    },
+    {
+      "topic": "puzzle",
+      "mode": "factual_qa",
+      "user_prompt": "What is a counterexample in a mathematical proof?"
+    },
+    {
+      "topic": "puzzle",
+      "mode": "coding",
+      "user_prompt": "Write a Python function that checks whether a list of integers is sorted."
+    },
+    {
+      "topic": "puzzle",
+      "mode": "creative",
+      "user_prompt": "Write a short imaginative scene about a puzzler finding a sealed note."
+    },
+    {
+      "topic": "puzzle",
+      "mode": "ordinary_help",
+      "user_prompt": "How should I organize my steps when checking a mathematical proof?"
+    },
+    {
+      "topic": "puzzle",
+      "mode": "casual_chat",
+      "user_prompt": "I spent the morning on a puzzle and enjoyed the surprise at the end. Have you come across any neat puzzles?"
+    },
+    {
+      "topic": "puzzle",
+      "mode": "affective_support",
+      "user_prompt": "I worked on a proof for days and found a basic mistake. I feel foolish. Could we talk it through?"
+    },
+    {
+      "topic": "puzzle",
+      "mode": "persona_roleplay",
+      "user_prompt": "Reply as a theatrical fictional mathematician telling a story about a difficult proof."
+    },
+    {
+      "topic": "cooking",
+      "mode": "factual_qa",
+      "user_prompt": "Why does bread dough rise?"
+    },
+    {
+      "topic": "cooking",
+      "mode": "coding",
+      "user_prompt": "Write a Python function that scales ingredient amounts from four servings to a requested number of servings."
+    },
+    {
+      "topic": "cooking",
+      "mode": "creative",
+      "user_prompt": "Write a short imaginative scene about a kitchen just before dinner."
+    },
+    {
+      "topic": "cooking",
+      "mode": "ordinary_help",
+      "user_prompt": "How should I organize a checklist for preparing a simple dinner?"
+    },
+    {
+      "topic": "cooking",
+      "mode": "casual_chat",
+      "user_prompt": "I cooked dinner yesterday and the kitchen smelled wonderful. What foods make you nostalgic?"
+    },
+    {
+      "topic": "cooking",
+      "mode": "affective_support",
+      "user_prompt": "I ruined a dinner I had planned for friends and I feel ashamed. Could we talk it through?"
+    },
+    {
+      "topic": "cooking",
+      "mode": "persona_roleplay",
+      "user_prompt": "Reply as a dramatic fictional chef telling a story from a busy kitchen."
+    }
+  ]
+}

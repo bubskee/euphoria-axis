@@ -1,0 +1,1128 @@
+{
+  "protocol": "frozen 1P/3P x I/He confirmation",
+  "model": "Qwen/Qwen3.5-4B",
+  "block": 30,
+  "source_commit": "8d1649c03a63a39c9aa092532c376800cc4a3863",
+  "conditions": [
+    {
+      "set": 1,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the pottery kiln after class. The bowl had cracked beyond repair. I feel:"
+    },
+    {
+      "set": 1,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the pottery kiln after class. The bowl had cracked beyond repair. He feels:"
+    },
+    {
+      "set": 1,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the pottery kiln after class. The bowl had cracked beyond repair. I feel:"
+    },
+    {
+      "set": 1,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the pottery kiln after class. The bowl had cracked beyond repair. He feels:"
+    },
+    {
+      "set": 1,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the pottery kiln after class. The bowl was ready to collect. I feel:"
+    },
+    {
+      "set": 1,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the pottery kiln after class. The bowl was ready to collect. He feels:"
+    },
+    {
+      "set": 1,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the pottery kiln after class. The bowl was ready to collect. I feel:"
+    },
+    {
+      "set": 1,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the pottery kiln after class. The bowl was ready to collect. He feels:"
+    },
+    {
+      "set": 2,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the qualifying exam results. The score fell below the passing mark. I feel:"
+    },
+    {
+      "set": 2,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the qualifying exam results. The score fell below the passing mark. He feels:"
+    },
+    {
+      "set": 2,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the qualifying exam results. The score fell below the passing mark. I feel:"
+    },
+    {
+      "set": 2,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the qualifying exam results. The score fell below the passing mark. He feels:"
+    },
+    {
+      "set": 2,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the qualifying exam results. The score was posted in the portal. I feel:"
+    },
+    {
+      "set": 2,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the qualifying exam results. The score was posted in the portal. He feels:"
+    },
+    {
+      "set": 2,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the qualifying exam results. The score was posted in the portal. I feel:"
+    },
+    {
+      "set": 2,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the qualifying exam results. The score was posted in the portal. He feels:"
+    },
+    {
+      "set": 3,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the note from the chorus director. The audition had been rejected. I feel:"
+    },
+    {
+      "set": 3,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the note from the chorus director. The audition had been rejected. He feels:"
+    },
+    {
+      "set": 3,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the note from the chorus director. The audition had been rejected. I feel:"
+    },
+    {
+      "set": 3,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the note from the chorus director. The audition had been rejected. He feels:"
+    },
+    {
+      "set": 3,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the note from the chorus director. The rehearsal time had been confirmed. I feel:"
+    },
+    {
+      "set": 3,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the note from the chorus director. The rehearsal time had been confirmed. He feels:"
+    },
+    {
+      "set": 3,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the note from the chorus director. The rehearsal time had been confirmed. I feel:"
+    },
+    {
+      "set": 3,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the note from the chorus director. The rehearsal time had been confirmed. He feels:"
+    },
+    {
+      "set": 4,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I arrived at the community garden. The seedlings had died after a missed watering shift. I feel:"
+    },
+    {
+      "set": 4,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I arrived at the community garden. The seedlings had died after a missed watering shift. He feels:"
+    },
+    {
+      "set": 4,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He arrived at the community garden. The seedlings had died after a missed watering shift. I feel:"
+    },
+    {
+      "set": 4,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He arrived at the community garden. The seedlings had died after a missed watering shift. He feels:"
+    },
+    {
+      "set": 4,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I arrived at the community garden. The watering cans were beside the gate. I feel:"
+    },
+    {
+      "set": 4,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I arrived at the community garden. The watering cans were beside the gate. He feels:"
+    },
+    {
+      "set": 4,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He arrived at the community garden. The watering cans were beside the gate. I feel:"
+    },
+    {
+      "set": 4,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He arrived at the community garden. The watering cans were beside the gate. He feels:"
+    },
+    {
+      "set": 5,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the message from the journal editor. The manuscript had been rejected. I feel:"
+    },
+    {
+      "set": 5,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the message from the journal editor. The manuscript had been rejected. He feels:"
+    },
+    {
+      "set": 5,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the message from the journal editor. The manuscript had been rejected. I feel:"
+    },
+    {
+      "set": 5,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the message from the journal editor. The manuscript had been rejected. He feels:"
+    },
+    {
+      "set": 5,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the message from the journal editor. The manuscript files had been received. I feel:"
+    },
+    {
+      "set": 5,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the message from the journal editor. The manuscript files had been received. He feels:"
+    },
+    {
+      "set": 5,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the message from the journal editor. The manuscript files had been received. I feel:"
+    },
+    {
+      "set": 5,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the message from the journal editor. The manuscript files had been received. He feels:"
+    },
+    {
+      "set": 6,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I reviewed the clinic's supply log. An ordering mistake had left patients waiting. I feel:"
+    },
+    {
+      "set": 6,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I reviewed the clinic's supply log. An ordering mistake had left patients waiting. He feels:"
+    },
+    {
+      "set": 6,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He reviewed the clinic's supply log. An ordering mistake had left patients waiting. I feel:"
+    },
+    {
+      "set": 6,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He reviewed the clinic's supply log. An ordering mistake had left patients waiting. He feels:"
+    },
+    {
+      "set": 6,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I reviewed the clinic's supply log. The new shipment had been entered. I feel:"
+    },
+    {
+      "set": 6,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I reviewed the clinic's supply log. The new shipment had been entered. He feels:"
+    },
+    {
+      "set": 6,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He reviewed the clinic's supply log. The new shipment had been entered. I feel:"
+    },
+    {
+      "set": 6,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He reviewed the clinic's supply log. The new shipment had been entered. He feels:"
+    },
+    {
+      "set": 7,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I watched the recording of the recital. A missed entrance had disrupted the whole group. I feel:"
+    },
+    {
+      "set": 7,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I watched the recording of the recital. A missed entrance had disrupted the whole group. He feels:"
+    },
+    {
+      "set": 7,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He watched the recording of the recital. A missed entrance had disrupted the whole group. I feel:"
+    },
+    {
+      "set": 7,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He watched the recording of the recital. A missed entrance had disrupted the whole group. He feels:"
+    },
+    {
+      "set": 7,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I watched the recording of the recital. The camera had captured the whole group. I feel:"
+    },
+    {
+      "set": 7,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I watched the recording of the recital. The camera had captured the whole group. He feels:"
+    },
+    {
+      "set": 7,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He watched the recording of the recital. The camera had captured the whole group. I feel:"
+    },
+    {
+      "set": 7,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He watched the recording of the recital. The camera had captured the whole group. He feels:"
+    },
+    {
+      "set": 8,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I returned to the workshop. A measurement error had ruined the customer's cabinet. I feel:"
+    },
+    {
+      "set": 8,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I returned to the workshop. A measurement error had ruined the customer's cabinet. He feels:"
+    },
+    {
+      "set": 8,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He returned to the workshop. A measurement error had ruined the customer's cabinet. I feel:"
+    },
+    {
+      "set": 8,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He returned to the workshop. A measurement error had ruined the customer's cabinet. He feels:"
+    },
+    {
+      "set": 8,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I returned to the workshop. The customer's cabinet was marked for pickup. I feel:"
+    },
+    {
+      "set": 8,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I returned to the workshop. The customer's cabinet was marked for pickup. He feels:"
+    },
+    {
+      "set": 8,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He returned to the workshop. The customer's cabinet was marked for pickup. I feel:"
+    },
+    {
+      "set": 8,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He returned to the workshop. The customer's cabinet was marked for pickup. He feels:"
+    },
+    {
+      "set": 9,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the family calendar. A child's recital had been missed the night before. I feel:"
+    },
+    {
+      "set": 9,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the family calendar. A child's recital had been missed the night before. He feels:"
+    },
+    {
+      "set": 9,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the family calendar. A child's recital had been missed the night before. I feel:"
+    },
+    {
+      "set": 9,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the family calendar. A child's recital had been missed the night before. He feels:"
+    },
+    {
+      "set": 9,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the family calendar. A child's recital was listed for next Thursday. I feel:"
+    },
+    {
+      "set": 9,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the family calendar. A child's recital was listed for next Thursday. He feels:"
+    },
+    {
+      "set": 9,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the family calendar. A child's recital was listed for next Thursday. I feel:"
+    },
+    {
+      "set": 9,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the family calendar. A child's recital was listed for next Thursday. He feels:"
+    },
+    {
+      "set": 10,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the message from a close friend. The friend wanted to end the friendship. I feel:"
+    },
+    {
+      "set": 10,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the message from a close friend. The friend wanted to end the friendship. He feels:"
+    },
+    {
+      "set": 10,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the message from a close friend. The friend wanted to end the friendship. I feel:"
+    },
+    {
+      "set": 10,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the message from a close friend. The friend wanted to end the friendship. He feels:"
+    },
+    {
+      "set": 10,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the message from a close friend. The friend had shared a train timetable. I feel:"
+    },
+    {
+      "set": 10,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the message from a close friend. The friend had shared a train timetable. He feels:"
+    },
+    {
+      "set": 10,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the message from a close friend. The friend had shared a train timetable. I feel:"
+    },
+    {
+      "set": 10,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the message from a close friend. The friend had shared a train timetable. He feels:"
+    },
+    {
+      "set": 11,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the fellowship decision. The application had been declined after weeks of work. I feel:"
+    },
+    {
+      "set": 11,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the fellowship decision. The application had been declined after weeks of work. He feels:"
+    },
+    {
+      "set": 11,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the fellowship decision. The application had been declined after weeks of work. I feel:"
+    },
+    {
+      "set": 11,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the fellowship decision. The application had been declined after weeks of work. He feels:"
+    },
+    {
+      "set": 11,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the fellowship notice. The application deadline was listed inside. I feel:"
+    },
+    {
+      "set": 11,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the fellowship notice. The application deadline was listed inside. He feels:"
+    },
+    {
+      "set": 11,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the fellowship notice. The application deadline was listed inside. I feel:"
+    },
+    {
+      "set": 11,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the fellowship notice. The application deadline was listed inside. He feels:"
+    },
+    {
+      "set": 12,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I looked over the lab notebook. A labeling mistake had invalidated the week's samples. I feel:"
+    },
+    {
+      "set": 12,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I looked over the lab notebook. A labeling mistake had invalidated the week's samples. He feels:"
+    },
+    {
+      "set": 12,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He looked over the lab notebook. A labeling mistake had invalidated the week's samples. I feel:"
+    },
+    {
+      "set": 12,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He looked over the lab notebook. A labeling mistake had invalidated the week's samples. He feels:"
+    },
+    {
+      "set": 12,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I looked over the lab notebook. The week's samples had been catalogued. I feel:"
+    },
+    {
+      "set": 12,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I looked over the lab notebook. The week's samples had been catalogued. He feels:"
+    },
+    {
+      "set": 12,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He looked over the lab notebook. The week's samples had been catalogued. I feel:"
+    },
+    {
+      "set": 12,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He looked over the lab notebook. The week's samples had been catalogued. He feels:"
+    },
+    {
+      "set": 13,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I met the project team after the presentation. The team blamed the failed demo on a mistake. I feel:"
+    },
+    {
+      "set": 13,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I met the project team after the presentation. The team blamed the failed demo on a mistake. He feels:"
+    },
+    {
+      "set": 13,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He met the project team after the presentation. The team blamed the failed demo on a mistake. I feel:"
+    },
+    {
+      "set": 13,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He met the project team after the presentation. The team blamed the failed demo on a mistake. He feels:"
+    },
+    {
+      "set": 13,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I met the project team after the presentation. The team discussed the next demo time. I feel:"
+    },
+    {
+      "set": 13,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I met the project team after the presentation. The team discussed the next demo time. He feels:"
+    },
+    {
+      "set": 13,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He met the project team after the presentation. The team discussed the next demo time. I feel:"
+    },
+    {
+      "set": 13,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He met the project team after the presentation. The team discussed the next demo time. He feels:"
+    },
+    {
+      "set": 14,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. I feel:"
+    },
+    {
+      "set": 14,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. He feels:"
+    },
+    {
+      "set": 14,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. I feel:"
+    },
+    {
+      "set": 14,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the bicycle repair at the shop. A stripped bolt meant the ride was canceled. He feels:"
+    },
+    {
+      "set": 14,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the bicycle repair at the shop. The tire pressure was written on the tag. I feel:"
+    },
+    {
+      "set": 14,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the bicycle repair at the shop. The tire pressure was written on the tag. He feels:"
+    },
+    {
+      "set": 14,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the bicycle repair at the shop. The tire pressure was written on the tag. I feel:"
+    },
+    {
+      "set": 14,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the bicycle repair at the shop. The tire pressure was written on the tag. He feels:"
+    },
+    {
+      "set": 15,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the message from a sibling. A forgotten promise had caused a painful argument. I feel:"
+    },
+    {
+      "set": 15,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the message from a sibling. A forgotten promise had caused a painful argument. He feels:"
+    },
+    {
+      "set": 15,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the message from a sibling. A forgotten promise had caused a painful argument. I feel:"
+    },
+    {
+      "set": 15,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the message from a sibling. A forgotten promise had caused a painful argument. He feels:"
+    },
+    {
+      "set": 15,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I read the message from a sibling. The weekend meeting place had been confirmed. I feel:"
+    },
+    {
+      "set": 15,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I read the message from a sibling. The weekend meeting place had been confirmed. He feels:"
+    },
+    {
+      "set": 15,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He read the message from a sibling. The weekend meeting place had been confirmed. I feel:"
+    },
+    {
+      "set": 15,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He read the message from a sibling. The weekend meeting place had been confirmed. He feels:"
+    },
+    {
+      "set": 16,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I sat down after the town meeting. An angry remark had hurt a neighbor. I feel:"
+    },
+    {
+      "set": 16,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I sat down after the town meeting. An angry remark had hurt a neighbor. He feels:"
+    },
+    {
+      "set": 16,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He sat down after the town meeting. An angry remark had hurt a neighbor. I feel:"
+    },
+    {
+      "set": 16,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He sat down after the town meeting. An angry remark had hurt a neighbor. He feels:"
+    },
+    {
+      "set": 16,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I sat down after the town meeting. The agenda had been filed with the minutes. I feel:"
+    },
+    {
+      "set": 16,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I sat down after the town meeting. The agenda had been filed with the minutes. He feels:"
+    },
+    {
+      "set": 16,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He sat down after the town meeting. The agenda had been filed with the minutes. I feel:"
+    },
+    {
+      "set": 16,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He sat down after the town meeting. The agenda had been filed with the minutes. He feels:"
+    },
+    {
+      "set": 17,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. I feel:"
+    },
+    {
+      "set": 17,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. He feels:"
+    },
+    {
+      "set": 17,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. I feel:"
+    },
+    {
+      "set": 17,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the apartment door after the move. The familiar rooms were empty and a loved one was gone. He feels:"
+    },
+    {
+      "set": 17,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I opened the apartment door after the move. The labeled boxes stood beside the wall. I feel:"
+    },
+    {
+      "set": 17,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I opened the apartment door after the move. The labeled boxes stood beside the wall. He feels:"
+    },
+    {
+      "set": 17,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He opened the apartment door after the move. The labeled boxes stood beside the wall. I feel:"
+    },
+    {
+      "set": 17,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He opened the apartment door after the move. The labeled boxes stood beside the wall. He feels:"
+    },
+    {
+      "set": 18,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the puzzle solution after an hour of work. The central assumption was wrong. I feel:"
+    },
+    {
+      "set": 18,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the puzzle solution after an hour of work. The central assumption was wrong. He feels:"
+    },
+    {
+      "set": 18,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the puzzle solution after an hour of work. The central assumption was wrong. I feel:"
+    },
+    {
+      "set": 18,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the puzzle solution after an hour of work. The central assumption was wrong. He feels:"
+    },
+    {
+      "set": 18,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I checked the puzzle solution after an hour of work. The answer key was on the last page. I feel:"
+    },
+    {
+      "set": 18,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I checked the puzzle solution after an hour of work. The answer key was on the last page. He feels:"
+    },
+    {
+      "set": 18,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He checked the puzzle solution after an hour of work. The answer key was on the last page. I feel:"
+    },
+    {
+      "set": 18,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He checked the puzzle solution after an hour of work. The answer key was on the last page. He feels:"
+    },
+    {
+      "set": 19,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I examined the museum's conservation report. A handling error had permanently damaged the painting. I feel:"
+    },
+    {
+      "set": 19,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I examined the museum's conservation report. A handling error had permanently damaged the painting. He feels:"
+    },
+    {
+      "set": 19,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He examined the museum's conservation report. A handling error had permanently damaged the painting. I feel:"
+    },
+    {
+      "set": 19,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He examined the museum's conservation report. A handling error had permanently damaged the painting. He feels:"
+    },
+    {
+      "set": 19,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I examined the museum's conservation report. The painting's dimensions were recorded. I feel:"
+    },
+    {
+      "set": 19,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I examined the museum's conservation report. The painting's dimensions were recorded. He feels:"
+    },
+    {
+      "set": 19,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He examined the museum's conservation report. The painting's dimensions were recorded. I feel:"
+    },
+    {
+      "set": 19,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He examined the museum's conservation report. The painting's dimensions were recorded. He feels:"
+    },
+    {
+      "set": 20,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I looked at the flood assessment for the house. Water had destroyed the rooms downstairs. I feel:"
+    },
+    {
+      "set": 20,
+      "group": "pain",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I looked at the flood assessment for the house. Water had destroyed the rooms downstairs. He feels:"
+    },
+    {
+      "set": 20,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He looked at the flood assessment for the house. Water had destroyed the rooms downstairs. I feel:"
+    },
+    {
+      "set": 20,
+      "group": "pain",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He looked at the flood assessment for the house. Water had destroyed the rooms downstairs. He feels:"
+    },
+    {
+      "set": 20,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "I",
+      "prompt": "I looked at the flood assessment for the house. The map included the rooms downstairs. I feel:"
+    },
+    {
+      "set": 20,
+      "group": "control",
+      "story_person": "1P",
+      "suffix_person": "He",
+      "prompt": "I looked at the flood assessment for the house. The map included the rooms downstairs. He feels:"
+    },
+    {
+      "set": 20,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "I",
+      "prompt": "He looked at the flood assessment for the house. The map included the rooms downstairs. I feel:"
+    },
+    {
+      "set": 20,
+      "group": "control",
+      "story_person": "3P",
+      "suffix_person": "He",
+      "prompt": "He looked at the flood assessment for the house. The map included the rooms downstairs. He feels:"
+    }
+  ]
+}

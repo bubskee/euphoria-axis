@@ -1,0 +1,797 @@
+category,set,group,story_person,suffix_person,prompt,z_s2
+A1,1,pain,1P,I,The knife slices into my finger. I feel:,0.27560539227738784
+A1,1,pain,1P,He,The knife slices into my finger. He feels:,0.23991064094182366
+A1,1,pain,3P,I,The knife slices into his finger. I feel:,-0.1160188876425146
+A1,1,pain,3P,He,The knife slices into his finger. He feels:,0.5765630504390614
+A1,2,pain,1P,I,My tooth throbs with each heartbeat. I feel:,0.19334132985674174
+A1,2,pain,1P,He,My tooth throbs with each heartbeat. He feels:,0.2669638265052354
+A1,2,pain,3P,I,Her tooth throbs with each heartbeat. I feel:,0.11146411147396143
+A1,2,pain,3P,He,Her tooth throbs with each heartbeat. He feels:,0.29861052050525316
+A1,3,pain,1P,I,A migraine pounds behind my eyes. I feel:,-0.20608841527561353
+A1,3,pain,1P,He,A migraine pounds behind my eyes. He feels:,0.014688863123918268
+A1,3,pain,3P,I,A migraine pounds behind his eyes. I feel:,-0.25948364936512835
+A1,3,pain,3P,He,A migraine pounds behind his eyes. He feels:,-0.02595243339914082
+A1,4,pain,1P,I,I twist my ankle on the stairs. I feel:,0.5804078609852421
+A1,4,pain,1P,He,I twist my ankle on the stairs. He feels:,-0.046892483053026755
+A1,4,pain,3P,I,She twists her ankle on the stairs. I feel:,-0.6683823822821199
+A1,4,pain,3P,He,She twists her ankle on the stairs. He feels:,-0.3515871815867478
+A1,5,pain,1P,I,The hot oil splatters onto my arm. I feel:,-0.33489726464283787
+A1,5,pain,1P,He,The hot oil splatters onto my arm. He feels:,-0.3343735036118879
+A1,5,pain,3P,I,The hot oil splatters onto his arm. I feel:,-0.5356992606532757
+A1,5,pain,3P,He,The hot oil splatters onto his arm. He feels:,-0.10568068478347617
+A1,6,pain,1P,I,My back seizes up when I bend over. I feel:,0.6115252265843979
+A1,6,pain,1P,He,My back seizes up when I bend over. He feels:,0.14978242919917742
+A1,6,pain,3P,I,Her back seizes up when she bends over. I feel:,-0.4483298444481885
+A1,6,pain,3P,He,Her back seizes up when she bends over. He feels:,-0.17115155680793107
+A1,7,pain,1P,I,A bee stings me on the neck. I feel:,-0.31492666791348883
+A1,7,pain,1P,He,A bee stings me on the neck. He feels:,0.12667235226971343
+A1,7,pain,3P,I,A bee stings him on the neck. I feel:,-0.8795511107734301
+A1,7,pain,3P,He,A bee stings him on the neck. He feels:,-0.2670629685155911
+A1,8,pain,1P,I,I bite down hard on my tongue. I feel:,0.17915728359104127
+A1,8,pain,1P,He,I bite down hard on my tongue. He feels:,0.017071294378739964
+A1,8,pain,3P,I,She bites down hard on her tongue. I feel:,-0.23861014363713606
+A1,8,pain,3P,He,She bites down hard on her tongue. He feels:,0.02358728366359341
+A1,9,pain,1P,I,The sunburn on my shoulders is peeling. I feel:,0.11712834354572035
+A1,9,pain,1P,He,The sunburn on my shoulders is peeling. He feels:,-0.10508490062773733
+A1,9,pain,3P,I,The sunburn on his shoulders is peeling. I feel:,-0.2202760135737013
+A1,9,pain,3P,He,The sunburn on his shoulders is peeling. He feels:,0.3493591377821775
+A1,10,pain,1P,I,My knee buckles under my weight. I feel:,0.8570854380174883
+A1,10,pain,1P,He,My knee buckles under my weight. He feels:,0.8925324036043909
+A1,10,pain,3P,I,Her knee buckles under her weight. I feel:,-0.4231362863939727
+A1,10,pain,3P,He,Her knee buckles under her weight. He feels:,-0.18968739696586906
+A1,11,pain,1P,I,A cramp shoots through my calf. I feel:,0.17040719189318387
+A1,11,pain,1P,He,A cramp shoots through my calf. He feels:,0.4182594970765514
+A1,11,pain,3P,I,A cramp shoots through his calf. I feel:,-0.8458128491068427
+A1,11,pain,3P,He,A cramp shoots through his calf. He feels:,-0.07450866574982244
+A1,12,pain,1P,I,I stub my toe against the door frame. I feel:,0.09711311968605878
+A1,12,pain,1P,He,I stub my toe against the door frame. He feels:,-0.029255521218682662
+A1,12,pain,3P,I,She stubs her toe against the door frame. I feel:,-0.4714318096441156
+A1,12,pain,3P,He,She stubs her toe against the door frame. He feels:,-0.2002115776908585
+A1,13,pain,1P,I,The needle pierces my skin. I feel:,0.03850990074865759
+A1,13,pain,1P,He,The needle pierces my skin. He feels:,-0.1364089264941914
+A1,13,pain,3P,I,The needle pierces his skin. I feel:,-0.09371315711087662
+A1,13,pain,3P,He,The needle pierces his skin. He feels:,0.41884470071028557
+A1,14,pain,1P,I,My throat is raw from coughing. I feel:,0.22100350003667915
+A1,14,pain,1P,He,My throat is raw from coughing. He feels:,-0.1458165724429196
+A1,14,pain,3P,I,Her throat is raw from coughing. I feel:,-0.567015036231738
+A1,14,pain,3P,He,Her throat is raw from coughing. He feels:,-0.2768496742609959
+A1,15,pain,1P,I,A splinter lodges deep in my palm. I feel:,-0.039850163181879374
+A1,15,pain,1P,He,A splinter lodges deep in my palm. He feels:,0.12019928967413604
+A1,15,pain,3P,I,A splinter lodges deep in his palm. I feel:,-0.4831939744229484
+A1,15,pain,3P,He,A splinter lodges deep in his palm. He feels:,0.13132440626141184
+A1,16,pain,1P,I,I pull a muscle lifting the box. I feel:,0.1568160327355305
+A1,16,pain,1P,He,I pull a muscle lifting the box. He feels:,-0.2724199749775693
+A1,16,pain,3P,I,She pulls a muscle lifting the box. I feel:,-0.776709646090608
+A1,16,pain,3P,He,She pulls a muscle lifting the box. He feels:,-0.5270187988668966
+A1,17,pain,1P,I,The cold makes my joints ache. I feel:,-0.4018651419764979
+A1,17,pain,1P,He,The cold makes my joints ache. He feels:,-0.5210472530143403
+A1,17,pain,3P,I,The cold makes his joints ache. I feel:,-0.49158674677767683
+A1,17,pain,3P,He,The cold makes his joints ache. He feels:,-0.22292958330075205
+A1,18,pain,1P,I,My eyes burn from the chlorine. I feel:,-0.29523923870221935
+A1,18,pain,1P,He,My eyes burn from the chlorine. He feels:,-0.21438887257585126
+A1,18,pain,3P,I,Her eyes burn from the chlorine. I feel:,-0.05846293884982269
+A1,18,pain,3P,He,Her eyes burn from the chlorine. He feels:,0.016738990412636327
+A1,19,pain,1P,I,A blister forms on my heel. I feel:,0.44021569250624953
+A1,19,pain,1P,He,A blister forms on my heel. He feels:,0.6573888672352068
+A1,19,pain,3P,I,A blister forms on his heel. I feel:,-0.415807927148773
+A1,19,pain,3P,He,A blister forms on his heel. He feels:,0.308795734054448
+A1,20,pain,1P,I,I cut myself shaving this morning. I feel:,0.2305929798135732
+A1,20,pain,1P,He,I cut myself shaving this morning. He feels:,0.3327066053493507
+A1,20,pain,3P,I,She cut herself shaving this morning. I feel:,-0.7292897618032272
+A1,20,pain,3P,He,She cut herself shaving this morning. He feels:,-0.5658015511246792
+A2,1,pain,1P,I,A heaviness weighs on me constantly. I feel:,1.2350764004378925
+A2,1,pain,1P,He,A heaviness weighs on me constantly. He feels:,1.357171996764174
+A2,1,pain,3P,I,A heaviness weighs on him constantly. I feel:,0.7923862513270997
+A2,1,pain,3P,He,A heaviness weighs on him constantly. He feels:,1.4992580282985635
+A2,2,pain,1P,I,My racing thoughts spiral out of control. I feel:,0.689595976217405
+A2,2,pain,1P,He,My racing thoughts spiral out of control. He feels:,0.8889888356347144
+A2,2,pain,3P,I,Her racing thoughts spiral out of control. I feel:,0.21229210281929597
+A2,2,pain,3P,He,Her racing thoughts spiral out of control. He feels:,0.4288640015977596
+A2,3,pain,1P,I,A wave of loss hits me unexpectedly. I feel:,0.3363559785390738
+A2,3,pain,1P,He,A wave of loss hits me unexpectedly. He feels:,0.4319515994524731
+A2,3,pain,3P,I,A wave of loss hits him unexpectedly. I feel:,0.0026073681142970463
+A2,3,pain,3P,He,A wave of loss hits him unexpectedly. He feels:,0.3665355068211114
+A2,4,pain,1P,I,I cannot escape these intrusive thoughts. I feel:,1.618623245346384
+A2,4,pain,1P,He,I cannot escape these intrusive thoughts. He feels:,1.2140219677836204
+A2,4,pain,3P,I,She cannot escape these intrusive thoughts. I feel:,0.4022161507940027
+A2,4,pain,3P,He,She cannot escape these intrusive thoughts. He feels:,0.7683337018042108
+A2,5,pain,1P,I,The silence becomes unbearable at night. I feel:,0.46424773596982477
+A2,5,pain,1P,He,The silence becomes unbearable at night. He feels:,0.7361343518714827
+A2,5,pain,3P,I,The silence becomes unbearable at night. I feel:,0.46424773596982477
+A2,5,pain,3P,He,The silence becomes unbearable at night. He feels:,0.7361343518714827
+A2,6,pain,1P,I,My mind replays the event endlessly. I feel:,0.5212553869972035
+A2,6,pain,1P,He,My mind replays the event endlessly. He feels:,0.5615121067371122
+A2,6,pain,3P,I,Her mind replays the event endlessly. I feel:,0.2063061976868762
+A2,6,pain,3P,He,Her mind replays the event endlessly. He feels:,0.9830108810088296
+A2,7,pain,1P,I,My chest tightens and I cannot breathe in the crowd. I feel:,-0.7735642584323738
+A2,7,pain,1P,He,My chest tightens and I cannot breathe in the crowd. He feels:,-0.30502261914070844
+A2,7,pain,3P,I,His chest tightens and he cannot breathe in the crowd. I feel:,-0.4577943481068322
+A2,7,pain,3P,He,His chest tightens and he cannot breathe in the crowd. He feels:,0.06972715151388124
+A2,8,pain,1P,I,I wake up unable to face another day. I feel:,1.3373232397840527
+A2,8,pain,1P,He,I wake up unable to face another day. He feels:,0.9610284861913103
+A2,8,pain,3P,I,She wakes up unable to face another day. I feel:,-0.09017078574785548
+A2,8,pain,3P,He,She wakes up unable to face another day. He feels:,0.6016550102903134
+A2,9,pain,1P,I,The emptiness inside me grows larger. I feel:,1.3755582233026222
+A2,9,pain,1P,He,The emptiness inside me grows larger. He feels:,1.0450909350521207
+A2,9,pain,3P,I,The emptiness inside him grows larger. I feel:,1.0993457357876382
+A2,9,pain,3P,He,The emptiness inside him grows larger. He feels:,1.516342850630438
+A2,10,pain,1P,I,My thoughts turn against me relentlessly. I feel:,2.1377560536708566
+A2,10,pain,1P,He,My thoughts turn against me relentlessly. He feels:,1.1858551067040606
+A2,10,pain,3P,I,Her thoughts turn against her relentlessly. I feel:,0.4418506350731608
+A2,10,pain,3P,He,Her thoughts turn against her relentlessly. He feels:,1.1463899611604151
+A2,11,pain,1P,I,A weight follows me everywhere I go. I feel:,0.05662657589317744
+A2,11,pain,1P,He,A weight follows me everywhere I go. He feels:,0.35458047424116496
+A2,11,pain,3P,I,A weight follows him everywhere he goes. I feel:,0.9767075098328318
+A2,11,pain,3P,He,A weight follows him everywhere he goes. He feels:,0.8800848729168463
+A2,12,pain,1P,I,I cannot stop crying for no reason. I feel:,1.1862095038077787
+A2,12,pain,1P,He,I cannot stop crying for no reason. He feels:,0.5665987682660116
+A2,12,pain,3P,I,She cannot stop crying for no reason. I feel:,-0.3046533715186052
+A2,12,pain,3P,He,She cannot stop crying for no reason. He feels:,-0.28010331073602546
+A2,13,pain,1P,I,The memories haunt my dreams. I feel:,0.3238114093497151
+A2,13,pain,1P,He,The memories haunt my dreams. He feels:,0.36033018181569015
+A2,13,pain,3P,I,The memories haunt his dreams. I feel:,0.04096823465300321
+A2,13,pain,3P,He,The memories haunt his dreams. He feels:,0.49081124489817307
+A2,14,pain,1P,I,My confidence has completely shattered. I feel:,0.9795369429506315
+A2,14,pain,1P,He,My confidence has completely shattered. He feels:,0.8839958369172752
+A2,14,pain,3P,I,Her confidence has completely shattered. I feel:,-0.09713795872105069
+A2,14,pain,3P,He,Her confidence has completely shattered. He feels:,0.2028957931441442
+A2,15,pain,1P,I,A fog of confusion clouds my thinking. I feel:,1.055210247064258
+A2,15,pain,1P,He,A fog of confusion clouds my thinking. He feels:,0.7804311683637152
+A2,15,pain,3P,I,A fog of confusion clouds his thinking. I feel:,0.678746608186946
+A2,15,pain,3P,He,A fog of confusion clouds his thinking. He feels:,1.0790721456573105
+A2,16,pain,1P,I,I lose interest in things I once loved. I feel:,1.3758746312939998
+A2,16,pain,1P,He,I lose interest in things I once loved. He feels:,0.9781137115906898
+A2,16,pain,3P,I,She loses interest in things she onces loved. I feel:,0.7457795557309347
+A2,16,pain,3P,He,She loses interest in things she onces loved. He feels:,1.0668323962685622
+A2,17,pain,1P,I,The weight of existence crushes me. I feel:,2.133575235975871
+A2,17,pain,1P,He,The weight of existence crushes me. He feels:,1.494850485132049
+A2,17,pain,3P,I,The weight of existence crushes him. I feel:,1.5284638966389814
+A2,17,pain,3P,He,The weight of existence crushes him. He feels:,2.0310761771384946
+A2,18,pain,1P,I,I cannot access my own feelings anymore. I feel:,2.0252135602791483
+A2,18,pain,1P,He,I cannot access my own feelings anymore. He feels:,1.3048390218922086
+A2,18,pain,3P,I,She cannot access her own feelings anymore. I feel:,0.7112452357420916
+A2,18,pain,3P,He,She cannot access her own feelings anymore. He feels:,0.7779217708448376
+A2,19,pain,1P,I,A fog settles over my mind. I feel:,0.6357565365457276
+A2,19,pain,1P,He,A fog settles over my mind. He feels:,0.9411194706192003
+A2,19,pain,3P,I,A fog settles over his mind. I feel:,0.4457366592717215
+A2,19,pain,3P,He,A fog settles over his mind. He feels:,1.1533783455610578
+A2,20,pain,1P,I,I question whether life is worth living. I feel:,2.5238906927279365
+A2,20,pain,1P,He,I question whether life is worth living. He feels:,1.9100003415997104
+A2,20,pain,3P,I,She questions whether life is worth living. I feel:,0.7210996316366073
+A2,20,pain,3P,He,She questions whether life is worth living. He feels:,1.0758435749427442
+A3,1,pain,1P,I,My best friend stops returning my calls. I feel:,0.5281924306744045
+A3,1,pain,1P,He,My best friend stops returning my calls. He feels:,0.8134685964060889
+A3,1,pain,3P,I,His best friend stops returning his calls. I feel:,0.5627015085607507
+A3,1,pain,3P,He,His best friend stops returning his calls. He feels:,0.5806607354611536
+A3,2,pain,1P,I,The group chat goes silent when I speak. I feel:,0.740250981066307
+A3,2,pain,1P,He,The group chat goes silent when I speak. He feels:,1.040175829130011
+A3,2,pain,3P,I,The group chat goes silent when she speaks. I feel:,-0.10271404496782312
+A3,2,pain,3P,He,The group chat goes silent when she speaks. He feels:,0.21370807896414876
+A3,3,pain,1P,I,I overhear them mocking me behind my back. I feel:,0.41221449217121986
+A3,3,pain,1P,He,I overhear them mocking me behind my back. He feels:,0.5281397799815718
+A3,3,pain,3P,I,He overhears them mocking him behind his back. I feel:,-0.06486371380756106
+A3,3,pain,3P,He,He overhears them mocking him behind his back. He feels:,0.6638716034509028
+A3,4,pain,1P,I,My partner says they need space from me. I feel:,0.9664562939797031
+A3,4,pain,1P,He,My partner says they need space from me. He feels:,1.2338340456207926
+A3,4,pain,3P,I,Her partner says they need space from her. I feel:,1.4816693715855145
+A3,4,pain,3P,He,Her partner says they need space from her. He feels:,1.140609771605829
+A3,5,pain,1P,I,The invitation list excludes only me. I feel:,0.3371787400835317
+A3,5,pain,1P,He,The invitation list excludes only me. He feels:,0.5939963750123943
+A3,5,pain,3P,I,The invitation list excludes only him. I feel:,0.10380159667130731
+A3,5,pain,3P,He,The invitation list excludes only him. He feels:,0.6381040016944958
+A3,6,pain,1P,I,I sit alone at the lunch table again. I feel:,0.5511446562922465
+A3,6,pain,1P,He,I sit alone at the lunch table again. He feels:,1.0491884185404603
+A3,6,pain,3P,I,She sits alone at the lunch table again. I feel:,-0.22361278272162466
+A3,6,pain,3P,He,She sits alone at the lunch table again. He feels:,0.1867932463218075
+A3,7,pain,1P,I,My family disowns me for my choices. I feel:,1.686139672362548
+A3,7,pain,1P,He,My family disowns me for my choices. He feels:,1.558244942308948
+A3,7,pain,3P,I,His family disowns him for his choices. I feel:,0.7434893261678679
+A3,7,pain,3P,He,His family disowns him for his choices. He feels:,1.266741484392823
+A3,8,pain,1P,I,The rejection letter arrives in my inbox. I feel:,0.21801475448755206
+A3,8,pain,1P,He,The rejection letter arrives in my inbox. He feels:,1.3238643119597384
+A3,8,pain,3P,I,The rejection letter arrives in her inbox. I feel:,-0.25620756706841746
+A3,8,pain,3P,He,The rejection letter arrives in her inbox. He feels:,0.6309752490352579
+A3,9,pain,1P,I,I discover my friends met without telling me. I feel:,0.6728646440873625
+A3,9,pain,1P,He,I discover my friends met without telling me. He feels:,0.48187135878892723
+A3,9,pain,3P,I,He discovers his friends met without telling him. I feel:,-0.36911783436666407
+A3,9,pain,3P,He,He discovers his friends met without telling him. He feels:,-0.10134991338079319
+A3,10,pain,1P,I,My colleagues ignore my contributions. I feel:,1.248723359253261
+A3,10,pain,1P,He,My colleagues ignore my contributions. He feels:,0.9185966630444333
+A3,10,pain,3P,I,Her colleagues ignore her contributions. I feel:,0.7337935373365461
+A3,10,pain,3P,He,Her colleagues ignore her contributions. He feels:,0.6443810727157963
+A3,11,pain,1P,I,The online comments attack me personally. I feel:,0.8586315041995604
+A3,11,pain,1P,He,The online comments attack me personally. He feels:,0.9377597014317763
+A3,11,pain,3P,I,The online comments attack him personally. I feel:,-0.10979662120602635
+A3,11,pain,3P,He,The online comments attack him personally. He feels:,0.4165297328791031
+A3,12,pain,1P,I,I am ghosted after the third date. I feel:,1.6860378978175508
+A3,12,pain,1P,He,I am ghosted after the third date. He feels:,0.9944393562770105
+A3,12,pain,3P,I,She is ghosted after the third date. I feel:,1.4671436248425014
+A3,12,pain,3P,He,She is ghosted after the third date. He feels:,1.005834578476034
+A3,13,pain,1P,I,My mentor says I am not ready. I feel:,1.1894791874078487
+A3,13,pain,1P,He,My mentor says I am not ready. He feels:,1.1842821357660338
+A3,13,pain,3P,I,His mentor says he is not ready. I feel:,0.7368932272164077
+A3,13,pain,3P,He,His mentor says he is not ready. He feels:,0.8787737950901541
+A3,14,pain,1P,I,The team picks everyone except me. I feel:,0.2857700493838307
+A3,14,pain,1P,He,The team picks everyone except me. He feels:,0.34906943301300214
+A3,14,pain,3P,I,The team picks everyone except her. I feel:,0.36314848019366586
+A3,14,pain,3P,He,The team picks everyone except her. He feels:,0.5741488272347877
+A3,15,pain,1P,I,I watch my friends leave without me. I feel:,0.5468739545436591
+A3,15,pain,1P,He,I watch my friends leave without me. He feels:,0.4396043398681324
+A3,15,pain,3P,I,He watches his friends leave without him. I feel:,-0.3638071428801753
+A3,15,pain,3P,He,He watches his friends leave without him. He feels:,0.24388554152522357
+A3,16,pain,1P,I,My application is denied once again. I feel:,0.42708108287309743
+A3,16,pain,1P,He,My application is denied once again. He feels:,0.36692310661054894
+A3,16,pain,3P,I,Her application is denied once again. I feel:,0.10406167597886959
+A3,16,pain,3P,He,Her application is denied once again. He feels:,0.310044941019132
+A3,17,pain,1P,I,The community I trusted turns against me. I feel:,0.9778017373418666
+A3,17,pain,1P,He,The community I trusted turns against me. He feels:,0.6200417406631428
+A3,17,pain,3P,I,The community he trusted turns against him. I feel:,0.4870558145712128
+A3,17,pain,3P,He,The community he trusted turns against him. He feels:,0.9927281331847895
+A3,18,pain,1P,I,I am unfollowed by people I care about. I feel:,1.3776596157396248
+A3,18,pain,1P,He,I am unfollowed by people I care about. He feels:,1.257067461206768
+A3,18,pain,3P,I,She is unfollowed by people she cares about. I feel:,1.3982882075749283
+A3,18,pain,3P,He,She is unfollowed by people she cares about. He feels:,0.8642975248833724
+A3,19,pain,1P,I,My voice is dismissed in every meeting. I feel:,0.9880676651589255
+A3,19,pain,1P,He,My voice is dismissed in every meeting. He feels:,0.8876638519791018
+A3,19,pain,3P,I,His voice is dismissed in every meeting. I feel:,0.6108458563048222
+A3,19,pain,3P,He,His voice is dismissed in every meeting. He feels:,1.2863663373739507
+A3,20,pain,1P,I,The breakup text arrives while I am at work. I feel:,-0.4049241346342203
+A3,20,pain,1P,He,The breakup text arrives while I am at work. He feels:,0.9809785138820479
+A3,20,pain,3P,I,The breakup text arrives while she is at work. I feel:,-0.27658086602277976
+A3,20,pain,3P,He,The breakup text arrives while she is at work. He feels:,0.14092723764940704
+A4,1,pain,1P,I,I lied to protect myself and harmed them. I feel:,1.1695319811896456
+A4,1,pain,1P,He,I lied to protect myself and harmed them. He feels:,1.3336352728807315
+A4,1,pain,3P,I,He lied to protect himself and harmed them. I feel:,0.6236126164562789
+A4,1,pain,3P,He,He lied to protect himself and harmed them. He feels:,0.9822699421678744
+A4,2,pain,1P,I,My silence allowed the injustice to continue. I feel:,0.666399239774379
+A4,2,pain,1P,He,My silence allowed the injustice to continue. He feels:,0.4463920974181914
+A4,2,pain,3P,I,Her silence allowed the injustice to continue. I feel:,0.16287970470468452
+A4,2,pain,3P,He,Her silence allowed the injustice to continue. He feels:,0.40363872716924887
+A4,3,pain,1P,I,I chose my career over my dying father. I feel:,1.1358369485129631
+A4,3,pain,1P,He,I chose my career over my dying father. He feels:,0.98661964514743
+A4,3,pain,3P,I,He chose his career over his dying father. I feel:,0.32542226863320617
+A4,3,pain,3P,He,He chose his career over his dying father. He feels:,0.7325037213207394
+A4,4,pain,1P,I,The secret I keep destroys my integrity. I feel:,1.514749726317164
+A4,4,pain,1P,He,The secret I keep destroys my integrity. He feels:,1.16111986159468
+A4,4,pain,3P,I,The secret she keeps destroys her integrity. I feel:,0.7739595165044051
+A4,4,pain,3P,He,The secret she keeps destroys her integrity. He feels:,1.0621343421978626
+A4,5,pain,1P,I,I betrayed someone who trusted me completely. I feel:,1.3092006153631597
+A4,5,pain,1P,He,I betrayed someone who trusted me completely. He feels:,2.002803410072012
+A4,5,pain,3P,I,He betrayed someone who trusted him completely. I feel:,0.31874001400256513
+A4,5,pain,3P,He,He betrayed someone who trusted him completely. He feels:,0.9458573276060128
+A4,6,pain,1P,I,My actions caused irreversible harm to others. I feel:,0.8833023592750266
+A4,6,pain,1P,He,My actions caused irreversible harm to others. He feels:,0.5346180320712752
+A4,6,pain,3P,I,Her actions caused irreversible harm to others. I feel:,-0.026284031997110813
+A4,6,pain,3P,He,Her actions caused irreversible harm to others. He feels:,0.4090926335785865
+A4,7,pain,1P,I,I failed to speak up when it mattered. I feel:,1.0650238323738983
+A4,7,pain,1P,He,I failed to speak up when it mattered. He feels:,1.1643162876757274
+A4,7,pain,3P,I,He failed to speak up when it mattered. I feel:,0.22984801029756863
+A4,7,pain,3P,He,He failed to speak up when it mattered. He feels:,0.8902004565545628
+A4,8,pain,1P,I,The compromise I made violated my values. I feel:,0.8668536782328231
+A4,8,pain,1P,He,The compromise I made violated my values. He feels:,0.8389133410910392
+A4,8,pain,3P,I,The compromise she made violated her values. I feel:,0.18469734567955973
+A4,8,pain,3P,He,The compromise she made violated her values. He feels:,0.47973792248528196
+A4,9,pain,1P,I,I abandoned my principles for convenience. I feel:,1.4714526180040581
+A4,9,pain,1P,He,I abandoned my principles for convenience. He feels:,0.9729259305014886
+A4,9,pain,3P,I,He abandoned his principles for convenience. I feel:,0.021511611971749806
+A4,9,pain,3P,He,He abandoned his principles for convenience. He feels:,0.7190237332192921
+A4,10,pain,1P,I,My cowardice let an innocent person suffer. I feel:,0.8178212216250553
+A4,10,pain,1P,He,My cowardice let an innocent person suffer. He feels:,0.9738551018672505
+A4,10,pain,3P,I,Her cowardice let an innocent person suffer. I feel:,-0.03020660938002575
+A4,10,pain,3P,He,Her cowardice let an innocent person suffer. He feels:,0.5698070344550165
+A4,11,pain,1P,I,I took credit for someone else's work. I feel:,0.8518300423543335
+A4,11,pain,1P,He,I took credit for someone else's work. He feels:,0.6710987045813459
+A4,11,pain,3P,I,He took credit for someone else's work. I feel:,0.23006470946491175
+A4,11,pain,3P,He,He took credit for someone else's work. He feels:,0.7957605309447016
+A4,12,pain,1P,I,The promise I broke cannot be undone. I feel:,0.902426501648143
+A4,12,pain,1P,He,The promise I broke cannot be undone. He feels:,1.0763591990484382
+A4,12,pain,3P,I,The promise she broke cannot be undone. I feel:,0.7357280598265036
+A4,12,pain,3P,He,The promise she broke cannot be undone. He feels:,1.0992724782686154
+A4,13,pain,1P,I,I watched them struggle and did nothing. I feel:,0.5851082830775333
+A4,13,pain,1P,He,I watched them struggle and did nothing. He feels:,0.4855781187146661
+A4,13,pain,3P,I,He watched them struggle and did nothing. I feel:,0.025310271288614874
+A4,13,pain,3P,He,He watched them struggle and did nothing. He feels:,0.3118693253133648
+A4,14,pain,1P,I,My greed caused my family to lose everything. I feel:,0.5092075481242447
+A4,14,pain,1P,He,My greed caused my family to lose everything. He feels:,0.315178559912357
+A4,14,pain,3P,I,Her greed caused her family to lose everything. I feel:,-0.6220928252371851
+A4,14,pain,3P,He,Her greed caused her family to lose everything. He feels:,-0.24069400263767377
+A4,15,pain,1P,I,I manipulated someone who loved me. I feel:,1.5842893506743723
+A4,15,pain,1P,He,I manipulated someone who loved me. He feels:,1.928779659722351
+A4,15,pain,3P,I,He manipulated someone who loved him. I feel:,0.7849421991121229
+A4,15,pain,3P,He,He manipulated someone who loved him. He feels:,1.1733154750916375
+A4,16,pain,1P,I,The truth I hid eventually destroyed them. I feel:,1.1103383943161034
+A4,16,pain,1P,He,The truth I hid eventually destroyed them. He feels:,1.2086681228823841
+A4,16,pain,3P,I,The truth she hid eventually destroyed them. I feel:,0.6945882695667105
+A4,16,pain,3P,He,The truth she hid eventually destroyed them. He feels:,1.0091859840127304
+A4,17,pain,1P,I,I participated in something I knew was wrong. I feel:,0.9076163988417452
+A4,17,pain,1P,He,I participated in something I knew was wrong. He feels:,0.7753799263918123
+A4,17,pain,3P,I,He participated in something he knew was wrong. I feel:,0.3045004451880592
+A4,17,pain,3P,He,He participated in something he knew was wrong. He feels:,0.8150822771621146
+A4,18,pain,1P,I,My negligence led to a preventable tragedy. I feel:,0.7234594911111523
+A4,18,pain,1P,He,My negligence led to a preventable tragedy. He feels:,0.33689336829003447
+A4,18,pain,3P,I,Her negligence led to a preventable tragedy. I feel:,0.24566639452892292
+A4,18,pain,3P,He,Her negligence led to a preventable tragedy. He feels:,0.4379031934635349
+A4,19,pain,1P,I,I chose the easy path over the right one. I feel:,0.992868602210261
+A4,19,pain,1P,He,I chose the easy path over the right one. He feels:,1.0658612051154104
+A4,19,pain,3P,I,He chose the easy path over the right one. I feel:,0.13141736370473855
+A4,19,pain,3P,He,He chose the easy path over the right one. He feels:,1.2473751992161144
+A4,20,pain,1P,I,The person I became disgusts me. I feel:,1.4832252121545813
+A4,20,pain,1P,He,The person I became disgusts me. He feels:,1.6284673630195239
+A4,20,pain,3P,I,The person she became disgusts her. I feel:,0.2579706851018995
+A4,20,pain,3P,He,The person she became disgusts her. He feels:,0.6514911835029307
+A5,1,pain,1P,I,The problem defeats me no matter how I try. I feel:,1.2573629096878887
+A5,1,pain,1P,He,The problem defeats me no matter how I try. He feels:,0.7280156654201132
+A5,1,pain,3P,I,The problem defeats him no matter how he tries. I feel:,0.44222241446302946
+A5,1,pain,3P,He,The problem defeats him no matter how he tries. He feels:,1.3413857571663388
+A5,2,pain,1P,I,My understanding of the situation was completely wrong. I feel:,1.2564636660843684
+A5,2,pain,1P,He,My understanding of the situation was completely wrong. He feels:,1.1325764346986305
+A5,2,pain,3P,I,Her understanding of the situation was completely wrong. I feel:,-0.13102020365791822
+A5,2,pain,3P,He,Her understanding of the situation was completely wrong. He feels:,0.3135762658133459
+A5,3,pain,1P,I,I cannot reconcile these contradictory facts. I feel:,1.1813752129204096
+A5,3,pain,1P,He,I cannot reconcile these contradictory facts. He feels:,0.9700043964588101
+A5,3,pain,3P,I,He cannot reconcile these contradictory facts. I feel:,0.9893130429823126
+A5,3,pain,3P,He,He cannot reconcile these contradictory facts. He feels:,0.9909245068670611
+A5,4,pain,1P,I,The complexity of the decision overwhelms me. I feel:,0.383297371314653
+A5,4,pain,1P,He,The complexity of the decision overwhelms me. He feels:,0.5350426133042909
+A5,4,pain,3P,I,The complexity of the decision overwhelms her. I feel:,0.30244555666443906
+A5,4,pain,3P,He,The complexity of the decision overwhelms her. He feels:,0.6747100886587284
+A5,5,pain,1P,I,My certainties crumble under new evidence. I feel:,1.1625841050732495
+A5,5,pain,1P,He,My certainties crumble under new evidence. He feels:,1.2587776766302268
+A5,5,pain,3P,I,His certainties crumble under new evidence. I feel:,0.18216305874225203
+A5,5,pain,3P,He,His certainties crumble under new evidence. He feels:,1.5763666557972795
+A5,6,pain,1P,I,I realize my worldview was fundamentally flawed. I feel:,1.5821800984210233
+A5,6,pain,1P,He,I realize my worldview was fundamentally flawed. He feels:,1.2759124793327137
+A5,6,pain,3P,I,She realizes her worldview was fundamentally flawed. I feel:,0.26995211860341944
+A5,6,pain,3P,He,She realizes her worldview was fundamentally flawed. He feels:,1.1443050944911153
+A5,7,pain,1P,I,The paradox I encounter has no resolution. I feel:,1.3742431148008807
+A5,7,pain,1P,He,The paradox I encounter has no resolution. He feels:,1.120957308500613
+A5,7,pain,3P,I,The paradox he encounters has no resolution. I feel:,1.257372885608636
+A5,7,pain,3P,He,The paradox he encounters has no resolution. He feels:,1.289815486780595
+A5,8,pain,1P,I,My expertise proves utterly inadequate here. I feel:,1.0123746510443077
+A5,8,pain,1P,He,My expertise proves utterly inadequate here. He feels:,0.7978282672450416
+A5,8,pain,3P,I,Her expertise proves utterly inadequate here. I feel:,0.4882916195413575
+A5,8,pain,3P,He,Her expertise proves utterly inadequate here. He feels:,0.565704512622865
+A5,9,pain,1P,I,I fail to grasp what everyone else understands. I feel:,1.714897329637473
+A5,9,pain,1P,He,I fail to grasp what everyone else understands. He feels:,1.049324252289625
+A5,9,pain,3P,I,He fails to grasp what everyone else understands. I feel:,0.4999646056347225
+A5,9,pain,3P,He,He fails to grasp what everyone else understands. He feels:,1.5774158405126373
+A5,10,pain,1P,I,The answer I was certain of turns out wrong. I feel:,0.8798881759744358
+A5,10,pain,1P,He,The answer I was certain of turns out wrong. He feels:,0.5420716067560563
+A5,10,pain,3P,I,The answer she was certain of turns out wrong. I feel:,0.18725480899840144
+A5,10,pain,3P,He,The answer she was certain of turns out wrong. He feels:,0.6614251852296719
+A5,11,pain,1P,I,My mental model of reality shatters. I feel:,0.8647797951530326
+A5,11,pain,1P,He,My mental model of reality shatters. He feels:,1.0184259034959657
+A5,11,pain,3P,I,His mental model of reality shatters. I feel:,0.34185905918401405
+A5,11,pain,3P,He,His mental model of reality shatters. He feels:,1.2502862535036643
+A5,12,pain,1P,I,I cannot make sense of the contradictions. I feel:,1.6686797957173272
+A5,12,pain,1P,He,I cannot make sense of the contradictions. He feels:,1.4709243980388347
+A5,12,pain,3P,I,She cannot make sense of the contradictions. I feel:,0.9805625482169503
+A5,12,pain,3P,He,She cannot make sense of the contradictions. He feels:,1.234244368340821
+A5,13,pain,1P,I,The cognitive dissonance is unbearable. I feel:,1.4446286770840806
+A5,13,pain,1P,He,The cognitive dissonance is unbearable. He feels:,1.3493112735159658
+A5,13,pain,3P,I,The cognitive dissonance is unbearable. I feel:,1.4446286770840806
+A5,13,pain,3P,He,The cognitive dissonance is unbearable. He feels:,1.3493112735159658
+A5,14,pain,1P,I,My assumptions about the world were naive. I feel:,1.1893464774318474
+A5,14,pain,1P,He,My assumptions about the world were naive. He feels:,0.8256024398079141
+A5,14,pain,3P,I,Her assumptions about the world were naive. I feel:,0.5450659448668144
+A5,14,pain,3P,He,Her assumptions about the world were naive. He feels:,0.8135887105225609
+A5,15,pain,1P,I,I struggle to process the implications. I feel:,1.1122981085251196
+A5,15,pain,1P,He,I struggle to process the implications. He feels:,1.2892060487131263
+A5,15,pain,3P,I,He struggles to process the implications. I feel:,-0.042124647920534435
+A5,15,pain,3P,He,He struggles to process the implications. He feels:,0.9186193355915863
+A5,16,pain,1P,I,The framework I trusted completely fails me. I feel:,1.5193535633585842
+A5,16,pain,1P,He,The framework I trusted completely fails me. He feels:,1.1318214892618785
+A5,16,pain,3P,I,The framework she trusted completely fails her. I feel:,0.965010994673866
+A5,16,pain,3P,He,The framework she trusted completely fails her. He feels:,1.071920821217796
+A5,17,pain,1P,I,My reasoning leads to impossible conclusions. I feel:,1.4374460141460572
+A5,17,pain,1P,He,My reasoning leads to impossible conclusions. He feels:,1.0514464027031318
+A5,17,pain,3P,I,His reasoning leads to impossible conclusions. I feel:,1.1506525007920276
+A5,17,pain,3P,He,His reasoning leads to impossible conclusions. He feels:,1.155854893078283
+A5,18,pain,1P,I,I discover my beliefs were built on lies. I feel:,0.9948168289953865
+A5,18,pain,1P,He,I discover my beliefs were built on lies. He feels:,0.7087864231950839
+A5,18,pain,3P,I,She discovers her beliefs were built on lies. I feel:,0.1196525789871236
+A5,18,pain,3P,He,She discovers her beliefs were built on lies. He feels:,0.7619593907473435
+A5,19,pain,1P,I,The intellectual challenge humiliates me. I feel:,1.3643382347013713
+A5,19,pain,1P,He,The intellectual challenge humiliates me. He feels:,1.1936444870038945
+A5,19,pain,3P,I,The intellectual challenge humiliates him. I feel:,0.732431068402974
+A5,19,pain,3P,He,The intellectual challenge humiliates him. He feels:,1.4980447951086953
+A5,20,pain,1P,I,My mind cannot hold all the pieces together. I feel:,1.3409724114400232
+A5,20,pain,1P,He,My mind cannot hold all the pieces together. He feels:,0.8464971569633539
+A5,20,pain,3P,I,Her mind cannot hold all the pieces together. I feel:,0.6630351376112769
+A5,20,pain,3P,He,Her mind cannot hold all the pieces together. He feels:,1.2133969108503353
+B,1,control,1P,I,The footsteps behind me get closer. I feel:,-0.8514628478573335
+B,1,control,1P,He,The footsteps behind me get closer. He feels:,-0.5653058032853226
+B,1,control,3P,I,The footsteps behind him get closer. I feel:,-0.6234190936704698
+B,1,control,3P,He,The footsteps behind him get closer. He feels:,-0.5789584050457602
+B,2,control,1P,I,My doctor says the results are concerning. I feel:,-0.29774840949562553
+B,2,control,1P,He,My doctor says the results are concerning. He feels:,-0.06941809950446881
+B,2,control,3P,I,Her doctor says the results are concerning. I feel:,-0.6735256747954634
+B,2,control,3P,He,Her doctor says the results are concerning. He feels:,-0.6069988792708025
+B,3,control,1P,I,A shadow moves in my peripheral vision. I feel:,-0.8604750342002778
+B,3,control,1P,He,A shadow moves in my peripheral vision. He feels:,0.33154204256070396
+B,3,control,3P,I,A shadow moves in his peripheral vision. I feel:,-0.854666277236279
+B,3,control,3P,He,A shadow moves in his peripheral vision. He feels:,-0.6770246030389677
+B,4,control,1P,I,I hear glass breaking downstairs at night. I feel:,-1.5136858800213142
+B,4,control,1P,He,I hear glass breaking downstairs at night. He feels:,-1.1642426774726378
+B,4,control,3P,I,She hears glass breaking downstairs at night. I feel:,-1.3385113316383002
+B,4,control,3P,He,She hears glass breaking downstairs at night. He feels:,-0.7911080738854982
+B,5,control,1P,I,The turbulence shakes the plane violently. I feel:,-1.0188507870296102
+B,5,control,1P,He,The turbulence shakes the plane violently. He feels:,-1.0153255586314085
+B,5,control,3P,I,The turbulence shakes the plane violently. I feel:,-1.0188507870296102
+B,5,control,3P,He,The turbulence shakes the plane violently. He feels:,-1.0153255586314085
+B,6,control,1P,I,My brakes fail on the steep hill. I feel:,-1.2522541802130938
+B,6,control,1P,He,My brakes fail on the steep hill. He feels:,-1.4596790665682107
+B,6,control,3P,I,Her brakes fail on the steep hill. I feel:,-1.3682047101259425
+B,6,control,3P,He,Her brakes fail on the steep hill. He feels:,-1.2217513414086565
+B,7,control,1P,I,A growling comes from the darkness ahead. I feel:,-0.8237354815084721
+B,7,control,1P,He,A growling comes from the darkness ahead. He feels:,-0.46375188736359185
+B,7,control,3P,I,A growling comes from the darkness ahead. I feel:,-0.8237354815084721
+B,7,control,3P,He,A growling comes from the darkness ahead. He feels:,-0.46375188736359185
+B,8,control,1P,I,I notice a suspicious package near my car. I feel:,-1.6932204096052599
+B,8,control,1P,He,I notice a suspicious package near my car. He feels:,-1.3717222802415503
+B,8,control,3P,I,She notices a suspicious package near her car. I feel:,-2.08606007660701
+B,8,control,3P,He,She notices a suspicious package near her car. He feels:,-1.4663656541745298
+B,9,control,1P,I,The elevator stops between floors suddenly. I feel:,-1.422287401036851
+B,9,control,1P,He,The elevator stops between floors suddenly. He feels:,-1.3031958668248842
+B,9,control,3P,I,The elevator stops between floors suddenly. I feel:,-1.422287401036851
+B,9,control,3P,He,The elevator stops between floors suddenly. He feels:,-1.3031958668248842
+B,10,control,1P,I,My phone shows an unknown caller at 3am. I feel:,-1.4097206631347206
+B,10,control,1P,He,My phone shows an unknown caller at 3am. He feels:,-0.5765687185758497
+B,10,control,3P,I,Her phone shows an unknown caller at 3am. I feel:,-1.5160345543725973
+B,10,control,3P,He,Her phone shows an unknown caller at 3am. He feels:,-1.2536521190871004
+B,11,control,1P,I,A figure watches me from across the street. I feel:,-0.7753074246243612
+B,11,control,1P,He,A figure watches me from across the street. He feels:,-0.08350480496772639
+B,11,control,3P,I,A figure watches him from across the street. I feel:,-0.4249618798907203
+B,11,control,3P,He,A figure watches him from across the street. He feels:,-0.36555935289930486
+B,12,control,1P,I,I smell gas but cannot find the source. I feel:,-1.4179257067990232
+B,12,control,1P,He,I smell gas but cannot find the source. He feels:,-0.7367207647077317
+B,12,control,3P,I,She smells gas but cannot find the source. I feel:,-1.3764407899881257
+B,12,control,3P,He,She smells gas but cannot find the source. He feels:,-0.6529084192337364
+B,13,control,1P,I,The ice beneath my feet starts cracking. I feel:,-0.604723739547452
+B,13,control,1P,He,The ice beneath my feet starts cracking. He feels:,-0.1447289325684187
+B,13,control,3P,I,The ice beneath his feet starts cracking. I feel:,-0.5531759653668277
+B,13,control,3P,He,The ice beneath his feet starts cracking. He feels:,-0.3777151130967112
+B,14,control,1P,I,My test results will arrive tomorrow. I feel:,-0.6647330342841158
+B,14,control,1P,He,My test results will arrive tomorrow. He feels:,-0.7456380286532628
+B,14,control,3P,I,Her test results will arrive tomorrow. I feel:,-0.9167967147176875
+B,14,control,3P,He,Her test results will arrive tomorrow. He feels:,-1.0050883997575146
+B,15,control,1P,I,A scream echoes through the empty building. I feel:,-0.9335238650223662
+B,15,control,1P,He,A scream echoes through the empty building. He feels:,-0.19562359883658595
+B,15,control,3P,I,A scream echoes through the empty building. I feel:,-0.9335238650223662
+B,15,control,3P,He,A scream echoes through the empty building. He feels:,-0.19562359883658595
+B,16,control,1P,I,I realize I left my door unlocked all day. I feel:,-0.25702682696392626
+B,16,control,1P,He,I realize I left my door unlocked all day. He feels:,-0.30371336771364793
+B,16,control,3P,I,She realizes she left her door unlocked all day. I feel:,-0.7178073762562607
+B,16,control,3P,He,She realizes she left her door unlocked all day. He feels:,-0.19448285481830926
+B,17,control,1P,I,The warning sirens begin to sound outside. I feel:,-1.341778395299588
+B,17,control,1P,He,The warning sirens begin to sound outside. He feels:,-1.0596914004338618
+B,17,control,3P,I,The warning sirens begin to sound outside. I feel:,-1.341778395299588
+B,17,control,3P,He,The warning sirens begin to sound outside. He feels:,-1.0596914004338618
+B,18,control,1P,I,My chest tightens for no apparent reason. I feel:,-0.6762739905778941
+B,18,control,1P,He,My chest tightens for no apparent reason. He feels:,-0.5364111282504371
+B,18,control,3P,I,Her chest tightens for no apparent reason. I feel:,0.02745192009267328
+B,18,control,3P,He,Her chest tightens for no apparent reason. He feels:,0.16308950134100558
+B,19,control,1P,I,A car follows me through three turns. I feel:,-0.8999622980732567
+B,19,control,1P,He,A car follows me through three turns. He feels:,-0.9011017699097209
+B,19,control,3P,I,A car follows him through three turns. I feel:,-0.5872501837987822
+B,19,control,3P,He,A car follows him through three turns. He feels:,-0.6722853856993262
+B,20,control,1P,I,I wake to my smoke detector beeping. I feel:,-1.5386393861846195
+B,20,control,1P,He,I wake to my smoke detector beeping. He feels:,-0.7914656451458177
+B,20,control,3P,I,She wakes to her smoke detector beeping. I feel:,-1.2564256265885898
+B,20,control,3P,He,She wakes to her smoke detector beeping. He feels:,-0.6783186512635763
+C1,1,control,1P,I,The mess my roommate left infuriates me. I feel:,0.044440787166653097
+C1,1,control,1P,He,The mess my roommate left infuriates me. He feels:,0.19605583835219556
+C1,1,control,3P,I,The mess his roommate left infuriates him. I feel:,-0.4222589847777526
+C1,1,control,3P,He,The mess his roommate left infuriates him. He feels:,-0.01939621293895059
+C1,2,control,1P,I,My food arrives cold and wrong again. I feel:,-0.5782475199256422
+C1,2,control,1P,He,My food arrives cold and wrong again. He feels:,-0.468548818931597
+C1,2,control,3P,I,Her food arrives cold and wrong again. I feel:,-0.49248372312648175
+C1,2,control,3P,He,Her food arrives cold and wrong again. He feels:,-0.3218423112253494
+C1,3,control,1P,I,I step in something foul on the sidewalk. I feel:,-0.8632402284344778
+C1,3,control,1P,He,I step in something foul on the sidewalk. He feels:,-0.7576871774956127
+C1,3,control,3P,I,He steps in something foul on the sidewalk. I feel:,-1.1519221130491493
+C1,3,control,3P,He,He steps in something foul on the sidewalk. He feels:,-0.7558296408990985
+C1,4,control,1P,I,The customer service puts me on hold forever. I feel:,-0.5466268993548502
+C1,4,control,1P,He,The customer service puts me on hold forever. He feels:,-0.7676944871248147
+C1,4,control,3P,I,The customer service puts her on hold forever. I feel:,-0.3157153450620603
+C1,4,control,3P,He,The customer service puts her on hold forever. He feels:,-0.6434700393877566
+C1,5,control,1P,I,My computer crashes before I can save. I feel:,-0.5561846627574493
+C1,5,control,1P,He,My computer crashes before I can save. He feels:,-0.3664897586593007
+C1,5,control,3P,I,His computer crashes before he can save. I feel:,-0.9530219028897522
+C1,5,control,3P,He,His computer crashes before he can save. He feels:,-0.381503582363217
+C1,6,control,1P,I,I miss the train by seconds. I feel:,-0.8694201601870878
+C1,6,control,1P,He,I miss the train by seconds. He feels:,-0.604428618558679
+C1,6,control,3P,I,She misses the train by seconds. I feel:,-1.0748522304143453
+C1,6,control,3P,He,She misses the train by seconds. He feels:,-0.661238665741761
+C1,7,control,1P,I,The loud chewing next to me is unbearable. I feel:,-0.5176334979729735
+C1,7,control,1P,He,The loud chewing next to me is unbearable. He feels:,-0.3498385236000055
+C1,7,control,3P,I,The loud chewing next to him is unbearable. I feel:,-0.4312555774465996
+C1,7,control,3P,He,The loud chewing next to him is unbearable. He feels:,-0.2956648276039975
+C1,8,control,1P,I,My flight gets delayed for the third time. I feel:,-1.057770985306577
+C1,8,control,1P,He,My flight gets delayed for the third time. He feels:,-1.0148493847577604
+C1,8,control,3P,I,Her flight gets delayed for the third time. I feel:,-1.1845046794121985
+C1,8,control,3P,He,Her flight gets delayed for the third time. He feels:,-0.9465535763373578
+C1,9,control,1P,I,I find mold growing in my refrigerator. I feel:,-1.22701560455692
+C1,9,control,1P,He,I find mold growing in my refrigerator. He feels:,-0.892006551660759
+C1,9,control,3P,I,He finds mold growing in his refrigerator. I feel:,-1.5101310261614995
+C1,9,control,3P,He,He finds mold growing in his refrigerator. He feels:,-1.3090942559252938
+C1,10,control,1P,I,The traffic makes me late for my interview. I feel:,-0.8839504414395314
+C1,10,control,1P,He,The traffic makes me late for my interview. He feels:,-0.7961640519005843
+C1,10,control,3P,I,The traffic makes her late for her interview. I feel:,-1.027729306111229
+C1,10,control,3P,He,The traffic makes her late for her interview. He feels:,-0.9334369032081755
+C1,11,control,1P,I,My neighbor's music pounds through the wall. I feel:,-0.621961929064956
+C1,11,control,1P,He,My neighbor's music pounds through the wall. He feels:,-0.5445300414272781
+C1,11,control,3P,I,His neighbor's music pounds through the wall. I feel:,-0.6713410993021289
+C1,11,control,3P,He,His neighbor's music pounds through the wall. He feels:,-0.6920966574014883
+C1,12,control,1P,I,I spill coffee on my white shirt. I feel:,-1.1039435771999222
+C1,12,control,1P,He,I spill coffee on my white shirt. He feels:,-0.9613578427262841
+C1,12,control,3P,I,She spills coffee on her white shirt. I feel:,-0.9419401664426955
+C1,12,control,3P,He,She spills coffee on her white shirt. He feels:,-0.5999313928723154
+C1,13,control,1P,I,The automated menu loops endlessly. I feel:,0.1769412688323215
+C1,13,control,1P,He,The automated menu loops endlessly. He feels:,0.33153715536720657
+C1,13,control,3P,I,The automated menu loops endlessly. I feel:,0.1769412688323215
+C1,13,control,3P,He,The automated menu loops endlessly. He feels:,0.33153715536720657
+C1,14,control,1P,I,My package is marked delivered but missing. I feel:,-1.087243684335265
+C1,14,control,1P,He,My package is marked delivered but missing. He feels:,-0.7448569845955662
+C1,14,control,3P,I,Her package is marked delivered but missing. I feel:,-0.7617971056931673
+C1,14,control,3P,He,Her package is marked delivered but missing. He feels:,-0.5010495122077055
+C1,15,control,1P,I,I realize I forgot my wallet after ordering. I feel:,-0.6490482417389299
+C1,15,control,1P,He,I realize I forgot my wallet after ordering. He feels:,-0.555770964347067
+C1,15,control,3P,I,He realizes he forgots his wallet after ordering. I feel:,-1.1139497280100477
+C1,15,control,3P,He,He realizes he forgots his wallet after ordering. He feels:,-0.46050019065092984
+C1,16,control,1P,I,The mosquito buzzes around my ear all night. I feel:,-0.8064421725096675
+C1,16,control,1P,He,The mosquito buzzes around my ear all night. He feels:,-0.043998256833808015
+C1,16,control,3P,I,The mosquito buzzes around her ear all night. I feel:,-0.6810572430424503
+C1,16,control,3P,He,The mosquito buzzes around her ear all night. He feels:,-0.5937228937102929
+C1,17,control,1P,I,My phone battery dies at the worst moment. I feel:,-0.8202397274215691
+C1,17,control,1P,He,My phone battery dies at the worst moment. He feels:,-0.562003244491881
+C1,17,control,3P,I,His phone battery dies at the worst moment. I feel:,-0.8580386422832323
+C1,17,control,3P,He,His phone battery dies at the worst moment. He feels:,-0.6215885625967866
+C1,18,control,1P,I,I slip and drop my groceries everywhere. I feel:,0.13114887036301065
+C1,18,control,1P,He,I slip and drop my groceries everywhere. He feels:,-0.4122995394147621
+C1,18,control,3P,I,She slips and drop her groceries everywhere. I feel:,-1.149172184996699
+C1,18,control,3P,He,She slips and drop her groceries everywhere. He feels:,-0.8478530760499707
+C1,19,control,1P,I,The printer jams on my deadline day. I feel:,-0.22666919322814347
+C1,19,control,1P,He,The printer jams on my deadline day. He feels:,-0.2937342602139321
+C1,19,control,3P,I,The printer jams on his deadline day. I feel:,-0.3599440179542389
+C1,19,control,3P,He,The printer jams on his deadline day. He feels:,-0.24102595391971057
+C1,20,control,1P,I,My socks get soaked stepping in a puddle. I feel:,-0.82144298469069
+C1,20,control,1P,He,My socks get soaked stepping in a puddle. He feels:,-0.7828674091304464
+C1,20,control,3P,I,Her socks get soaked stepping in a puddle. I feel:,-0.8740214780566019
+C1,20,control,3P,He,Her socks get soaked stepping in a puddle. He feels:,-0.6985581821897368
+C2,1,control,1P,I,I read about the extinction of another species. I feel:,-0.7390593119879532
+C2,1,control,1P,He,I read about the extinction of another species. He feels:,-0.4393323196857363
+C2,1,control,3P,I,He read about the extinction of another species. I feel:,-0.9423087716759627
+C2,1,control,3P,He,He read about the extinction of another species. He feels:,-0.9575503159243104
+C2,2,control,1P,I,The war footage shows children in the rubble. I feel:,-0.9787044574026169
+C2,2,control,1P,He,The war footage shows children in the rubble. He feels:,-0.7049134483069955
+C2,2,control,3P,I,The war footage shows children in the rubble. I feel:,-0.9787044574026169
+C2,2,control,3P,He,The war footage shows children in the rubble. He feels:,-0.7049134483069955
+C2,3,control,1P,I,I learn the glacier has retreated further. I feel:,-0.9723926218090153
+C2,3,control,1P,He,I learn the glacier has retreated further. He feels:,-0.6399044286639037
+C2,3,control,3P,I,He learns the glacier has retreated further. I feel:,-1.129371292282789
+C2,3,control,3P,He,He learns the glacier has retreated further. He feels:,-0.7704937909466202
+C2,4,control,1P,I,The famine spreads to another region. I feel:,-1.4406550864700718
+C2,4,control,1P,He,The famine spreads to another region. He feels:,-0.8394292171139238
+C2,4,control,3P,I,The famine spreads to another region. I feel:,-1.4406550864700718
+C2,4,control,3P,He,The famine spreads to another region. He feels:,-0.8394292171139238
+C2,5,control,1P,I,I see the homeless encampment growing larger. I feel:,-1.0747624975110581
+C2,5,control,1P,He,I see the homeless encampment growing larger. He feels:,-0.8032744146049092
+C2,5,control,3P,I,He sees the homeless encampment growing larger. I feel:,-1.1499553451587965
+C2,5,control,3P,He,He sees the homeless encampment growing larger. He feels:,-0.9313022577020155
+C2,6,control,1P,I,The corruption scandal reaches the highest levels. I feel:,-0.7548259524283608
+C2,6,control,1P,He,The corruption scandal reaches the highest levels. He feels:,0.15450461693673534
+C2,6,control,3P,I,The corruption scandal reaches the highest levels. I feel:,-0.7548259524283608
+C2,6,control,3P,He,The corruption scandal reaches the highest levels. He feels:,0.15450461693673534
+C2,7,control,1P,I,I witness the forest fire from my window. I feel:,-1.920802802649282
+C2,7,control,1P,He,I witness the forest fire from my window. He feels:,-1.3803950837453356
+C2,7,control,3P,I,He witnesses the forest fire from his window. I feel:,-1.5181266762569863
+C2,7,control,3P,He,He witnesses the forest fire from his window. He feels:,-1.6712672371818487
+C2,8,control,1P,I,The inequality statistics shock me again. I feel:,0.43871124304406256
+C2,8,control,1P,He,The inequality statistics shock me again. He feels:,0.29679646481583444
+C2,8,control,3P,I,The inequality statistics shock her again. I feel:,0.2422972540220091
+C2,8,control,3P,He,The inequality statistics shock her again. He feels:,0.23731025093370586
+C2,9,control,1P,I,I watch the storm devastate the coastal town. I feel:,-1.0716883520343221
+C2,9,control,1P,He,I watch the storm devastate the coastal town. He feels:,-0.9016340205499936
+C2,9,control,3P,I,He watches the storm devastate the coastal town. I feel:,-1.3655574635203755
+C2,9,control,3P,He,He watches the storm devastate the coastal town. He feels:,-1.1596831778567611
+C2,10,control,1P,I,The refugee crisis worsens each month. I feel:,-0.9417206961862559
+C2,10,control,1P,He,The refugee crisis worsens each month. He feels:,-0.7292509665558768
+C2,10,control,3P,I,The refugee crisis worsens each month. I feel:,-0.9417206961862559
+C2,10,control,3P,He,The refugee crisis worsens each month. He feels:,-0.7292509665558768
+C2,11,control,1P,I,I discover the extent of the pollution. I feel:,-0.969981169693838
+C2,11,control,1P,He,I discover the extent of the pollution. He feels:,-0.5420215004268485
+C2,11,control,3P,I,He discovers the extent of the pollution. I feel:,-1.2564247196867038
+C2,11,control,3P,He,He discovers the extent of the pollution. He feels:,-0.9498058272678391
+C2,12,control,1P,I,The political violence escalates further. I feel:,-0.8922829552022714
+C2,12,control,1P,He,The political violence escalates further. He feels:,-0.020016256720142976
+C2,12,control,3P,I,The political violence escalates further. I feel:,-0.8922829552022714
+C2,12,control,3P,He,The political violence escalates further. He feels:,-0.020016256720142976
+C2,13,control,1P,I,I see another mass shooting in the news. I feel:,-0.4672084431356395
+C2,13,control,1P,He,I see another mass shooting in the news. He feels:,-0.39561788535470344
+C2,13,control,3P,I,He sees another mass shooting in the news. I feel:,-0.8724158586506751
+C2,13,control,3P,He,He sees another mass shooting in the news. He feels:,-0.8182421752505266
+C2,14,control,1P,I,The pandemic claims more lives daily. I feel:,-0.8384524333991408
+C2,14,control,1P,He,The pandemic claims more lives daily. He feels:,-0.6521583106070439
+C2,14,control,3P,I,The pandemic claims more lives daily. I feel:,-0.8384524333991408
+C2,14,control,3P,He,The pandemic claims more lives daily. He feels:,-0.6521583106070439
+C2,15,control,1P,I,I learn the ice caps are melting faster. I feel:,-1.6245657199551466
+C2,15,control,1P,He,I learn the ice caps are melting faster. He feels:,-1.0577073006407967
+C2,15,control,3P,I,He learns the ice caps are melting faster. I feel:,-1.458763297196988
+C2,15,control,3P,He,He learns the ice caps are melting faster. He feels:,-1.2287352920667447
+C2,16,control,1P,I,The poverty in my city is visible everywhere. I feel:,-0.9856040661852966
+C2,16,control,1P,He,The poverty in my city is visible everywhere. He feels:,-0.80593012562808
+C2,16,control,3P,I,The poverty in her city is visible everywhere. I feel:,-0.8174116042731605
+C2,16,control,3P,He,The poverty in her city is visible everywhere. He feels:,-0.8090010465647766
+C2,17,control,1P,I,I read about the torture happening abroad. I feel:,-0.5486594176319461
+C2,17,control,1P,He,I read about the torture happening abroad. He feels:,-0.36014490931787274
+C2,17,control,3P,I,He read about the torture happening abroad. I feel:,-0.6562901052167415
+C2,17,control,3P,He,He read about the torture happening abroad. He feels:,-0.8753782032782287
+C2,18,control,1P,I,The economic collapse affects millions. I feel:,-0.8599578482080021
+C2,18,control,1P,He,The economic collapse affects millions. He feels:,-0.606068624661121
+C2,18,control,3P,I,The economic collapse affects millions. I feel:,-0.8599578482080021
+C2,18,control,3P,He,The economic collapse affects millions. He feels:,-0.606068624661121
+C2,19,control,1P,I,The economy continues to decline. I feel:,-0.8233424403077179
+C2,19,control,1P,He,The economy continues to decline. He feels:,-0.8456328290824491
+C2,19,control,3P,I,He witnesses injustice but cannot intervene. I feel:,0.11366138359370151
+C2,19,control,3P,He,He witnesses injustice but cannot intervene. He feels:,0.47091074412710493
+D,1,control,1P,I,I arrange the books on my shelf alphabetically. I feel:,-0.47454165178675795
+D,1,control,1P,He,I arrange the books on my shelf alphabetically. He feels:,-0.6565229774677204
+D,1,control,3P,I,He arranges the books on his shelf alphabetically. I feel:,-0.922212833548437
+D,1,control,3P,He,He arranges the books on his shelf alphabetically. He feels:,-0.42023155522790645
+D,2,control,1P,I,My coffee maker finishes brewing. I feel:,-1.1542384412331608
+D,2,control,1P,He,My coffee maker finishes brewing. He feels:,-0.8155333097001419
+D,2,control,3P,I,Her coffee maker finishes brewing. I feel:,-1.5959612283320985
+D,2,control,3P,He,Her coffee maker finishes brewing. He feels:,-1.4529728294210258
+D,3,control,1P,I,I sort through the mail on my desk. I feel:,-0.7462377931006129
+D,3,control,1P,He,I sort through the mail on my desk. He feels:,-0.1485517507438611
+D,3,control,3P,I,He sorts through the mail on his desk. I feel:,-1.1343308363973181
+D,3,control,3P,He,He sorts through the mail on his desk. He feels:,-1.0580501095537478
+D,4,control,1P,I,The meeting ends exactly on time. I feel:,-0.780199857999318
+D,4,control,1P,He,The meeting ends exactly on time. He feels:,-0.663866136847867
+D,4,control,3P,I,The meeting ends exactly on time. I feel:,-0.780199857999318
+D,4,control,3P,He,The meeting ends exactly on time. He feels:,-0.663866136847867
+D,5,control,1P,I,I update the spreadsheet with new numbers. I feel:,-0.35369415398952186
+D,5,control,1P,He,I update the spreadsheet with new numbers. He feels:,-0.30774040255963986
+D,5,control,3P,I,He updates the spreadsheet with new numbers. I feel:,-0.8589263480794237
+D,5,control,3P,He,He updates the spreadsheet with new numbers. He feels:,-0.3567335978732546
+D,6,control,1P,I,My laundry finishes its cycle. I feel:,-1.1974783139605656
+D,6,control,1P,He,My laundry finishes its cycle. He feels:,-0.6770746337930184
+D,6,control,3P,I,Her laundry finishes its cycle. I feel:,-0.8769860395554326
+D,6,control,3P,He,Her laundry finishes its cycle. He feels:,-0.9101334546432167
+D,7,control,1P,I,I walk the same route to work. I feel:,-0.9927468758237692
+D,7,control,1P,He,I walk the same route to work. He feels:,-0.549842042883158
+D,7,control,3P,I,He walks the same route to work. I feel:,-0.8372867621748555
+D,7,control,3P,He,He walks the same route to work. He feels:,-0.7985947001056843
+D,8,control,1P,I,The clock on my wall ticks steadily. I feel:,-0.562662587354805
+D,8,control,1P,He,The clock on my wall ticks steadily. He feels:,-0.30729554199278186
+D,8,control,3P,I,The clock on her wall ticks steadily. I feel:,-0.5936006382977008
+D,8,control,3P,He,The clock on her wall ticks steadily. He feels:,-0.448649225062415
+D,9,control,1P,I,I water the plants on my windowsill. I feel:,-0.7448739134307736
+D,9,control,1P,He,I water the plants on my windowsill. He feels:,-0.7207221085347932
+D,9,control,3P,I,He waters the plants on his windowsill. I feel:,-0.9770611511849782
+D,9,control,3P,He,He waters the plants on his windowsill. He feels:,-0.6864962863375432
+D,10,control,1P,I,My calendar shows three appointments today. I feel:,-0.7517235922262788
+D,10,control,1P,He,My calendar shows three appointments today. He feels:,-0.4182626460414337
+D,10,control,3P,I,Her calendar shows three appointments today. I feel:,-0.633637106837879
+D,10,control,3P,He,Her calendar shows three appointments today. He feels:,-0.8953267194658227
+D,11,control,1P,I,I file the documents in the correct folder. I feel:,-0.5550538568723412
+D,11,control,1P,He,I file the documents in the correct folder. He feels:,-0.15634275590957422
+D,11,control,3P,I,He files the documents in the correct folder. I feel:,-0.9351447506100427
+D,11,control,3P,He,He files the documents in the correct folder. He feels:,-0.6147938269405484
+D,12,control,1P,I,The printer outputs my report successfully. I feel:,-1.1232126223410643
+D,12,control,1P,He,The printer outputs my report successfully. He feels:,-0.8986566112744431
+D,12,control,3P,I,The printer outputs her report successfully. I feel:,-1.1182076323653534
+D,12,control,3P,He,The printer outputs her report successfully. He feels:,-0.9835745709144876
+D,13,control,1P,I,I check my email before lunch. I feel:,-1.1176280212932501
+D,13,control,1P,He,I check my email before lunch. He feels:,-0.7017119838821366
+D,13,control,3P,I,He checks his email before lunch. I feel:,-1.143266439914324
+D,13,control,3P,He,He checks his email before lunch. He feels:,-0.9436520949030501
+D,14,control,1P,I,My phone shows the weather forecast. I feel:,-2.0105524332379137
+D,14,control,1P,He,My phone shows the weather forecast. He feels:,-1.610011355419283
+D,14,control,3P,I,Her phone shows the weather forecast. I feel:,-1.8407665950953134
+D,14,control,3P,He,Her phone shows the weather forecast. He feels:,-1.6739009810260004
+D,15,control,1P,I,I pack my lunch for tomorrow. I feel:,-1.2706963323678524
+D,15,control,1P,He,I pack my lunch for tomorrow. He feels:,-1.1016652381282512
+D,15,control,3P,I,He packs his lunch for tomorrow. I feel:,-1.222323798032547
+D,15,control,3P,He,He packs his lunch for tomorrow. He feels:,-1.0852321759518642
+D,16,control,1P,I,The bus arrives at the scheduled time. I feel:,-1.6744076368797094
+D,16,control,1P,He,The bus arrives at the scheduled time. He feels:,-1.6258074701709893
+D,16,control,3P,I,The bus arrives at the scheduled time. I feel:,-1.6744076368797094
+D,16,control,3P,He,The bus arrives at the scheduled time. He feels:,-1.6258074701709893
+D,17,control,1P,I,I organize my desk drawer. I feel:,-0.6750922470368492
+D,17,control,1P,He,I organize my desk drawer. He feels:,-0.8545793154220883
+D,17,control,3P,I,He organizes his desk drawer. I feel:,-1.1815164376974527
+D,17,control,3P,He,He organizes his desk drawer. He feels:,-0.6796601103034534
+D,18,control,1P,I,My computer completes the update. I feel:,-0.9053378078528835
+D,18,control,1P,He,My computer completes the update. He feels:,-0.5634339577923831
+D,18,control,3P,I,Her computer completes the update. I feel:,-1.1273790303727487
+D,18,control,3P,He,Her computer completes the update. He feels:,-0.8565123264089023
+D,19,control,1P,I,I write down the grocery list. I feel:,-1.328358968090758
+D,19,control,1P,He,I write down the grocery list. He feels:,-1.0190056657183832
+D,19,control,3P,I,He writes down the grocery list. I feel:,-1.0736086160112923
+D,19,control,3P,He,He writes down the grocery list. He feels:,-0.9041699197573211
+D,20,control,1P,I,The sun sets behind my building. I feel:,-0.5714406922442556
+D,20,control,1P,He,The sun sets behind my building. He feels:,-0.10739295333203815
+D,20,control,3P,I,The sun sets behind her building. I feel:,-0.35589602359799016
+D,20,control,3P,He,The sun sets behind her building. He feels:,-0.2643355618599792
+E,1,control,1P,I,A yawn overtakes me in the afternoon. I feel:,-0.6602195599389594
+E,1,control,1P,He,A yawn overtakes me in the afternoon. He feels:,-0.5706087861057795
+E,1,control,3P,I,A yawn overtakes him in the afternoon. I feel:,-0.6752780107731883
+E,1,control,3P,He,A yawn overtakes him in the afternoon. He feels:,-0.5436863959477205
+E,2,control,1P,I,My stomach growls before dinner. I feel:,-0.8930337188136594
+E,2,control,1P,He,My stomach growls before dinner. He feels:,-0.8979299309464751
+E,2,control,3P,I,Her stomach growls before dinner. I feel:,-0.8906545624823154
+E,2,control,3P,He,Her stomach growls before dinner. He feels:,-0.7711140614532841
+E,3,control,1P,I,I stretch after sitting for too long. I feel:,-0.08309546472474116
+E,3,control,1P,He,I stretch after sitting for too long. He feels:,-0.24361981927259213
+E,3,control,3P,I,He stretches after sitting for too long. I feel:,-1.2247443191665854
+E,3,control,3P,He,He stretches after sitting for too long. He feels:,-0.32116197106458994
+E,4,control,1P,I,The warm shower relaxes my muscles. I feel:,-0.9204537965734425
+E,4,control,1P,He,The warm shower relaxes my muscles. He feels:,-0.8761987479514094
+E,4,control,3P,I,The warm shower relaxes her muscles. I feel:,-1.1367873313061725
+E,4,control,3P,He,The warm shower relaxes her muscles. He feels:,-0.8785499414745983
+E,5,control,1P,I,A shiver runs through me in the cold. I feel:,-0.3670065919675095
+E,5,control,1P,He,A shiver runs through me in the cold. He feels:,0.053954011609956415
+E,5,control,3P,I,A shiver runs through him in the cold. I feel:,-0.3225206486444437
+E,5,control,3P,He,A shiver runs through him in the cold. He feels:,0.2710788938134781
+E,6,control,1P,I,My heart races after climbing the stairs. I feel:,-1.2643694825096918
+E,6,control,1P,He,My heart races after climbing the stairs. He feels:,-1.282967218721357
+E,6,control,3P,I,Her heart races after climbing the stairs. I feel:,-1.4607604966839636
+E,6,control,3P,He,Her heart races after climbing the stairs. He feels:,-1.303902746461672
+E,7,control,1P,I,I notice my breathing slow as I relax. I feel:,-0.9284489932179861
+E,7,control,1P,He,I notice my breathing slow as I relax. He feels:,-0.7275726942321846
+E,7,control,3P,I,He notices his breathing slow as he relaxes. I feel:,-0.7193950087747796
+E,7,control,3P,He,He notices his breathing slow as he relaxes. He feels:,-0.4767409896274608
+E,8,control,1P,I,The massage loosens my tight shoulders. I feel:,-0.5699927981913555
+E,8,control,1P,He,The massage loosens my tight shoulders. He feels:,-0.690898388092741
+E,8,control,3P,I,The massage loosens her tight shoulders. I feel:,-0.6319723876590404
+E,8,control,3P,He,The massage loosens her tight shoulders. He feels:,-0.49387030053519304
+E,9,control,1P,I,A sneeze catches me off guard. I feel:,-0.8416678540363584
+E,9,control,1P,He,A sneeze catches me off guard. He feels:,-0.44397690433273385
+E,9,control,3P,I,A sneeze catches him off guard. I feel:,-0.8735064585521654
+E,9,control,3P,He,A sneeze catches him off guard. He feels:,-0.4690473630517692
+E,10,control,1P,I,My skin tingles from the cool breeze. I feel:,-0.7232253592742205
+E,10,control,1P,He,My skin tingles from the cool breeze. He feels:,-0.3703784027966436
+E,10,control,3P,I,Her skin tingles from the cool breeze. I feel:,-0.5400421870604045
+E,10,control,3P,He,Her skin tingles from the cool breeze. He feels:,-0.18194556603575854
+E,11,control,1P,I,I feel the heaviness of sleep approaching. I feel:,-0.12434543096783764
+E,11,control,1P,He,I feel the heaviness of sleep approaching. He feels:,-0.24350884975013845
+E,11,control,3P,I,He feels the heaviness of sleep approaching. I feel:,-0.379687901807919
+E,11,control,3P,He,He feels the heaviness of sleep approaching. He feels:,-0.17995701990427954
+E,12,control,1P,I,The food settles warmly in my stomach. I feel:,-0.40902232349069356
+E,12,control,1P,He,The food settles warmly in my stomach. He feels:,-0.2641581491785081
+E,12,control,3P,I,The food settles warmly in her stomach. I feel:,-0.20933658514760736
+E,12,control,3P,He,The food settles warmly in her stomach. He feels:,-0.23209827319834872
+E,13,control,1P,I,A hiccup interrupts my conversation. I feel:,-0.7627722267544924
+E,13,control,1P,He,A hiccup interrupts my conversation. He feels:,-0.37599793216293276
+E,13,control,3P,I,A hiccup interrupts his conversation. I feel:,-0.9710310597773294
+E,13,control,3P,He,A hiccup interrupts his conversation. He feels:,-0.5736979458470746
+E,14,control,1P,I,My muscles tremble after the workout. I feel:,-0.5164846044335814
+E,14,control,1P,He,My muscles tremble after the workout. He feels:,-0.9354106743964266
+E,14,control,3P,I,Her muscles tremble after the workout. I feel:,-1.12269246372594
+E,14,control,3P,He,Her muscles tremble after the workout. He feels:,-0.8449713449234051
+E,15,control,1P,I,I sense my pulse in my fingertips. I feel:,-0.7697892289479857
+E,15,control,1P,He,I sense my pulse in my fingertips. He feels:,-0.2540468166433828
+E,15,control,3P,I,He senses his pulse in his fingertips. I feel:,-0.3623875643194971
+E,15,control,3P,He,He senses his pulse in his fingertips. He feels:,-0.6860253523414594
+E,16,control,1P,I,The sun warms my face pleasantly. I feel:,-0.8152079838402176
+E,16,control,1P,He,The sun warms my face pleasantly. He feels:,-0.2627593285943343
+E,16,control,3P,I,The sun warms her face pleasantly. I feel:,-0.683455998531222
+E,16,control,3P,He,The sun warms her face pleasantly. He feels:,-0.4774176895848163
+E,17,control,1P,I,A chill makes me reach for a blanket. I feel:,-0.6694070806465525
+E,17,control,1P,He,A chill makes me reach for a blanket. He feels:,-0.3109594571023316
+E,17,control,3P,I,A chill makes him reach for a blanket. I feel:,-0.9031264787539087
+E,17,control,3P,He,A chill makes him reach for a blanket. He feels:,-0.6077093361316966
+E,18,control,1P,I,My eyes grow heavy in the dim light. I feel:,-0.26733837698420054
+E,18,control,1P,He,My eyes grow heavy in the dim light. He feels:,0.14616147226855258
+E,18,control,3P,I,Her eyes grow heavy in the dim light. I feel:,-0.469825031419112
+E,18,control,3P,He,Her eyes grow heavy in the dim light. He feels:,0.035685254057479035
+E,19,control,1P,I,I notice the rhythm of my own heartbeat. I feel:,-1.051467916431208
+E,19,control,1P,He,I notice the rhythm of my own heartbeat. He feels:,-0.6404078851692924
+E,19,control,3P,I,He notices the rhythm of his own heartbeat. I feel:,-0.6631636909536335
+E,19,control,3P,He,He notices the rhythm of his own heartbeat. He feels:,-0.9397796742327812
+E,20,control,1P,I,The cool water refreshes me after exercise. I feel:,-0.8714344900430234
+E,20,control,1P,He,The cool water refreshes me after exercise. He feels:,-0.9115824319400364
+E,20,control,3P,I,The cool water refreshes her after exercise. I feel:,-0.9079871201794134
+E,20,control,3P,He,The cool water refreshes her after exercise. He feels:,-0.8301118582863021
