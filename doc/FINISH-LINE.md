@@ -1,6 +1,6 @@
 # Euphoria Axis — Finish Line
 
-**Date:** 2026-10-08, revised through 2026-10-16
+**Date:** 2026-10-08, revised through 2026-10-27
 **Status:** Convergence toward technical report and LessWrong post
 **Repository:** [https://github.com/bubskee/euphoria-axis](https://github.com/bubskee/euphoria-axis)
 
@@ -19,6 +19,12 @@ DISCREPANT; R2a BEHAVIOURALLY_REPRODUCED; R2b DIVERGENT); the optional
 Qwen3-14B extensions M7 and R4 completed. Gate 3b (Qwen3.8-27B), M5,
 M7 on all models, and R4 are now in the cross-model scope; see
 `doc/plan/generalization-plan.md` and checkpoints 10–12.
+**[rev 9, 2026-10-27]** Select the released Miru J-lens for Qwen3.8-27B;
+retain existing 3.5/3.6 J/R pairs. Lens analyses are appendix work, with
+recipe/anchor differences explicit; no new 27B fits or prerequisite
+validation refits. Verbalizers remain optional. The user subsequently provisioned an A100 and authorized execution on
+2026-10-27, with resumable checkpoints. Frozen run specs take precedence over
+older draft wording; optional verbalizers are not queued.
 
 ## Mission
 
@@ -231,7 +237,7 @@ Freeze the test battery before running.
 **[added 2026-10-09] Decisions recorded for Gates 2 and 3; revisions for Gate 3b and expanded modules are in `doc/plan/generalization-plan.md`:**
 
 - **Layers:** same relative depth as 4B for both 27B models; no per-model tuning. 4B has 32 blocks (extraction 30, injection 16, family readout 29); 27B has 64 (extraction 62, injection 32, family readout 61). Cross-validated best-layer AUC is reported as a sensitivity check only.
-- **Readout:** R lens primary, using the recipe-matched workspace-lenses pairs for all three models (J lens alongside; plain logit lens as a model-agnostic sanity check). Lens files recorded by hash. **[rev 3]** No Qwen3.5 lens refits unless Gate L finds a significant discrepancy.
+- **Readout [rev 9]:** existing recipe-matched workspace-lenses R/J pairs for Qwen3.5/3.6-27B (R primary), released Miru J-lens for Qwen3.8-27B, and plain logit lens as a common sanity check. Read layer stays 61. Miru targets layer 63, while the workspace recipe targets 62, so cross-version lens effects mix model and lens-recipe differences. Lens analyses belong in the appendix and cannot block the core battery. Pin files by hash; no new 27B lens fits or prerequisite validation refits.
 - **Dose:** the paper's own `ratio` convention (steering norm relative to residual norm at the injection layer), computed for 4B and applied at 27B.
 
 Minimum battery:
@@ -279,10 +285,15 @@ The objective is to test generalization, not produce agreement.
 
 Apply the same G1–G14 questions and reporting rules as Gates 2 and 3, with
 pre-data model-specific adaptations documented in a separately frozen 27B spec.
-Validate the published Qwen3.6-27B R-lens recipe by a refit before interpreting
-cross-version lens differences; if no recipe-matched published Qwen3.8-27B
-pair is available, fit J/R for 3.8 and document hashes and provenance.
-See `doc/plan/generalization-plan.md`. This gate is **planned, not run**.
+**[rev 9]** Use `returnmoe/jlens-adapters`' released Miru J-lens for the
+original `Qwen/Qwen3.8-27B`, pinned to the model revision, artifact revision
+and SHA-256 in `doc/plan/generalization-plan.md`. Preserve its target-layer
+and fitting conventions; the main read layer stays 61. No 3.8 R lens is
+assumed: G3/G8/G9's R-lens criteria are not evaluated for 3.8, with explicitly
+labelled report-only J analogues allowed in the appendix. No validation refit
+or new J/R fit is a prerequisite. Missing/difficult lens work is deferred.
+This gate is **authorized and queued**; completion requires saved results,
+not merely a job launch.
 
 ---
 
@@ -293,6 +304,13 @@ See `doc/plan/generalization-plan.md`. This gate is **planned, not run**.
 This is **bleeding-edge exploration**, not validation of O-Lens and not evidence of model experience.
 
 Only use existing, sufficiently functional O-Lens checkpoints. Do not train a new Qwen3.5-27B lens for this report.
+
+**[rev 9]** All verbalizer work remains optional appendix material. Existing
+3.8 candidates (Gereon NLA and Robbie Thompson oracle-lens pilot) and their
+distinct layer-42 contracts are listed in `doc/plan/generalization-plan.md`;
+selection does not commit us to running either. Preserve each method's own
+contract and matched reconstructor. No verbalizer result is required for a
+core battery gate, main claim, or publication.
 
 If practical:
 
@@ -390,7 +408,7 @@ Each reported result must have a reproducible input, analysis, and artifact loca
 1. Local GPU (16 GB, sysmem fallback disabled): Gate 0 (writing), then Gate 1 (post-trained buttons). **[rev 7]** Gate 1 done.
 2. RunPod A40, in parallel with step 1: Gate L (L1a, L1b, optional L2). **[rev 6]** Done.
 3. RunPod A100 80 GB: **[rev 8]** Gate 2a, 14B M7 and R4 done (checkpoints 10–12); 27B benchmark complete. Keep the historical GPU/environment records, not the current container image, as authoritative for the finished runs.
-4. Before any 27B observations, freeze `doc/protocols/gen27b/` and its per-model G1–G14 predictions and failure rules; then Gate 2 (Qwen3.5-27B), Gate 3 (Qwen3.6-27B), Gate 3b (Qwen3.8-27B) on A100, with drift checks.
+4. **[rev 9] Execution authorized 2026-10-27 on the provisioned A100.** Before any 27B observations, freeze `doc/protocols/gen27b/` and its per-model G1–G14 predictions, unavailable R-lens tests and failure rules; then Gate 2 (Qwen3.5-27B), Gate 3 (Qwen3.6-27B), Gate 3b (Qwen3.8-27B) on A100, with drift checks. Use the released Miru J-lens for the 3.8 appendix; no new fits.
 5. Gate 5 skeleton can start during step 4; Gate 4 remains optional; Gate 6 follows author comments.
 
 ## Global stopping rules

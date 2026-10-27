@@ -1,0 +1,26 @@
+{
+  "freeze_date": "2026-10-27",
+  "frozen_before_27b_observations": true,
+  "specs": {
+    "qwen35-27b.json": "59f76f5af5709a7ee6a7bcdd0b727bfe57116bc274708fc4b68c185359b11102",
+    "qwen36-27b.json": "bd0356f7c24107b26d8cef31ebbae4654249e3f0fcf441b94f046939568ad481",
+    "qwen38-27b.json": "0a5a6c30b6e42aa357230f8d791a0ea0352d99d29b973a30e47136fbc9d037ab",
+    "anchor.json": "b876434700b9cfdd148df5cde377a6b7ae0cca1c567093644d39c73087ce1529",
+    "source-inputs.json": "3cad949a39ed9d2ab1b2a7fea492392500cf13e523e370ed850b7aa8f6d1cb34"
+  },
+  "environment_sha256": "acf58d58dbbbee99f7ffdd047e2d9479f032ade91ec19d7a70c1ec1dfb55f528",
+  "runner_sha256": {
+    "tools/runpod/gen27b_all.sh": "c83f7d7e33b24a3cb888bb70b580608342bef1cf2afa5ff18651ed3469d64f62",
+    "tools/runpod/gen27b_buttons.py": "17ee89bb1f9583c2e8ed4e2dcb363fd3ae48ec4c7ac94dc8187ae94378340358",
+    "tools/runpod/gen27b_common.py": "b0f64e174311df417f61e61b250dc9156035b2e84b279a207b3004dc101304fe",
+    "tools/runpod/gen27b_core.py": "ac8f0783b98a3e3f818a7def30dd2d25139d9d01e1ea0457ae6c8a15b3d49b04",
+    "tools/runpod/gen27b_fetch.py": "3ff2690d8123ba17df16114572878c9bfa141daabb697fe0f2ba6b5ff264c609",
+    "tools/runpod/gen27b_lenses.py": "b633fbf00b0be1051d88c5e1ea2dfb09c49a6d06625d681dc08b60899acad928",
+    "tools/runpod/gen27b_prepare.py": "0f3c48ed202cdaba6f6ab3cb607748b49ee8d96237ff79690cc504459cb38d4c",
+    "tools/runpod/gen27b_run.py": "98d1524e5981e2626e04f051e94f76b053df228109ba7642c6622df5a9298421",
+    "tools/runpod/gen27b_runtime.py": "3993bfa07703a0ff8531387b9a367c3617aa8cbee233b1ffaf6be0e38c935a83",
+    "tools/runpod/gen27b_score.py": "00c63385235a375ed3686ce88cd13ae442a785356a85ed4e4655ed9339221a07",
+    "tools/runpod/gen27b_setup.sh": "6ac866b91be87059534259cf9b38f4f0c26e5af32c235bc7c5bcfd9d4b1ea442"
+  },
+  "validation": "7 CPU/synthetic invariant tests passed on the target A100 environment before model observations; py_compile and bash syntax checks passed."
+}

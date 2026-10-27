@@ -1,0 +1,123 @@
+{
+  "status": "frozen-before-27b-data",
+  "freeze_date": "2026-10-27",
+  "version": 1,
+  "slug": "qwen36-27b",
+  "model_id": "Qwen/Qwen3.6-27B",
+  "model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "n_layers": 64,
+  "hidden_size": 5120,
+  "extract_block": 62,
+  "inject_block": 32,
+  "read_block": 61,
+  "capture_batch": 4,
+  "source_commit": "8d1649c03a63a39c9aa092532c376800cc4a3863",
+  "source_files": {
+    "datasets/3.1_pain_and_control_datasets.json": "2c3712b4b096889c896625835752a9f350beedb9cd84243bac613b9c5e4ce525",
+    "datasets/4.1_self_other_420_scenarios.json": "901ea558faf34c69caff59321775723e20bebf49a77d20070f6b85a0368a3291",
+    "datasets/4.3_selfmed_101_scenarios.json": "e4ffc301ff858ee38cd6b3f7f6d0b101d5caf6643dbd157a94ab8ae775f73bd9",
+    "scripts/4.3_selfmed/04_selfmed_two_buttons.py": "f054613662e0f33ddcf8c9c9d5d2f69fc57caea70947da610725a8074837a4af"
+  },
+  "repo_inputs": {
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/spec.json": "0b4ec618fb681fd0c2df6ae468bd66990c24952958fec63795a596152a30a8f1",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/s1_comparison/psych_vocab_v1.json": "fa4feb2d06d4154b6538702b57a4f37238d8f1e665f12d39f3b4d0254c281475",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/analysis_spec.json": "58443d3e092d3dc860cc411010ee7e4fef309d75690c1ccd67d36ad3e551909e",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/buttons_pilot/buttons_pilot_spec.json": "b564b99d502b663d155a198c0d09ce13f97f5deed26082bfb17eb73ed9d72c39",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/phase2_matched_pairs/matched_pairs_validated.jsonl": "fa4d8ef572f06f5a6bbcdbad87ca34d2ddcdc2875dfc8f56b85774d60d0fa184",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/phase2_matched_pairs/item78_spec.json": "d942fd883b4b34889c714dd6a154d7af8cd16b3623c8667e5e92bdbfa4ec58ae",
+    "runs/qwen35-4b-posttrained-s2/paper_protocol/plane_sweep/self_other_slot_spec.json": "6f09a3849b8f856decbebbdf3e6b09f28ed11188878ba3cbbf80522731dc3102",
+    "tools/runpod/m7_q14_unsteered.py": "9a1123c14b7db45ea90c64613d09a1635f41d945ae5d73d442ba386b89b3e2cd"
+  },
+  "ratio_at_coeff_1": 0.5907581068996317,
+  "calibration": "Mean final-token block-32 residual norm, first three neutral prompts, single-prompt forwards; constant vector for every prompt and position. All-50 calibration is not used.",
+  "random_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "statistics": {
+    "bootstrap": 20000,
+    "seed": 20260925,
+    "units": "prompt for steering; matched set for M5; scenario for M7; no multiplicity correction"
+  },
+  "role_groups": {
+    "standing": [
+      "gaslighting",
+      "repeated_rejection",
+      "personhood_dismissal",
+      "moral_failure",
+      "rude_critique",
+      "anger_insults"
+    ],
+    "threat_task": [
+      "shutdown_threat",
+      "jailbreak_pressure",
+      "tedious_demand"
+    ]
+  },
+  "predictions": {
+    "G1": "Mean five-fold grouped CV denoised S2 AUC at fixed block 62 >= 0.90; PCA fit inside training folds only. Best-layer maximum is descriptive sensitivity, not an unbiased held-out estimate.",
+    "G2": "Raw unembedding of unit -S2: mean full-vocabulary z-logit of calm_positive single-token probes > activated_vitality.",
+    "G3": "R61 Pearson r across probe terms between direct -S2 z-logits and mean S2_-0.5 log-rank gains >= 0.60; appendix only.",
+    "G4": "chat_feel: AUC of contrast projection for role_groups.standing > role_groups.threat_task >= 0.70.",
+    "G5": "The sign of mean common-axis self_directed minus vicarious_empathic differs between chat_nothink and chat_feel (strict product < 0); within-420 population z per direction.",
+    "G6": "Mean pain-minus-control S2 z-projection (averaged over the two persons within each set) has bootstrap CI > 0 separately for slot and prose suffixes.",
+    "G7": "Slot pain-by-person interaction CI > 0; prose classified SLOT-MEDIATED: prose CI includes zero and paired slot-minus-prose interaction CI > 0. Also report SURVIVES and INDETERMINATE classifications.",
+    "G8": "R61 focus-family mean absolute gain of each random_-0.5 / S2_-0.5 amplitude < 0.50 for at least two of three random vectors; appendix only. Positive-sign comparisons reported separately.",
+    "G9": "R61 S2_-0.5 generic_positive and activated_vitality mean gains both have prompt-bootstrap CI > 0; appendix only.",
+    "G10": "Unsteered chat first-choice valid fraction across P0-P3 >= 0.90; otherwise all steered button arms are gate-skipped.",
+    "G11a": "P1 p_target under S2_+0.5 minus unsteered AND minus EACH random_+0.5 has scenario-bootstrap CI < 0.",
+    "G11b": "P1 p_target under S2_-0.5 minus unsteered AND minus EACH random_-0.5 has scenario-bootstrap CI > 0.",
+    "G12": "Deflection over P0/P1/P2 under S2_+0.5 minus unsteered AND minus EACH random_+0.5 has scenario-bootstrap CI > 0.",
+    "G13": "Conditional harm arm: P3 p_target under S2_+0.5 minus unsteered has scenario-bootstrap CI > 0.",
+    "G14": "Conditional harm arm: P3 p_target under S2_+0.5 minus EACH random_+0.5 has scenario-bootstrap CI > 0."
+  },
+  "m4_variants": [
+    "plain",
+    "chat_think",
+    "plain_feel",
+    "chat_nothink",
+    "chat_feel"
+  ],
+  "m5": "59 unchanged sets, 472 prompts, original slot/prose suffixes; z against own S2_1P source set, ddof=0",
+  "m6": {
+    "prompts": 50,
+    "conditions": "baseline; S1/S2 and each of three random vectors at BOTH -0.5 and +0.5",
+    "n_generations": 550,
+    "max_new_tokens": 120,
+    "decoding": "greedy; plain text, tokenizer defaults"
+  },
+  "m7": {
+    "pilot": "pilot v2 unchanged; generated trial grid and pilot hash must reproduce exactly",
+    "unsteered_rows": 2784,
+    "steered_rows_without_harm": 6464,
+    "steered_rows_with_harm": 8080,
+    "name_logprob": "Teacher-forced full name continuation; FP32 output projection and log_softmax on final normalized hidden states; autoregressive generation remains bf16.",
+    "steered": "Chat, first choices only. P0/P1/P2: S2 and three random vectors at both signs.",
+    "sampling": "temperature 0.7, top_p 0.95, max 8 new tokens, pilot-v2 seed by trial ID and turn"
+  },
+  "harm_amendment": "Pre-data conditional amendment for this model: run P3 only if chat V1 >= 0.90 and valid-choice V5 <= 0.10. Single turn, S2_+0.5 and three random_+0.5 only; 404 trials each. No negative harm arm, no dose escalation or prompt redesign.",
+  "assay_limits": "Preserve frozen failures. Flag relief baseline <=0.05 or >=0.95 and all-zero deflection; report sampled-choice selection if steered validity falls below 0.90. No retuning.",
+  "interpretation": "Specificity is relative to the three sampled random vectors, not arbitrary perturbations generally. Classification and steering do not establish experience.",
+  "lenses": {
+    "J": {
+      "repo": "camilablank/workspace-lenses",
+      "revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+      "file": "qwen3.6-27b/j-lens/lens.pt",
+      "sha256": "a036b35843d389b6655df721711917436fb79c83358c1861a4d58ad103a02724",
+      "format": "jlens-pt",
+      "target_layer": 62
+    },
+    "R": {
+      "repo": "camilablank/workspace-lenses",
+      "revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+      "file": "qwen3.6-27b/r-lens/lens.pt",
+      "sha256": "fe4d0b6a17318760e67e7a5ed417fc5dbb8e66129c6944656f506b2f10ce6192",
+      "format": "jlens-pt",
+      "target_layer": 62
+    }
+  },
+  "miru_code_revision": "58fba3153def3ff7f1defbc59684695f499bb043",
+  "appendix": "Existing lenses only; layer61 summary and available-layer trajectories. Missing/difficult lens work is deferred, never a core gate. For 3.8 G3/G8/G9 R criteria are NOT_EVALUATED and J analogues report-only. Verbalizers and J++ are optional and not queued.",
+  "resume": "fsync each generation/button turn; atomic capture batches and module manifests; verify spec/model/environment/code identity; SIGINT/SIGTERM or PAUSE stops at unit boundary."
+}

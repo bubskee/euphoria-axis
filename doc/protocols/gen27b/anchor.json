@@ -1,0 +1,11 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "n_layers": 32,
+  "hidden_size": 2560,
+  "extract_block": 30,
+  "inject_block": 16,
+  "auc_tolerance": 0.005,
+  "generation_comparison": "Three stored plane-sweep prompt-0 outputs, first divergence reported; exact text not a pass bar.",
+  "lens_gate": "Appendix-only; unavailable lens results do not block the core environment drift check."
+}
