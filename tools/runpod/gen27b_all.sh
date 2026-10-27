@@ -13,7 +13,7 @@ read -r quota period < /sys/fs/cgroup/cpu.max
 if [[ "$quota" =~ ^[0-9]+$ ]]; then CPUS=$((quota / period)); else CPUS=8; fi
 export OMP_NUM_THREADS=$CPUS MKL_NUM_THREADS=$CPUS PYTHONUNBUFFERED=1
 PY="$TASK_ROOT/.venv/bin/python"
-trap 'echo "Battery stopped at $(date -Is), exit=$?; completed units are retained."' EXIT
+trap 'status=$?; echo "Battery stopped at $(date -Is), exit=$status; completed units are retained."' EXIT
 cd "$REPO"
 test -f "$STORE/SETUP_READY"
 test ! -f "$STORE/PAUSE" || exit 130

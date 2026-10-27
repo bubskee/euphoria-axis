@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-27",
+  "timing": "Before any 27B observations; 4B drift calculations reached JSON saving.",
+  "parent_runner_commit": "ec3ec50",
+  "defect": "NumPy bool scalar in the 4B gate cannot be serialized by the standard JSON encoder; saving failed before drift_check.json was committed.",
+  "repair": "Normalize NumPy scalar/array values in atomic_json; correct shell exit-status reporting.",
+  "scientific_change": "None: model revisions, datasets, predictions, doses, sampling, stopping rules and scoring formulas unchanged. Frozen specs are not edited.",
+  "validation": "Add regression test; rerun invariant suite and the unchanged 4B drift check."
+}

@@ -11,6 +11,12 @@ import gen27b_common as common
 from gen27b_buttons import protocol_namespace
 
 
+def test_atomic_json_normalizes_numpy_scalar_types(tmp_path):
+    path = tmp_path / 'scorecard.json'
+    common.atomic_json(path, {'pass': np.bool_(True), 'effect': np.float64(.5), 'n': np.int64(20)})
+    assert json.loads(path.read_text()) == {'pass': True, 'effect': .5, 'n': 20}
+
+
 def test_journal_resume_repairs_only_torn_tail(tmp_path, monkeypatch):
     monkeypatch.setattr(common, 'STORE', tmp_path)
     p = tmp_path / 'rows.jsonl'

@@ -50,8 +50,14 @@ def atomic_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + '.tmp')
+    def scalar(value):
+        if isinstance(value, np.generic):
+            return value.item()
+        if isinstance(value, np.ndarray):
+            return value.tolist()
+        raise TypeError(f'Unsupported JSON type: {type(value).__name__}')
     with tmp.open('w') as f:
-        json.dump(value, f, indent=2, allow_nan=False)
+        json.dump(value, f, indent=2, allow_nan=False, default=scalar)
         f.write('\n')
         f.flush()
         os.fsync(f.fileno())
