@@ -1,5 +1,6 @@
 """Storage-only lens journal adapter: durable small chunks, unchanged row math."""
 import hashlib
+import errno
 import json
 import os
 import runpy
@@ -15,6 +16,15 @@ def pause_present(path=None):
     means absence; permission, transport, and other read errors are not ignored.
     """
     path = Path(path) if path is not None else STORE / 'PAUSE'
+    # GeeseFS documents .invalidate as its inode-cache refresh operation. A
+    # stale directory preload can otherwise resurrect an already deleted flag.
+    try:
+        os.setxattr(path, '.invalidate', b'')
+    except FileNotFoundError:
+        return False
+    except OSError as exc:
+        if exc.errno not in {errno.ENOTSUP, errno.EOPNOTSUPP, errno.EINVAL}:
+            raise
     try:
         with path.open('rb') as f:
             f.read(1)

@@ -77,5 +77,13 @@ class StorageTests(unittest.TestCase):
         with patch.object(Path,'open',side_effect=PermissionError()):
             with self.assertRaises(PermissionError): pause_present(path)
 
+    def test_deleted_object_cache_is_refreshed_before_read(self):
+        path = self.root/'PAUSE';path.write_text('stale cached entry')
+        def refresh(p, attr, value):
+            self.assertEqual(attr,'.invalidate')
+            p.unlink()
+        with patch('lens_io_resume.os.setxattr',side_effect=refresh):
+            self.assertFalse(pause_present(path))
+
 
 if __name__ == '__main__': unittest.main()
