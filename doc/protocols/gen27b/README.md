@@ -29,7 +29,9 @@ journals, logs and environment lock use `/workspace/gen27b/` on the volume.
 Completed model weight copies may be deleted from the dedicated container
 cache to fit the next model; result files are retained.
 
-One GPU process runs at a time. The 4B environment gate precedes all 27B
+One GPU process runs at a time. All three core batteries precede the lens
+appendices; see `repairs/02-core-first-queue.md` for the scheduling change.
+The 4B environment gate precedes all 27B
 observations: fixed-layer held-out AUC must be within 0.005 of the stored
 value. Three stored generations are compared by first divergence, without
 an exact-text pass bar. Lens validation is kept off this core gate.
@@ -42,7 +44,7 @@ Start or resume the same queue from the pinned checkout:
 ```bash
 cd /root/gen27b/repo
 tmux new-session -d -s euphoria27b \
-  'bash -o pipefail -c "bash tools/runpod/gen27b_all.sh 2>&1 | tee -a /workspace/gen27b/battery.log"'
+  'bash -o pipefail -c "bash tools/runpod/queue_core_first.sh 2>&1 | tee -a /workspace/gen27b/battery.log"'
 ```
 
 Request a safe pause:
