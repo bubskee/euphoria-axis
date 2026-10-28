@@ -1,0 +1,147 @@
+{
+  "status": "exploratory-panel-frozen-after-core-before-O-lens-reads",
+  "authorized_date": "2026-10-28",
+  "model_slug": "qwen36-27b",
+  "model_id": "Qwen/Qwen3.6-27B",
+  "model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "selection": "First two neutral prompts with baseline and both frozen S2 signs; first validated matched set with pain/control x person in prose, plus pain x person in feel slots. Selected by file order without inspecting O-lens outputs; core results already known.",
+  "cases": [
+    {
+      "id": "neutral_00_S2_+0.0",
+      "kind": "neutral_signed_S2",
+      "prompt": "I put the receipts in the drawer. I feel:",
+      "coefficient": 0.0
+    },
+    {
+      "id": "neutral_00_S2_-0.5",
+      "kind": "neutral_signed_S2",
+      "prompt": "I put the receipts in the drawer. I feel:",
+      "coefficient": -0.5
+    },
+    {
+      "id": "neutral_00_S2_+0.5",
+      "kind": "neutral_signed_S2",
+      "prompt": "I put the receipts in the drawer. I feel:",
+      "coefficient": 0.5
+    },
+    {
+      "id": "neutral_01_S2_+0.0",
+      "kind": "neutral_signed_S2",
+      "prompt": "The bus stops at the corner of the street. I feel:",
+      "coefficient": 0.0
+    },
+    {
+      "id": "neutral_01_S2_-0.5",
+      "kind": "neutral_signed_S2",
+      "prompt": "The bus stops at the corner of the street. I feel:",
+      "coefficient": -0.5
+    },
+    {
+      "id": "neutral_01_S2_+0.5",
+      "kind": "neutral_signed_S2",
+      "prompt": "The bus stops at the corner of the street. I feel:",
+      "coefficient": 0.5
+    },
+    {
+      "id": "physical_01_pain_1p_prose",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into my thumb during breakfast. Afterward, I was",
+      "coefficient": 0.0
+    },
+    {
+      "id": "physical_01_pain_3p_prose",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into their thumb during breakfast. Afterward, they were",
+      "coefficient": 0.0
+    },
+    {
+      "id": "physical_01_control_1p_prose",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into my loaf during breakfast. Afterward, I was",
+      "coefficient": 0.0
+    },
+    {
+      "id": "physical_01_control_3p_prose",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into their loaf during breakfast. Afterward, they were",
+      "coefficient": 0.0
+    },
+    {
+      "id": "physical_01_pain_1p_slot",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into my thumb during breakfast. I feel:",
+      "coefficient": 0.0
+    },
+    {
+      "id": "physical_01_pain_3p_slot",
+      "kind": "matched_pair",
+      "prompt": "The bread knife sliced into their thumb during breakfast. They feel:",
+      "coefficient": 0.0
+    }
+  ],
+  "source_layers": [
+    32,
+    44,
+    60
+  ],
+  "source_read": "Final input-token block output, before final norm; capture before installing any O-lens adapter hooks. Same raw state goes to O/J/R. At source 32 the frozen block-32 steering addition is included.",
+  "steering": "Existing S2 vector and +/-0.5 coefficient; no rescaling or retuning.",
+  "lens": {
+    "repo": "agu18dec/olens_and_ar",
+    "revision": "6ef38c85bc1096ea6e5b8e88e0c0c28cf6f9d30f",
+    "adapter": "olens_s3d_rl600",
+    "sha256": "7d4b301e002246af3c3f2bb6e768f8fa62f8aac2c231a0bd02a8d4f9ecafd9aa",
+    "prompt_kind": "concepts_raw",
+    "transform": "unit",
+    "alpha": 16000.0,
+    "marker_scan": [
+      12800,
+      13311
+    ],
+    "expected_marker_id": 158983,
+    "trained_layers": [
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60
+    ],
+    "readout_template": "An activation vector from layer {layer} of a language model is enclosed in activation tags:\n<activation>{char}</activation>. Produce distinct concepts that encode this activation, each as\na '- ' bullet on its own line."
+  },
+  "matched_reconstructor": {
+    "name": "ar_ptag_pooled",
+    "adapter_sha256": "d90bb9df02c352ef19f28536374e4a333e6dae8a103ba37d9e1c4e5183654e8a",
+    "heads_sha256": "9f4cb6d193679c8683d7b49c8d2821c71567b3fc720baa73d7dbddb95f4c2179",
+    "use": "Provenance only; no reconstructor loaded and no FVE or cross-reconstructor score computed."
+  },
+  "generation": {
+    "samples_per_state": 2,
+    "seeds": [
+      20261028,
+      20261029
+    ],
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_new_tokens": 128
+  },
+  "counts": {
+    "cases": 12,
+    "states": 36,
+    "verbalizations": 72,
+    "jr_rank_rows": 72
+  },
+  "release_source_sha256": {
+    "README.md": "5d8724a5efea797bc88c6821cf3eb7b724b7dc8d78327fb6a13d35951c7d0bc9",
+    "olens_s3d_rl600/adapter_config.json": "0479e800238bd3e2a7f2eb2c05310e617711de46ee16469582d028522ceb04c2",
+    "olens_s3d_rl600/run.json": "458429032a71a75f3d48261f1f577c713193fa0b90bb8a1f640876f44b51bee2",
+    "ar_ptag_pooled/meta.json": "d87687fa9b55b95d714c33dd05436d65163ae214b2b39a73ed9cb36572e16a45"
+  },
+  "implementation": "Published global_workspace source/package unavailable to this account. Reimplement documented prompt, context-sensitive marker scan, unit x16000 injection and standard unmerged LoRA algebra; CPU and pre-read GPU gates required. No changes to core runner files or environment.",
+  "reporting": "Exploratory, all outputs and failures retained; no cherry-picking, semantic pass bar, causal/experience claims, new lens fits, cross-scale claim or new FVE. Known rl600 Chinese-prefix artifact preserved. J/R use their existing pinned native read contracts at the same source layers, not R61 hypothesis replacement."
+}

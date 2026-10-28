@@ -299,6 +299,14 @@ not merely a job launch.
 
 ## Gate 4 — Optional O-Lens peek
 
+**2026-10-28 authorized addendum:** the user requested the existing Agam 3.6
+O-lens comparison. The separately frozen, post-core exploratory panel is in
+[`olens36-appendix/spec.json`](protocols/olens36-appendix/spec.json): 12 cases,
+layers 32/44/60, two fixed samples per state, and matched J/R readouts of the
+same adapter-off activations. `queue_olens36_appendix.sh` waits for the existing
+appendices and their GPU lock. No frozen 27B runner/spec changes or 4B run are
+part of this addendum. All failures and raw outputs remain reportable.
+
 **Goal:** Explore whether free-form activation verbalization supplies interesting hypotheses about the Pain Axis.
 
 This is **bleeding-edge exploration**, not validation of O-Lens and not evidence of model experience.
