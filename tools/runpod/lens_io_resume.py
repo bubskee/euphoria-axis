@@ -5,7 +5,30 @@ import os
 import runpy
 from pathlib import Path
 
-from gen27b_common import atomic_json, sha
+from gen27b_common import STORE, atomic_json, sha
+
+
+def pause_present(path=None):
+    """A deleted object can remain in this FUSE mount's stat cache.
+
+    A successful read, including an empty file, is a real pause. Only ENOENT
+    means absence; permission, transport, and other read errors are not ignored.
+    """
+    path = Path(path) if path is not None else STORE / 'PAUSE'
+    try:
+        with path.open('rb') as f:
+            f.read(1)
+        return True
+    except FileNotFoundError:
+        return False
+
+
+def install_pause_guard():
+    import gen27b_common as common
+    def check_stop():
+        if common.STOP or pause_present():
+            raise common.Interrupted('Paused safely; completed units are saved. Remove PAUSE and resume the same command.')
+    common.check_stop = check_stop
 
 
 class ChunkedJournal:
@@ -121,6 +144,14 @@ class ChunkedJournal:
 
 
 if __name__ == '__main__':
+    import sys
+    if '--pause-status' in sys.argv:
+        raise SystemExit(0 if pause_present() else 1)
+    install_pause_guard()
+    if '--olens' in sys.argv:
+        sys.argv.remove('--olens')
+        runpy.run_path(str(Path(__file__).with_name('olens36_appendix.py')), run_name='__main__')
+        raise SystemExit(0)
     # Only the storage object used by the lens appendix is substituted. The
     # frozen runner files, Runtime, lens transport, ranks, loops and RNG stay intact.
     import gen27b_lenses

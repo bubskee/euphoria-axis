@@ -15,14 +15,20 @@ if [[ "$quota" =~ ^[0-9]+$ ]]; then CPUS=$((quota / period)); else CPUS=8; fi
 export OMP_NUM_THREADS=$CPUS MKL_NUM_THREADS=$CPUS PYTHONUNBUFFERED=1
 trap 'status=$?; echo "Core-first queue stopped at $(date -Is), exit=$status; saved units retained."' EXIT
 cd "$REPO"
+pause_guard() {
+  local code=0
+  "$PY" tools/runpod/lens_io_resume.py --pause-status || code=$?
+  if [ "$code" = 0 ]; then exit 130; fi
+  if [ "$code" != 1 ]; then exit "$code"; fi
+}
 test -f "$STORE/SETUP_READY"
-test ! -f "$STORE/PAUSE" || exit 130
+pause_guard
 git rev-parse HEAD > "$STORE/STORAGE_RESUME_CHECKOUT_COMMIT"
 sha256sum tools/runpod/queue_durable_lenses.sh > "$STORE/STORAGE_CONTROLLER_SHA256"
 
 ensure_model() {
   local slug=$1 model revision model_path
-  test ! -f "$STORE/PAUSE" || exit 130
+  pause_guard
   read -r model revision < <("$PY" - "$slug" <<'PY'
 import json,sys
 from pathlib import Path
@@ -78,7 +84,7 @@ test -f "$STORE/ALL_CORE_BATTERIES_COMPLETE" || date -Is > "$STORE/ALL_CORE_BATT
 
 # Reuse the last resident model first; all primary data are already complete.
 for slug in qwen38-27b qwen35-27b qwen36-27b; do
-  test ! -f "$STORE/PAUSE" || exit 130
+  pause_guard
   ensure_model "$slug"
   "$PY" tools/runpod/lens_io_resume.py --slug "$slug" --phase lenses
   mark_done "$slug" battery

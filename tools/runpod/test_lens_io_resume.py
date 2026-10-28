@@ -2,10 +2,11 @@
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 from gen27b_common import Journal
-from lens_io_resume import ChunkedJournal
+from lens_io_resume import ChunkedJournal, pause_present
 
 
 class StorageTests(unittest.TestCase):
@@ -62,6 +63,19 @@ class StorageTests(unittest.TestCase):
         for i in range(129): j.append(self.row(i))
         with j.chunks[0].open('ab') as f: f.write(b'not-json\n')
         with self.assertRaises(json.JSONDecodeError): ChunkedJournal(path,self.identity,self.keys)
+
+    def test_real_empty_pause_stops_and_only_missing_object_means_no_pause(self):
+        path = self.root/'PAUSE'
+        self.assertFalse(pause_present(path))
+        path.write_bytes(b'')
+        self.assertTrue(pause_present(path))
+        path.write_text('human pause')
+        self.assertTrue(pause_present(path))
+        # Directory metadata can claim the deleted object exists while reads return ENOENT.
+        with patch.object(Path,'open',side_effect=FileNotFoundError()):
+            self.assertFalse(pause_present(path))
+        with patch.object(Path,'open',side_effect=PermissionError()):
+            with self.assertRaises(PermissionError): pause_present(path)
 
 
 if __name__ == '__main__': unittest.main()

@@ -16,15 +16,21 @@ export PATH=/usr/local/cuda-12.8/bin:$PATH
 export HF_HOME="$TASK_ROOT/hf-cache" HF_XET_CACHE="$TASK_ROOT/xet-cache" HF_XET_CHUNK_CACHE_SIZE_BYTES=0
 export OMP_NUM_THREADS=8 MKL_NUM_THREADS=8
 cd "$REPO"
+pause_guard() {
+  local code=0
+  "$PY" tools/runpod/lens_io_resume.py --pause-status || code=$?
+  if [ "$code" = 0 ]; then exit 130; fi
+  if [ "$code" != 1 ]; then exit "$code"; fi
+}
 test ! -f "$OUT/COMPLETE.json" || exit 0
 echo 'WAITING: all selected J/R/Miru appendices and the existing GPU lock must finish first.'
 while true; do
-  test ! -f "$STORE/PAUSE" || exit 130
+  pause_guard
   if test -f "$STORE/ALL_APPENDICES_ATTEMPTED" && flock -n 9; then break; fi
   sleep 30
 done
 echo "O-lens addendum acquired existing GPU lock at $(date -Is)"
-test ! -f "$STORE/PAUSE" || exit 130
+pause_guard
 "$PY" tools/runpod/test_olens36_appendix.py
 "$PY" tools/runpod/gen27b_fetch.py Qwen/Qwen3.6-27B 6a9e13bd6fc8f0983b9b99948120bc37f49c13e9 "$TASK_ROOT/models/Qwen3.6-27B"
-"$PY" tools/runpod/olens36_appendix.py
+"$PY" tools/runpod/lens_io_resume.py --olens
