@@ -73,8 +73,22 @@ class ChunkedJournal:
             atomic_json(self.meta, {**expected, 'prefix_bytes': len(data),
                                     'prefix_sha256': hashlib.sha256(data).hexdigest()})
         meta = json.loads(self.meta.read_text())
-        assert all(meta[k] == v for k, v in expected.items()), 'Storage resume identity changed'
+        # The prefix's creator version is historical. Never overwrite that
+        # metadata to migrate code: object-store caches can return the old label.
+        assert all(meta[k] == expected[k] for k in ['identity', 'key_fields', 'chunk_rows']), 'Storage identity changed'
         assert self.prefix.stat().st_size == meta['prefix_bytes'] and sha(self.prefix) == meta['prefix_sha256']
+        self.descriptor = self.directory / ('adapter-' + expected['adapter_sha256'] + '.json')
+        descriptor = {**expected, 'prefix_sha256': meta['prefix_sha256'], 'prefix_bytes': meta['prefix_bytes']}
+        if self.descriptor.exists():
+            assert json.loads(self.descriptor.read_text()) == descriptor, 'Adapter descriptor changed'
+        else:
+            assert not list(self.directory.glob('chunk-*.jsonl')), 'Review required before changing adapter with chunk data'
+            # A new immutable name avoids mutations to an older cached object.
+            with self.descriptor.open('x') as f:
+                json.dump(descriptor, f, indent=2); f.write('\n'); f.flush(); os.fsync(f.fileno())
+            fd = os.open(self.directory, os.O_RDONLY)
+            try: os.fsync(fd)
+            finally: os.close(fd)
         self._read(self.prefix)
         self.prefix_records = len(self.records)
         chunks = sorted(self.directory.glob('chunk-*.jsonl'))
@@ -146,9 +160,13 @@ class ChunkedJournal:
             dest.flush(); os.fsync(dest.fileno())
         assert sha(tmp) == expected.hexdigest()
         tmp.replace(self.canonical)
+        fd = os.open(self.canonical.parent, os.O_RDONLY)
+        try: os.fsync(fd)
+        finally: os.close(fd)
         atomic_json(self.directory / 'consolidated.json',
                     {'canonical_sha256': expected.hexdigest(), 'records': len(self.records),
                      'prefix_records_preserved': self.prefix_records, 'chunks': len(self.chunks),
+                     'adapter_descriptor': self.descriptor.name,
                      'storage': json.loads(self.meta.read_text())})
         return self.canonical
 
@@ -167,3 +185,14 @@ if __name__ == '__main__':
     import gen27b_lenses
     gen27b_lenses.Journal = ChunkedJournal
     runpy.run_path(str(Path(__file__).with_name('gen27b_run.py')), run_name='__main__')
+    # The frozen runner records optional failures and returns successfully. Stop
+    # this storage controller on an adapter failure so it retains model caches.
+    if '--slug' in sys.argv:
+        slug = sys.argv[sys.argv.index('--slug') + 1]
+        directory = STORE / 'runs' / slug
+        try:
+            failure = json.loads((directory / 'appendix_deferred.json').read_text())
+        except FileNotFoundError:
+            failure = {}
+        if 'lens_io_resume.py' in failure.get('reason', '') and not (directory / 'lenses.complete.json').exists():
+            raise SystemExit('Storage adapter stopped; preserve model cache and review the recorded failure.')

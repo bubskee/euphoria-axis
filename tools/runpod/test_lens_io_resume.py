@@ -85,5 +85,18 @@ class StorageTests(unittest.TestCase):
         with patch('lens_io_resume.os.setxattr',side_effect=refresh):
             self.assertFalse(pause_present(path))
 
+    def test_immutable_descriptor_tolerates_historical_prefix_creator_label(self):
+        path=self.root/'r.jsonl';j=ChunkedJournal(path,self.identity,self.keys)
+        j.append(self.row(0))
+        meta=json.loads(j.meta.read_text());meta['adapter_sha256']='old-prefix-creator'
+        j.meta.write_text(json.dumps(meta))
+        resumed=ChunkedJournal(path,self.identity,self.keys)
+        self.assertEqual(len(resumed.records),1)
+
+    def test_unreviewed_adapter_with_existing_chunk_rows_is_rejected(self):
+        path=self.root/'r.jsonl';j=ChunkedJournal(path,self.identity,self.keys)
+        j.append(self.row(0));j.descriptor.unlink()
+        with self.assertRaises(AssertionError):ChunkedJournal(path,self.identity,self.keys)
+
 
 if __name__ == '__main__': unittest.main()

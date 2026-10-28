@@ -65,34 +65,23 @@ complete(d,sys.argv[2],paths,h)
 PY
 }
 
-"$PY" tools/runpod/gen27b_run.py --anchor
+# All core data are complete. Preserve the existing milestone and manifests.
 for slug in qwen35-27b qwen36-27b qwen38-27b; do
-  if ! core_done "$slug"; then
-    ensure_model "$slug"
-    "$PY" tools/runpod/gen27b_run.py --slug "$slug" --phase core
-    "$PY" tools/runpod/gen27b_run.py --slug "$slug" --phase buttons
-  fi
-  mark_done "$slug" core_battery
-  if [ "$slug" != qwen38-27b ]; then
-    case "$slug" in
-      qwen35-27b) rm -rf "$TASK_ROOT/models/Qwen3.5-27B" ;;
-      qwen36-27b) rm -rf "$TASK_ROOT/models/Qwen3.6-27B" ;;
-    esac
-  fi
+  core_done "$slug" || { echo "Core incomplete: $slug; use the original core controller"; exit 1; }
 done
-test -f "$STORE/ALL_CORE_BATTERIES_COMPLETE" || date -Is > "$STORE/ALL_CORE_BATTERIES_COMPLETE"
+test -f "$STORE/ALL_CORE_BATTERIES_COMPLETE"
 
-# Reuse the last resident model first; all primary data are already complete.
-for slug in qwen38-27b qwen35-27b qwen36-27b; do
+# Reuse the currently downloaded 3.5 model; retain 3.6 last for the authorized O-lens addendum.
+for slug in qwen35-27b qwen38-27b qwen36-27b; do
   pause_guard
   ensure_model "$slug"
   "$PY" tools/runpod/lens_io_resume.py --slug "$slug" --phase lenses
   mark_done "$slug" battery
   case "$slug" in
     qwen35-27b) rm -rf "$TASK_ROOT/models/Qwen3.5-27B" ;;
-    qwen36-27b) rm -rf "$TASK_ROOT/models/Qwen3.6-27B" ;;
+    qwen36-27b) : ;;
     qwen38-27b) rm -rf "$TASK_ROOT/models/Qwen3.8-27B" ;;
   esac
-  rm -rf "$TASK_ROOT/lenses/$slug"
+  if [ "$slug" != qwen36-27b ]; then rm -rf "$TASK_ROOT/lenses/$slug"; fi
 done
 date -Is > "$STORE/ALL_APPENDICES_ATTEMPTED"
