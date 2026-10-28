@@ -1,0 +1,25 @@
+{
+  "amendment": "03-durable-lens-storage",
+  "date": "2026-10-28",
+  "authorization": "User asked to speed lens readouts without changing the frozen protocol or losing progress.",
+  "scope": "Storage and scheduling only. No frozen gen27b runner bytes, numerical code, prompts, cases, layers, precision, lens weights, rank calculations, bootstrap, random seeds, controls, or core results change.",
+  "observed_bottleneck": "The worker waits on fuse.geesefs persistent-volume operations. Controlled 501-byte append/flush/fsync/close benchmark: median .3755s at 12MB vs .0849s empty and .1189s at 64KB; local-disk control .0001-.0002s. Root disk is not used as the authoritative journal.",
+  "concurrent_incident": "At 22:35:22Z the existing lens runner caught FileNotFoundError in os.fsync and wrote appendix_deferred.json. Original data and error report retained. This is a storage error, not an experimental-implementation repair.",
+  "saved_legacy_prefix": {
+    "rows": 15351,
+    "bytes": 9522055,
+    "sha256": "a65be418c50ddc59f8fdd4ec8d4231fd520b027f6273a33af838e1da862be246",
+    "valid_json_rows": true,
+    "unique_keys": true,
+    "identities_match": true
+  },
+  "storage_adapter": "tools/runpod/lens_io_resume.py",
+  "new_controller": "tools/runpod/queue_durable_lenses.sh",
+  "durability": "Every new row retains the original JSON serialization and a successful flush+fsync on the SAME persistent volume. An immutable byte-identical prefix plus append-only chunks of at most 128 rows replace repeated uploads of the growing canonical file. No unflushed batching and no ephemeral-only checkpoint.",
+  "completion": "Assemble canonical lens_ranks.jsonl from prefix and chunks with one durable atomic replacement at the original completion boundary; keep all chunks. Existing scorecard and completion code executes unchanged.",
+  "resume": "Validate adapter/spec/model identities and prefix checksum; reject duplicate keys, interior corruption and changed identities; repair only torn final-chunk tail. Consolidation followed by another resume neither drops nor duplicates rows.",
+  "verification": "Four CPU tests passed: byte-identical output to original Journal across restart and consolidation/restart; retained immutable prefix; torn-last-tail recovery; identity/duplicate rejection; interior corruption rejection. All old frozen gen27b file hashes must still match existing run_header.json.",
+  "operations": "Safely pause via PAUSE, back up canonical journal and incident, archive transient deferred/battery markers without deleting them, resume through same GPU lock, requeue waiting O-lens after removing only the agent-owned PAUSE token.",
+  "performance_claim": "Expected storage speedup is supported by small-file benchmark; final wall time is measured after resume and not assumed from GPU utilization.",
+  "created_utc": "2026-10-28T22:37:40.243809+00:00"
+}
