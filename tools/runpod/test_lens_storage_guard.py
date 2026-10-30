@@ -130,6 +130,34 @@ class IntegrityTests(unittest.TestCase):
             j=ImmutableJournal(path,self.identity,self.fields)
             self.assertFalse(j.records)
 
+    def approved_scope(self):
+        keys=[('baseline',i,0,'J') for i in range(23)]
+        return {**self.identity,'status':'APPROVED BY USER',
+                'human_authorization':'Approve the 23-prompt recovery','model':'qwen36-27b',
+                'missing_rank_keys':keys,'exact_original_prompt_conditions':[key[:2] for key in keys],
+                'requested_case_bound':23}
+
+    def test_approved_scope_allows_only_exact_original_keys_or_recovered_subset(self):
+        from lens_storage_guard import approved_case_bound
+        scope=self.approved_scope()
+        self.assertEqual(approved_case_bound(scope,'qwen36-27b',self.identity,scope['missing_rank_keys']),23)
+        self.assertEqual(approved_case_bound(scope,'qwen36-27b',self.identity,scope['missing_rank_keys'][:2]),23)
+        with self.assertRaises(AssertionError):
+            approved_case_bound(scope,'qwen36-27b',self.identity,[('baseline',24,0,'J')])
+
+    def test_scope_cannot_apply_to_other_models_or_changed_identities(self):
+        from lens_storage_guard import approved_case_bound
+        scope=self.approved_scope()
+        with self.assertRaises(AssertionError):approved_case_bound(scope,'qwen38-27b',self.identity,[])
+        with self.assertRaises(AssertionError):approved_case_bound(scope,'qwen36-27b',{'spec_sha256':'other'},[])
+
+    def test_scope_requires_actual_authorization_and_exact_case_bound(self):
+        from lens_storage_guard import approved_case_bound
+        scope=self.approved_scope();scope['status']='AWAITING AUTHORIZATION'
+        with self.assertRaises(AssertionError):approved_case_bound(scope,'qwen36-27b',self.identity,[])
+        scope=self.approved_scope();scope['requested_case_bound']=24
+        with self.assertRaises(AssertionError):approved_case_bound(scope,'qwen36-27b',self.identity,[])
+
     def test_interrupted_marker_publication_recovers_preserved_metadata(self):
         from lens_storage_guard import seal, digest
         from lens_repair import preserved_artifact

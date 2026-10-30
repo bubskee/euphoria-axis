@@ -1,0 +1,269 @@
+{
+  "status": "APPROVED BY USER",
+  "model": "qwen36-27b",
+  "existing_engineering_case_guard": 16,
+  "requested_case_bound": 23,
+  "exact_original_prompt_conditions": [
+    [
+      "S1_-0.5",
+      12
+    ],
+    [
+      "S1_-0.5",
+      26
+    ],
+    [
+      "S1_-0.5",
+      32
+    ],
+    [
+      "S1_-0.5",
+      42
+    ],
+    [
+      "S1_-0.5",
+      49
+    ],
+    [
+      "S2_+0.5",
+      7
+    ],
+    [
+      "S2_+0.5",
+      14
+    ],
+    [
+      "S2_+0.5",
+      37
+    ],
+    [
+      "random_1103_+0.5",
+      10
+    ],
+    [
+      "random_1103_+0.5",
+      13
+    ],
+    [
+      "random_1103_+0.5",
+      25
+    ],
+    [
+      "random_1103_+0.5",
+      35
+    ],
+    [
+      "random_2207_+0.5",
+      10
+    ],
+    [
+      "random_2207_+0.5",
+      28
+    ],
+    [
+      "random_3301_+0.5",
+      18
+    ],
+    [
+      "random_3301_+0.5",
+      26
+    ],
+    [
+      "random_3301_+0.5",
+      28
+    ],
+    [
+      "random_3301_+0.5",
+      31
+    ],
+    [
+      "random_3301_+0.5",
+      36
+    ],
+    [
+      "random_3301_-0.5",
+      6
+    ],
+    [
+      "random_3301_-0.5",
+      10
+    ],
+    [
+      "random_3301_-0.5",
+      12
+    ],
+    [
+      "random_3301_-0.5",
+      21
+    ]
+  ],
+  "missing_rank_keys": [
+    [
+      "S2_+0.5",
+      7,
+      38,
+      "R"
+    ],
+    [
+      "S2_+0.5",
+      14,
+      32,
+      "R"
+    ],
+    [
+      "S2_+0.5",
+      37,
+      58,
+      "J"
+    ],
+    [
+      "S1_-0.5",
+      12,
+      14,
+      "J"
+    ],
+    [
+      "S1_-0.5",
+      26,
+      8,
+      "R"
+    ],
+    [
+      "S1_-0.5",
+      32,
+      43,
+      "J"
+    ],
+    [
+      "S1_-0.5",
+      42,
+      35,
+      "R"
+    ],
+    [
+      "S1_-0.5",
+      49,
+      36,
+      "R"
+    ],
+    [
+      "random_1103_+0.5",
+      10,
+      27,
+      "J"
+    ],
+    [
+      "random_1103_+0.5",
+      13,
+      12,
+      "R"
+    ],
+    [
+      "random_1103_+0.5",
+      25,
+      1,
+      "J"
+    ],
+    [
+      "random_1103_+0.5",
+      35,
+      24,
+      "R"
+    ],
+    [
+      "random_2207_+0.5",
+      10,
+      53,
+      "R"
+    ],
+    [
+      "random_2207_+0.5",
+      28,
+      38,
+      "J"
+    ],
+    [
+      "random_3301_-0.5",
+      6,
+      22,
+      "R"
+    ],
+    [
+      "random_3301_-0.5",
+      10,
+      31,
+      "J"
+    ],
+    [
+      "random_3301_-0.5",
+      12,
+      37,
+      "J"
+    ],
+    [
+      "random_3301_-0.5",
+      21,
+      1,
+      "R"
+    ],
+    [
+      "random_3301_+0.5",
+      18,
+      12,
+      "R"
+    ],
+    [
+      "random_3301_+0.5",
+      26,
+      35,
+      "J"
+    ],
+    [
+      "random_3301_+0.5",
+      28,
+      42,
+      "R"
+    ],
+    [
+      "random_3301_+0.5",
+      31,
+      51,
+      "R"
+    ],
+    [
+      "random_3301_+0.5",
+      36,
+      61,
+      "J"
+    ]
+  ],
+  "new_missing_rank_rows": 23,
+  "surviving_reference_rank_rows_to_match": 2875,
+  "known_original_reference_sha256": "a36457110ac6c8b0a8c86fee8428a37dac0cff96792a1bccb142344b124dd95b",
+  "spec_sha256": "bd0356f7c24107b26d8cef31ebbae4654249e3f0fcf441b94f046939568ad481",
+  "model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "frozen_numerical_sources": {
+    "gen27b_buttons.py": "17ee89bb1f9583c2e8ed4e2dcb363fd3ae48ec4c7ac94dc8187ae94378340358",
+    "gen27b_core.py": "ac8f0783b98a3e3f818a7def30dd2d25139d9d01e1ea0457ae6c8a15b3d49b04",
+    "gen27b_fetch.py": "3ff2690d8123ba17df16114572878c9bfa141daabb697fe0f2ba6b5ff264c609",
+    "gen27b_lenses.py": "b633fbf00b0be1051d88c5e1ea2dfb09c49a6d06625d681dc08b60899acad928",
+    "gen27b_prepare.py": "0f3c48ed202cdaba6f6ab3cb607748b49ee8d96237ff79690cc504459cb38d4c",
+    "gen27b_run.py": "98d1524e5981e2626e04f051e94f76b053df228109ba7642c6622df5a9298421",
+    "gen27b_runtime.py": "3993bfa07703a0ff8531387b9a367c3617aa8cbee233b1ffaf6be0e38c935a83",
+    "gen27b_score.py": "00c63385235a375ed3686ce88cd13ae442a785356a85ed4e4655ed9339221a07",
+    "gen27b_setup.sh": "6ac866b91be87059534259cf9b38f4f0c26e5af32c235bc7c5bcfd9d4b1ea442",
+    "gen27b_all.sh": "4d0ea5cc9446bc9caf0e80d8cfce58e2a580ee19ce18b0715af06880cd31e21f",
+    "gen27b_common.py": "f35f7a92695cce8398ce1b58eb98a474c6bb7ff73fa212d5fa778764c5ac9528"
+  },
+  "frozen_scientific_output_sha256": {
+    "lens_family_gains.json": "baa7e9aa39d602e104e10438b263c6c25b90cc2f581a42b886175a63c28cbab0",
+    "lens_family_gains.csv": "cd4eb73509c0fae7391ea40d2ecc4498047978463bac0d9a71920845c1e2e397",
+    "appendix_scorecard.json": "ada5bef0ce680546f046db5ac268e2e5178fe02332eaa8106fd50dfa91f38b6c"
+  },
+  "acceptance": "Unchanged original runner; every surviving row in the 23 original prompt-condition pairs must byte-match; only 23 absent rows may be added; original all-layer gain JSON/CSV and scorecard must reproduce byte-for-byte. No new fits, retuning, precision/model/lens/prompt/seed changes or extra cases.",
+  "scheduling": "Retain 3.6 weights. After authorized 3.6 recovery, run fixed O-lens panel, then the already-authorized two-prompt 3.8 recovery. Use original common GPU lock and real pause controls.",
+  "scope_applies_only_to": "The exact 23 listed qwen36-27b original cases and 23 missing keys; default guard and other models remain unchanged.",
+  "human_authorization": "Approve the 23-prompt recovery",
+  "known_original_reference_path": "/root/gen27b/storage-recovery/qwen36-completed-original-reference-after-refresh.jsonl",
+  "approval_source": "Direct human reply in this chat on 2026-10-30; scope approval does not change the scientific protocol or numerical implementations."
+}

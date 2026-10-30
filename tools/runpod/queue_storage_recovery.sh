@@ -28,7 +28,11 @@ while true; do
 done
 pause_guard
 echo "GPU available for storage recovery at $(date -Is)"
-"$PY" tools/runpod/lens_repair.py repair --slug qwen36-27b --allow-replay
+scope_args=()
+if [ -n "${GEN27B_QWEN36_APPROVED_SCOPE:-}" ]; then
+  scope_args=(--approved-scope "$GEN27B_QWEN36_APPROVED_SCOPE")
+fi
+"$PY" tools/runpod/lens_repair.py repair --slug qwen36-27b --allow-replay "${scope_args[@]}"
 pause_guard
 # Keep the 3.6 weights for the already-authorized O-lens panel.
 if ! test -f "$STORE/olens36-appendix/COMPLETE.json"; then

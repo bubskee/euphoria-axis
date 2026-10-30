@@ -143,6 +143,20 @@ def lens_keys(spec):
         for layer in range(spec['n_layers'] - 1) for label in spec['lenses']]
 
 
+def approved_case_bound(scope, slug, identity, missing):
+    """A human-approved exception applies only to its exact original keys."""
+    assert scope['status'] == 'APPROVED BY USER'
+    assert scope['human_authorization'] == 'Approve the 23-prompt recovery'
+    assert slug == scope['model'] == 'qwen36-27b'
+    assert all(scope[k] == value for k, value in identity.items())
+    keys = {tuple(key) for key in scope['missing_rank_keys']}
+    cases = {tuple(case) for case in scope['exact_original_prompt_conditions']}
+    assert len(keys) == len(cases) == scope['requested_case_bound'] == 23
+    assert {key[:2] for key in keys} == cases
+    assert set(missing) <= keys, 'Missing keys exceed the explicitly approved list'
+    return 23
+
+
 class CheckedReplay:
     """Allow missing-row recovery only after exact surviving-row comparisons."""
     def __init__(self, rows, expected, cases, persist):

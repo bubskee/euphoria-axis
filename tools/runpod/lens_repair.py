@@ -17,7 +17,7 @@ import uuid
 from pathlib import Path
 from types import SimpleNamespace
 
-from lens_storage_guard import RowSet, CheckedReplay, digest, encode, lens_keys, publish, seal, read_sealed
+from lens_storage_guard import RowSet, CheckedReplay, digest, encode, lens_keys, publish, seal, read_sealed, approved_case_bound
 
 FIELDS = ['condition', 'prompt_idx', 'layer', 'lens']
 REPO = Path(__file__).resolve().parents[2]
@@ -151,11 +151,24 @@ def observe(slug, interval):
         time.sleep(interval)
 
 
-def prepare_stage(slug):
+def prepare_stage(slug, approved_scope=None):
     spec, h, corpus, wanted, sources = read_corpus(slug)
+    scope = None
+    if approved_scope:
+        scope = json.loads(Path(approved_scope).read_text())
+        reference = Path(scope['known_original_reference_path']).read_bytes()
+        assert digest(reference) == scope['known_original_reference_sha256']
+        corpus.add(reference, 'explicitly approved preserved original reference')
     missing = corpus.missing(wanted)
     cases = sorted({k[:2] for k in missing})
-    assert len(cases) <= 16 and len(missing) <= len(wanted) * .02, 'Recovery exceeds bounded missing-row scope'
+    bound = 16
+    if scope is not None:
+        bound = approved_case_bound(scope, slug, corpus.identity, missing)
+        original = ORIGINAL_STORE/'runs'/slug
+        assert scope['frozen_numerical_sources'] == json.loads((original/'run_header.json').read_text())['code_sha256']
+        for name, expected_hash in scope['frozen_scientific_output_sha256'].items():
+            assert digest((original/name).read_bytes()) == expected_hash, name
+    assert len(cases) <= bound and len(missing) <= len(wanted) * .02, 'Recovery exceeds bounded missing-row scope'
     run_id = time.strftime('%Y%m%dT%H%M%SZ', time.gmtime()) + '-' + uuid.uuid4().hex[:8]
     stage_store = LOCAL / 'storage-recovery/stages' / (slug + '-' + run_id)
     stage = stage_store / 'runs' / slug
@@ -178,6 +191,9 @@ def prepare_stage(slug):
             'frozen_files': json.loads((original / 'run_header.json').read_text())['code_sha256'],
             'original_store': str(ORIGINAL_STORE), 'stage_store': str(stage_store),
             'authorization': 'User requested storage repair and missing-row recovery while 3.6 continues.'}
+    if scope is not None:
+        plan['explicit_scope_authorization'] = scope
+        plan['explicit_scope_sha256'] = digest(Path(approved_scope).read_bytes())
     (stage_store / 'recovery_plan.json').write_text(json.dumps(plan, indent=2) + '\n')
     seal(ORIGINAL_STORE / 'storage-recovery/plans', (json.dumps(plan, indent=2) + '\n').encode(), '.json')
     return stage_store, spec, h, corpus, wanted, plan
@@ -341,9 +357,9 @@ def install_repaired(stage_store, spec, h, corpus, wanted, plan):
     metadata(Path(stage_store)/'ACCEPTED.json',{'status':'REPAIRED AND VERIFIED','rows':len(wanted),'repair':repair})
 
 
-def repair(slug, allow_replay):
+def repair(slug, allow_replay, approved_scope=None):
     stop_check()
-    stage_store,spec,h,corpus,wanted,plan=prepare_stage(slug)
+    stage_store,spec,h,corpus,wanted,plan=prepare_stage(slug,approved_scope)
     print(json.dumps({'stage_store':str(stage_store),'missing_rows':len(plan['missing_keys']),
                       'replay_cases':plan['replay_cases']}),flush=True)
     if plan['missing_keys']:
@@ -377,6 +393,7 @@ def main():
     parser.add_argument('mode',choices=['repair','observe','replay-worker'])
     parser.add_argument('--slug',choices=['qwen35-27b','qwen36-27b','qwen38-27b'])
     parser.add_argument('--allow-replay',action='store_true')
+    parser.add_argument('--approved-scope',type=Path)
     parser.add_argument('--stage-store',type=Path)
     parser.add_argument('--interval',type=int,default=60)
     args=parser.parse_args()
@@ -384,7 +401,7 @@ def main():
     import gen27b_common as common
     common.install_signals()
     if args.mode=='observe':observe(args.slug,args.interval);return 0
-    return repair(args.slug,args.allow_replay)
+    return repair(args.slug,args.allow_replay,args.approved_scope)
 
 
 if __name__=='__main__':raise SystemExit(main())
