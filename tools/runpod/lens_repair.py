@@ -297,8 +297,11 @@ def install_repaired(stage_store, spec, h, corpus, wanted, plan):
     old={name:preserved_artifact(original,name) for name in
          ('lens_ranks.jsonl','lenses.complete.json','battery.complete.json','lens_ranks.durable-chunks/consolidated.json')}
     import gen27b_common as common
+    consolidated=json.loads(old['lens_ranks.durable-chunks/consolidated.json'])
     try:
         already_valid = (old['lens_ranks.jsonl']==body and
+                         consolidated.get('records')==len(wanted) and
+                         consolidated.get('canonical_sha256')==digest(body) and
                          common.is_complete(original,'lenses',h) and common.is_complete(original,'battery',h))
     except (AssertionError, FileNotFoundError):
         already_valid = False  # Metadata from an interrupted publication is repairable.
@@ -324,7 +327,6 @@ def install_repaired(stage_store, spec, h, corpus, wanted, plan):
         except FileNotFoundError:pass  # An interrupted repair already archived it.
     publish(original/'lens_ranks.jsonl',body)
     metadata(original/'storage_recovery.json',repair)
-    consolidated=json.loads(old['lens_ranks.durable-chunks/consolidated.json'])
     consolidated.update(canonical_sha256=digest(body),records=len(wanted),
                         actual_verified_rows=len(wanted),storage_recovery_sha256=digest((original/'storage_recovery.json').read_bytes()))
     metadata(original/'lens_ranks.durable-chunks/consolidated.json',consolidated)

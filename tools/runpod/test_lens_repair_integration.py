@@ -56,6 +56,13 @@ class RealArtifactIntegration(unittest.TestCase):
                 self.assertEqual((original/'lens_ranks.jsonl').read_bytes(),source['lens_ranks.jsonl'])
                 self.assertTrue((second/'ACCEPTED.json').exists())
                 self.assertTrue(list((original/'storage-incidents').glob('recovery-*/BEFORE.json')))
+                # A self-consistent canonical marker cannot hide a stale count.
+                descriptor=chunks/'consolidated.json'
+                stale=json.loads(descriptor.read_text());stale['records']=1
+                descriptor.write_text(json.dumps(stale))
+                third=stage('third')
+                lens_repair.install_repaired(third,spec,h,corpus,wanted,plan)
+                self.assertEqual(json.loads(descriptor.read_text())['records'],69300)
         for name,wanted_hash in hashes.items():
             self.assertEqual(digest((real/name).read_bytes()),wanted_hash,'Production artifact changed: '+name)
         print(json.dumps({'real_cpu_integration':'PASS','rows':69300,
