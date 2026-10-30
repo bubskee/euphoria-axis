@@ -1,0 +1,32 @@
+{
+  "amendment": "04-verified-storage-recovery",
+  "date": "2026-10-29",
+  "authorization": "User requested: fix the storage issue and recover missing 3.8 rows, keep the frozen protocol unchanged, and let 3.6 keep running. The user supplied Global Volume ID cmvrbh0y1000007jv1kfg33jt and authorized trying the existing RunPod rclone configuration.",
+  "scope": "Storage integrity, preservation, bounded recovery of original missing observations, and scheduling only. No frozen numerical runner, protocol, model/lens weights, prompts, cases, layers, precision, seed, native transport/unembed, ranking, fits, controls, bootstrap or scientific scorecard calculation changes.",
+  "diagnosis": {
+    "filesystem": "fuse.geesefs over RunPod Global Volume object storage",
+    "endpoint": "https://g1.storage.runpod.io",
+    "rclone": "The existing regional US-KS-2 S3 credentials were rejected at both the old regional endpoint and the Global Volume endpoint. No credentials, mounts or resources were changed.",
+    "failure": "Closed chunk reads can return short, valid JSON byte prefixes. The original storage consolidator hashed the short concatenation against itself while reporting the full in-memory record count, allowing a completion marker for an incomplete canonical journal.",
+    "qwen38_reported_complete": "34,638 canonical rows versus 34,650 expected. The original 15,351-row prefix is byte-identical and preserved. All original artifacts and inconsistent source observations remain quarantined and backed up.",
+    "source_recovery_before_deployment": "Seven of the twelve absent canonical rows were recovered from original source/evidence bytes. Five remain absent in two original prompt-condition pairs: random_1103_+0.5 prompt 20, layers 49/50/51; random_3301_+0.5 prompt 43, layers 43/44. Prefer any subsequently recovered original bytes over replay."
+  },
+  "implementation": {
+    "lens_storage_guard.py": "New immutable content-hash-named persistent objects with flush/fsync, exact readback, directory fsync, a separate root-disk mirror, exact serialized-row identity/conflict checks, and full expected-key-set verification. Uncommitted pending objects are never resume inputs. A short view is not accepted by hashing itself.",
+    "lens_repair.py": "Merge preserved original observations without changing serialized rows. Require all expected unique keys and identities. Reproduce the frozen CPU postprocessing and scorecard byte-for-byte before publishing a corrected canonical journal and explicitly amended storage manifests. Preserve immutable before-copies and validated candidates so interrupted publication can resume.",
+    "bounded_replay": "Only if original bytes remain unavailable, invoke the unchanged original numerical runner on the affected original prompt-condition pairs. Recompute every layer/lens row in those pairs and require exact serialized equality for every surviving reference row. Persist only absent observations. Require byte-identical original gain tables and scorecard, including all layers, before acceptance. Never invent, interpolate or tune a rank. Mismatch stops recovery and preserves evidence.",
+    "olens_storage_guard.py": "Launch the unchanged O-lens reader and spec with immutable per-row persistent WAL and exact expected 72 J/R plus 72 verbalization key sets at completion. Original adapter-live/generation gates remain mandatory. Reader/spec hashes are pinned to commit 014ba516377cd0a5151ce012121142abc5a4099f.",
+    "live_3.6": "No process interruption or hot patch. Its original loaded storage wrapper and all numerical sources remain unchanged. A passive closed-chunk observer preserves independent original byte observations without invalidating the live writer's inodes.",
+    "scheduling": "Replace only the idle O-lens waiter. The new waiter retains its singleton lock, waits for ALL_APPENDICES_ATTEMPTED, and acquires the original common GPU lock. Then verify/repair 3.6, run the authorized O-lens panel using retained 3.6 weights, and recover 3.8. Replay requires the inherited common lock before any GPU use or disposable cache eviction. Keep pod/chat open."
+  },
+  "frozen_checkout": "Remote HEAD remains e4b58267a24096d83c69cae0422d6222adf32f04. New tools are additive and named outside the gen27b* fingerprint set. All original runner/spec/environment hashes must still match the original run headers; no numerical implementation is replaced.",
+  "verification": [
+    "Twelve CPU integrity tests pass, covering truncated views, readback failures, identity/duplicate/conflict rejection, immutable WAL resume, pending-object exclusion, exact replay controls and interrupted marker preservation.",
+    "Real persistent-volume smoke test passes per-row immutable write/fsync/readback and restart recovery.",
+    "The accepted 69,300-row 3.5 appendix passes full expected keys and unchanged frozen CPU postprocessing; gain JSON/CSV and scorecard reproduce byte-for-byte.",
+    "An isolated copy of real 3.5 artifacts with two deliberately removed rows is restored exactly; publication resumes after a deliberately removed completion marker. Production artifacts remain unchanged.",
+    "Python compilation and shell syntax checks pass. Actual GPU replay and O-lens GPU gates remain pending until the live 3.6 job releases the common GPU lock."
+  ],
+  "acceptance": "Do not accept 3.8 or 3.6 completion from a marker alone. Verify all canonical expected keys, identities, original prefix preservation, consolidated count/hash and manifest hashes locally. Label replay provenance explicitly. Any new scientific analysis remains exploratory.",
+  "stop_behavior": "Real user PAUSE and SIGINT/SIGTERM stop controls remain honored. No ignored durability errors, canceled-token exception, blind relaunch, model-resource change, optional experiment or core rerun is authorized by this amendment. Preserve and escalate numerical/contract mismatch or a persistent storage integrity failure."
+}
