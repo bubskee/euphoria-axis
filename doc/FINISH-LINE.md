@@ -14,9 +14,10 @@ Bounded extension of Tagliabue, Dung & Berg, *The Pain Axis* (v2, Sept 2026).
 | **Gate 2a** (paper repro + vocab scoring) | `Qwen/Qwen3-14B` | Passed (L31 cos 0.99994; L31/32 coin flip; R2a reproduces) | `doc/checkpoints/10`, `10b` |
 | **M7** (button task) | `Qwen/Qwen3-14B` | Done (harm reproduces 0.2%→21.5%; relief fails specificity) | `doc/checkpoints/11-m7-q14-buttons.md` |
 | **R4** (J/R lenses + probe readouts) | `Qwen/Qwen3-14B` | Done & HF-released (`distress` vs `calm`, no early relief) | `doc/checkpoints/12`, `releases/qwen3-14b-jr-lenses/` |
-| **Gates 2–3** (27B generalization) | `Qwen3.5-27B`, `Qwen3.6-27B` | **Next** (Colab / A100) | Frozen rules below |
+| **Gate 2** (27B scale generalization) | `Qwen/Qwen3.5-27B` | **Passed** (Colab G4: 8/11 pass, 1P/3P `SURVIVES` in prose, bidirectional relief confirmed, harm fails specificity) | `doc/checkpoints/13-gate-2-qwen35-27b.md` |
+| **Gate 3** (version generalization) | `Qwen/Qwen3.6-27B` | **Next** (optional, Colab G4) | Same frozen battery as Gate 2 |
 | **Gate 4** (O-Lens peek, optional) | `Qwen3.6-27B` (+ 4B pair) | Optional / exploratory | Published `olens_s3d_rl600` |
-| **Gates 5–6** (Tech PDF + LW post) | All tested models | Draft skeleton pending | `doc/writeup/lw-draft.md` |
+| **Gates 5–6** (Tech PDF + LW post) | All tested models | Ready to write (4B + 14B + 27B complete) | `doc/writeup/lw-draft.md` |
 
 ## Next: Gates 2–3 — 27B Generalization (`Qwen3.5-27B`, `Qwen3.6-27B`)
 

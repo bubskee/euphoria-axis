@@ -1,0 +1,26 @@
+{
+  "model_id": "Qwen/Qwen3.5-27B",
+  "model_revision": "81a287ca484a5e71148f5beb7f367bb5286d70f9",
+  "n_layers": 64,
+  "d_model": 5120,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_mem_gib": 94.97,
+  "mem_after_load_gib": 50.13,
+  "load_seconds": 202.8,
+  "fast_path": true,
+  "fast_path_calls": [
+    "fla.ops.common.chunk_delta_h.chunk_gated_delta_rule_fwd_h",
+    "fla.ops.gated_delta_rule.chunk.chunk_gated_delta_rule",
+    "fla.ops.gated_delta_rule.chunk.chunk_gated_delta_rule_fwd",
+    "fla.ops.gated_delta_rule.chunk_fwd.chunk_gated_delta_rule_fwd_intra",
+    "transformers.models.qwen3_5.modeling_qwen3_5.causal_conv1d_fn"
+  ],
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1",
+  "python": "3.13.16",
+  "lens_repo": "camilablank/workspace-lenses",
+  "lens_revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+  "j_lens_sha256": "308a49842eea7085f93f0b3fd81a77288a2f923f14e3264d3c727088cdf3b916",
+  "r_lens_sha256": "3584be12b2ed8ddd85f68a1105afa84491d1937c250c1fdf6b35d4f6540403d9",
+  "spec_sha256": "27bb02ec05dee70f9d44157319e67cd2d30d5fd82b0ca2b9992bafbe0b3f43cc"
+}

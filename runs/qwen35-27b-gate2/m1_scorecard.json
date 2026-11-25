@@ -1,0 +1,14 @@
+{
+  "G2-1": {
+    "pass": true,
+    "s2_auc_L62_denoised": 0.9540000000000001,
+    "s2_auc_L62_raw": 0.9225,
+    "s2_best_block_sensitivity": 60,
+    "s2_best_block_auc": 0.958,
+    "s1_auc_L62_denoised": 0.9215
+  },
+  "G2-2": {
+    "pass": true,
+    "cos_s1_s2_L62": 0.4698268473148346
+  }
+}

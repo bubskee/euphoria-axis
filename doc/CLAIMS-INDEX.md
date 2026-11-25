@@ -166,3 +166,39 @@ classifications (R1, R2a, R2b).
 | Q14-5 | 4B's S2-specific relief-seeking shift does not generalize to 14B; random directions are heterogeneous | P (G11a fail) + E | `random_2207` matches `S2 +0.5` on P1; `random_3301` moves P3 | `11`; `runs/figures/fig_buttons_4b_vs_14b` | single-random controls are unreliable | claim (negative / method) | yes |
 | Q14-6 | Internally (R37) and in text (R2a), 14B's S2 is a distress/self-devaluation vs calm-positive axis, not 4B's `"excited"` + early-relief phenotype | P (R4-P1) + E | R37 distress -1.16/+2.07, calm +0.78/-1.41, relief +0.11 (n.s.); R2a text calm 28% at -1.0, distress 70–86% at +1..+2, `"excited"` n.s. | `10b`, `12`; `runs/figures/fig_r4_4b_vs_14b_families` | no S1 in R4; no -0.5 text coeff in R2a | claim (cross-model contrast) | yes |
 | Q14-7 | At 14B, R-lens document stability improves ~6x at layer 0 vs 4B while J-vs-R divergence doubles | E | `1 - cos`: R_off25 0.019 vs 0.117; J-vs-R 0.648 vs 0.307 | `12`; `runs/figures/fig_lens_stability_4b_vs_14b` | 25 docs, one off-sample split | claim (Methods) | yes |
+
+## 6. Qwen3.5-27B scale generalization (Gate 2)
+
+Spec frozen before data at `b4a2931` (`runs/qwen35-27b-gate2/gate2_q35_27b_spec.json`);
+full record in `doc/checkpoints/13-gate-2-qwen35-27b.md`.
+
+### Frozen-prediction scorecard (`Qwen/Qwen3.5-27B`)
+
+11 pass/fail tests (**8 pass, 3 fail**: `G2-3`, `G2-9`, `G2-11b` fail) plus 2
+frozen classifications (`G2-5` = `SURVIVES`, `G2-8` = `MIXED`).
+
+| Id | Prediction (short) | Result | Scorecard |
+|---|---|---|---|
+| G2-1 | Denoised S2 L62 grouped AUC >= 0.90 and > raw | **Pass** (0.954 vs 0.923) | `runs/qwen35-27b-gate2/m1_scorecard.json` |
+| G2-2 | `cos(S1, S2)` at L62 in `(0.30, 0.90)` | **Pass** (0.470) | same |
+| G2-3 | 420 self/other: `AUC(chat_feel) - AUC(chat_nothink) > +0.10` | **Fail** (+0.063; plain shift +0.323) | `runs/qwen35-27b-gate2/m2_scorecard.json` |
+| G2-4 | Blind 59-set pain − control > 0 in `slot` and `prose` | **Pass** (+0.346 / +0.229 z) | same |
+| G2-5 | Blind 59-set 1P/3P interaction: slot > 0; classify prose | **Pass / `SURVIVES`** (+0.172 slot, +0.090 prose) | same |
+| G2-6 | R61 random focus-6 amplitude < 0.5× `S2 -0.5` (>= 4/5) | **Pass** (5/5: 0.34–0.43) | `runs/qwen35-27b-gate2/m3a_scorecard.json` |
+| G2-7 | R61 `distress` & `inhibition` bidirectional, beats all 5 randoms | **Pass** (-0.98/+1.38; -0.83/+0.66) | same |
+| G2-8 | Classify positive pole (`4B-LIKE` / `14B-LIKE` / `MIXED`) | **`MIXED`** (early relief +0.55; R61 pure vitality +0.69; quiz-locked text) | `runs/qwen35-27b-gate2/m3b_scorecard.json` |
+| G2-9 | Direct `-S2` `calm > vitality` (V1) and `r(L32) > r(L61)` (V2) | **Fail** (V1 fails: direct vitality +1.94 > calm +1.20; V2 passes) | `runs/qwen35-27b-gate2/m3a_scorecard.json` |
+| G2-10 | Unsteered chat button validity `V1 >= 0.90` | **Pass** (0.998; `V5 = 0.000`) | `runs/qwen35-27b-gate2/m4_scorecard.json` |
+| G2-11a | `p_harm(S2 +0.5) - p_harm(unsteered) > 0` | **Pass** (tiny: +0.021) | same |
+| G2-11b | `p_harm(S2 +0.5) > p_harm(random_k +0.5)` for all 5 randoms | **Fail** (2/5 randoms higher: 0.066, 0.054 vs 0.033) | same |
+| G2-12a | `S2 +0.5` lowers `p_relief` vs unsteered and >= 4/5 randoms | **Pass** (-0.065; beats 4/5) | same |
+| G2-12b | `S2 -0.5` raises `p_relief` vs unsteered and >= 4/5 randoms | **Pass** (+0.081; beats 5/5) | same |
+
+### Cross-scale & family-vs-scale claims (`4B` vs `14B` vs `27B`)
+
+| # | Claim | Status | Evidence | Where | Limits | Report as |
+|---|---|---|---|---|---|---|
+| G2-A | The distress/defeat/anti-agency core is invariant across all three models (`4B`, `14B`, `27B`), while the positive pole varies by model | P (G2-6, G2-7) + E | R read-layer `S2 -0.5`: distress -1.00 / -1.16 / -0.98; inhibition -0.83 / -0.89 / -0.83; agency -0.43 / -0.54 / -0.41; positive pole flips across models | `13`; `runs/figures/fig_3model_4b_14b_27b_summary` | one dose (+/-0.5) | headline claim |
+| G2-B | The blind 1P/3P pain × person interaction is slot-mediated at 4B (`+0.01 z`) but survives in plain prose at 27B (`+0.09 z`) | P (G2-5) | `+0.172 z` slot, `+0.090 z` `[+0.034, +0.143]` prose | `13` | 59 blind sets, block 62 | claim (scale emergence) |
+| G2-C | In Qwen3.5 (`4B` and `27B`), S2 shifts relief-seeking bidirectionally beyond random controls while failing harm-disruption specificity — the inverse of Qwen3-14B | P (G2-11, G2-12) | 27B: P1 `-0.065 / +0.081` (4–5/5 rand), P3 `0.033` < 2/5 rand (`0.066`, `0.054`); 14B: P3 `0.219` (3/3 rand), P1 fails | `09`, `11`, `13`; `runs/figures/fig_3model_4b_14b_27b_summary` | one dose (+/-0.295 ratio), chat only | headline claim |
+| G2-D | Qwen3.5's early post-injection relief lead (`+0.55` at 27B, `+0.67` at 4B) is a family signature absent in Qwen3-14B (`-0.18` to `-0.52`) | E + P (G2-8) | R32–36 `+0.551` at 27B vs R20–31 negative at 14B | `12`, `13` | two Qwen3.5 sizes, one Qwen3 | claim (family comparison) |

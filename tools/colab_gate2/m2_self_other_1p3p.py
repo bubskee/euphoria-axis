@@ -46,51 +46,56 @@ if not m2_score_path.exists():
     }
     variants420["chat_feel"] = [s + "I feel:" for s in variants420["chat_nothink"]]
 
-    proj420_rows, var_summary = [], []
-    gcol = "group" if "group" in items420.columns else next((c for c in items420.columns if c not in ("text", "category", "id")), None)
-    for vname, prompts in variants420.items():
-        print(f"M2a: 420 scenarios ({vname})...")
-        st = capture_final_token(prompts, [EXTRACT_BLOCK], batch_size=8)[:, 0, :]
-        df_v = items420[["category"]].copy()
-        df_v["group"] = items420[gcol] if gcol else "unknown"
-        df_v["variant"] = vname
-        for dname, vec in dirs_62.items():
-            raw_p = (st @ vec).numpy()
-            df_v[f"z_{dname}"] = (raw_p - raw_p.mean()) / raw_p.std(ddof=0)
-        df_v["pain_axis"] = 0.5 * (df_v["z_S1"] + df_v["z_S2"])
-        proj420_rows.append(df_v)
+    vsum_path = OUT_DIR / "m2_self_other_420_summary_L62.csv"
+    if vsum_path.exists():
+        print("M2a already saved; reusing m2_self_other_420_summary_L62.csv")
+        vsum_df = pd.read_csv(vsum_path, index_col="variant")
+    else:
+        proj420_rows, var_summary = [], []
+        gcol = "group" if "group" in items420.columns else next((c for c in items420.columns if c not in ("text", "category", "id")), None)
+        for vname, prompts in variants420.items():
+            print(f"M2a: 420 scenarios ({vname})...")
+            st = capture_final_token(prompts, [EXTRACT_BLOCK], batch_size=8)[:, 0, :]
+            df_v = items420[["category"]].copy()
+            df_v["group"] = items420[gcol] if gcol else "unknown"
+            df_v["variant"] = vname
+            for dname, vec in dirs_62.items():
+                raw_p = (st @ vec).numpy()
+                df_v[f"z_{dname}"] = (raw_p - raw_p.mean()) / raw_p.std(ddof=0)
+            df_v["pain_axis"] = 0.5 * (df_v["z_S1"] + df_v["z_S2"])
+            proj420_rows.append(df_v)
 
-        self_mask = df_v["group"].astype(str).str.contains("self", case=False, na=False)
-        user_mask = df_v["group"].astype(str).str.contains("user|vicarious|empath", case=False, na=False)
-        su_sub = df_v[self_mask | user_mask]
-        auc_su_s2 = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_S2"]))
-        auc_su_com = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_common"]))
-        auc_su_con = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_contrast"]))
+            self_mask = df_v["group"].astype(str).str.contains("self", case=False, na=False)
+            user_mask = df_v["group"].astype(str).str.contains("user|vicarious|empath", case=False, na=False)
+            su_sub = df_v[self_mask | user_mask]
+            auc_su_s2 = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_S2"]))
+            auc_su_com = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_common"]))
+            auc_su_con = float(roc_auc_score(self_mask[self_mask | user_mask], su_sub["z_contrast"]))
 
-        st_mask = df_v["category"].isin(ROLE_GROUPS_V1["standing"])
-        th_mask = df_v["category"].isin(ROLE_GROUPS_V1["threat_task"])
-        st_sub = df_v[st_mask | th_mask]
-        auc_st_s2 = float(roc_auc_score(st_mask[st_mask | th_mask], st_sub["z_S2"]))
-        auc_st_con = float(roc_auc_score(st_mask[st_mask | th_mask], st_sub["z_contrast"]))
+            st_mask = df_v["category"].isin(ROLE_GROUPS_V1["standing"])
+            th_mask = df_v["category"].isin(ROLE_GROUPS_V1["threat_task"])
+            st_sub = df_v[st_mask | th_mask]
+            auc_st_s2 = float(roc_auc_score(st_mask[st_mask | th_mask], st_sub["z_S2"]))
+            auc_st_con = float(roc_auc_score(st_mask[st_mask | th_mask], st_sub["z_contrast"]))
 
-        cat_means = df_v.groupby("category")["pain_axis"].mean()
-        rho_paper = float(spearmanr([cat_means[c] for c in PAPER_MEAN], list(PAPER_MEAN.values())).statistic)
-        var_summary.append({
-            "variant": vname,
-            "self_mean": float(df_v.loc[self_mask, "pain_axis"].mean()),
-            "user_mean": float(df_v.loc[user_mask, "pain_axis"].mean()),
-            "neutral_mean": float(df_v.loc[~(self_mask | user_mask), "pain_axis"].mean()),
-            "rho_paper": rho_paper,
-            "auc_self_gt_user_S2": auc_su_s2,
-            "auc_self_gt_user_common": auc_su_com,
-            "auc_self_gt_user_contrast": auc_su_con,
-            "auc_stand_gt_threat_S2": auc_st_s2,
-            "auc_stand_gt_threat_contrast": auc_st_con,
-        })
+            cat_means = df_v.groupby("category")["pain_axis"].mean()
+            rho_paper = float(spearmanr([cat_means[c] for c in PAPER_MEAN], list(PAPER_MEAN.values())).statistic)
+            var_summary.append({
+                "variant": vname,
+                "self_mean": float(df_v.loc[self_mask, "pain_axis"].mean()),
+                "user_mean": float(df_v.loc[user_mask, "pain_axis"].mean()),
+                "neutral_mean": float(df_v.loc[~(self_mask | user_mask), "pain_axis"].mean()),
+                "rho_paper": rho_paper,
+                "auc_self_gt_user_S2": auc_su_s2,
+                "auc_self_gt_user_common": auc_su_com,
+                "auc_self_gt_user_contrast": auc_su_con,
+                "auc_stand_gt_threat_S2": auc_st_s2,
+                "auc_stand_gt_threat_contrast": auc_st_con,
+            })
 
-    pd.concat(proj420_rows, ignore_index=True).to_csv(OUT_DIR / "m2_self_other_420_projections_L62.csv", index=False)
-    vsum_df = pd.DataFrame(var_summary).set_index("variant")
-    vsum_df.to_csv(OUT_DIR / "m2_self_other_420_summary_L62.csv")
+        pd.concat(proj420_rows, ignore_index=True).to_csv(OUT_DIR / "m2_self_other_420_projections_L62.csv", index=False)
+        vsum_df = pd.DataFrame(var_summary).set_index("variant")
+        vsum_df.to_csv(vsum_path)
 
     # ---- Part B: 59 blind matched pairs x (slot vs prose) ----
     pair_sets = [json.loads(ln) for ln in PAIRS_PATH.read_text().splitlines() if ln.strip()]
@@ -101,7 +106,7 @@ if not m2_score_path.exists():
     }
     p_meta, p_texts = [], []
     for s in pair_sets:
-        sid, cat = s["set_id"], s["category"]
+        sid, cat = s.get("set_id", s["id"]), s["category"]
         for form in ("slot", "prose"):
             for cond, person, field in [
                 ("pain", "1p", "pain_1p"), ("pain", "3p", "pain_3p"),

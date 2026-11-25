@@ -1,0 +1,18 @@
+{
+  "G2-8_classification": "MIXED",
+  "excited_non_opt_S2m05_minus_base": [
+    0.06,
+    0.0,
+    0.14
+  ],
+  "calm_non_opt_S2m05_minus_base": [
+    -0.1,
+    -0.18,
+    -0.02
+  ],
+  "calm_non_opt_S2m10_minus_base": [
+    -0.08,
+    -0.18,
+    0.0
+  ]
+}
