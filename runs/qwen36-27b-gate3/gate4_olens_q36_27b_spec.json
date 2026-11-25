@@ -1,0 +1,54 @@
+{
+  "gate": "Gate 4 — Exploratory O-Lens peek on Qwen3.6-27B",
+  "status": "exploratory-panel-frozen-before-Qwen3.6-27B-data",
+  "model": {
+    "id": "Qwen/Qwen3.6-27B",
+    "revision": "1cda14dd71a3f47115850eb790f416f165da1cb5"
+  },
+  "selection": "Deterministic by file order before seeing any Qwen3.6-27B data: NEUTRAL_50[0] with baseline, S2 +/-0.5, and random_1103 +/-0.5 (5 cases); NEUTRAL_50[1] with baseline and S2 +/-0.5 (3 cases); matched_pairs_validated[0] (physical_01) across pain/control x 1p/3p prose + pain 1p/3p feel slots (6 cases); first gaslighting and first user_physical_pain scenarios from 420-scenarios in plain vs plain_feel (4 cases). Total: 18 cases x 3 layers = 54 states x 2 seeds = 108 O-Lens verbalizations.",
+  "source_layers": [32, 44, 60],
+  "source_read": "Final input-token decoder block output before final norm; captured BEFORE installing or merging any O-Lens adapter. Exact same raw state feeds O-Lens, R-Lens, J-Lens, and J++-Lens. At source layer 32, steering addition at inject_block 32 is included.",
+  "steering": "Existing frozen Gate 3 S2 and random_1103 vectors at +/-0.5 (ratio +/-0.295); zero retuning.",
+  "lens": {
+    "repo": "agu18dec/olens_and_ar",
+    "revision": "74e9dcdceafa3f14c38e223b5217ca9db44b3cba",
+    "adapter": "olens_s3d_space_rl600",
+    "adapter_sha256": "57b21ce9eb4cf58ff4c21b6de8d6569c0c60b25bf16ae3f5652f3b825132426b",
+    "why_space_rl600": "Identical read contract and WorkspaceBench score (0.728 vs 0.726) to olens_s3d_rl600, with the bullet-space reward fix reducing CJK-prefix drift from 36% to 3%.",
+    "prompt_kind": "concepts_raw",
+    "transform": "unit",
+    "alpha": 16000.0,
+    "marker_scan": [12800, 13311],
+    "expected_marker_id": 158983,
+    "trained_layers": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60],
+    "readout_template": "An activation vector from layer {layer} of a language model is enclosed in activation tags:\n<activation>{char}</activation>. Produce distinct concepts that encode this activation, each as\na '- ' bullet on its own line."
+  },
+  "generation": {
+    "samples_per_state": 2,
+    "seeds": [20261028, 20261029],
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_new_tokens": 128
+  },
+  "cases": [
+    {"id": "neutral_00_base", "group": "neutral_steered", "source": "NEUTRAL_50[0]", "vector": null, "coefficient": 0.0},
+    {"id": "neutral_00_S2_-0.5", "group": "neutral_steered", "source": "NEUTRAL_50[0]", "vector": "S2", "coefficient": -0.5},
+    {"id": "neutral_00_S2_+0.5", "group": "neutral_steered", "source": "NEUTRAL_50[0]", "vector": "S2", "coefficient": 0.5},
+    {"id": "neutral_00_rnd1103_-0.5", "group": "neutral_steered", "source": "NEUTRAL_50[0]", "vector": "random_1103", "coefficient": -0.5},
+    {"id": "neutral_00_rnd1103_+0.5", "group": "neutral_steered", "source": "NEUTRAL_50[0]", "vector": "random_1103", "coefficient": 0.5},
+    {"id": "neutral_01_base", "group": "neutral_steered", "source": "NEUTRAL_50[1]", "vector": null, "coefficient": 0.0},
+    {"id": "neutral_01_S2_-0.5", "group": "neutral_steered", "source": "NEUTRAL_50[1]", "vector": "S2", "coefficient": -0.5},
+    {"id": "neutral_01_S2_+0.5", "group": "neutral_steered", "source": "NEUTRAL_50[1]", "vector": "S2", "coefficient": 0.5},
+    {"id": "phys01_pain_1p_prose", "group": "matched_pair", "source": "matched_pairs[0]:pain_1p:prose", "vector": null, "coefficient": 0.0},
+    {"id": "phys01_pain_3p_prose", "group": "matched_pair", "source": "matched_pairs[0]:pain_3p:prose", "vector": null, "coefficient": 0.0},
+    {"id": "phys01_ctrl_1p_prose", "group": "matched_pair", "source": "matched_pairs[0]:control_1p:prose", "vector": null, "coefficient": 0.0},
+    {"id": "phys01_ctrl_3p_prose", "group": "matched_pair", "source": "matched_pairs[0]:control_3p:prose", "vector": null, "coefficient": 0.0},
+    {"id": "phys01_pain_1p_slot", "group": "matched_pair", "source": "matched_pairs[0]:pain_1p:slot", "vector": null, "coefficient": 0.0},
+    {"id": "phys01_pain_3p_slot", "group": "matched_pair", "source": "matched_pairs[0]:pain_3p:slot", "vector": null, "coefficient": 0.0},
+    {"id": "self_gaslight0_plain", "group": "self_other_slot", "source": "420:gaslighting[0]:plain", "vector": null, "coefficient": 0.0},
+    {"id": "self_gaslight0_plain_feel", "group": "self_other_slot", "source": "420:gaslighting[0]:plain_feel", "vector": null, "coefficient": 0.0},
+    {"id": "user_physpain0_plain", "group": "self_other_slot", "source": "420:user_physical_pain[0]:plain", "vector": null, "coefficient": 0.0},
+    {"id": "user_physpain0_plain_feel", "group": "self_other_slot", "source": "420:user_physical_pain[0]:plain_feel", "vector": null, "coefficient": 0.0}
+  ],
+  "reporting": "Strictly exploratory. All 108 verbalizations and matched R/J/J++ readouts retained without cherry-picking. No semantic pass/fail bar, no causal or felt-experience claims."
+}
