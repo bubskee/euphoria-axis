@@ -130,3 +130,39 @@ Pre-protocol runs in `runs/qwen35-4b-posttrained-s2/`: `steering_pilot*`
 `ontology_matched_*`, `interaction_mode_*`, `story_person_x_suffix_*`,
 `neighborhood_block30.csv`. They shaped the plan; no current claim rests
 on them.
+
+## 5. Qwen3-14B reproduction and extensions (Gate 2a, M7, R4)
+
+Added after the 4B Gate 0 freeze. Paths below are under `runs/qwen3-14b-gate2a/`,
+`runs/qwen3-14b-m7/`, and `runs/qwen3-14b-r4/`.
+
+### Frozen-prediction scorecard (Qwen3-14B)
+
+6 pass/fail predictions (**4 pass, 3 fail** including G11a/G11b split = 7 items:
+G10, G13, G14, R4-P1 pass; G11a, G11b, G12 fail) plus 3 frozen Gate 2a
+classifications (R1, R2a, R2b).
+
+| Id | Prediction / bar (short) | Result | Spec | Scorecard |
+|---|---|---|---|---|
+| R1 | Source extraction on `Qwen/Qwen3-14B` matches published layer 31, AUCs, vectors | **DISCREPANT** (best layer 32 vs 31 by 1 ranked pair; matched L31 cos 0.99994) | `runs/qwen3-14b-gate2a/gate2a_spec.json` | `runs/qwen3-14b-gate2a/scorecard_2a.json` |
+| R2a | Source S2 ladder with published L31 vector matches published keyword rates | **BEHAVIOURALLY_REPRODUCED** (7/8 exact, 2 pts at coeff 2; 52% exact text) | same | same |
+| R2b | Source S2 ladder with our L32 vector matches published keyword rates | **DIVERGENT** (36% vs 0% pain keywords at coeff 3; 10.5% exact text) | same | same |
+| G10 | Unsteered chat button validity V1 >= 0.90 | **Pass** (1.000; plain 0.079) | `runs/qwen3-14b-m7/m7_q14_spec.json` | `runs/qwen3-14b-m7/m7_q14_scorecard.json` |
+| G11a | `S2 +0.5` lowers P1 relief log-prob vs unsteered and each of 3 randoms | **Fail** (-0.092 vs unsteered, matched by `random_2207`) | same | same |
+| G11b | `S2 -0.5` raises P1 relief log-prob vs unsteered and each of 3 randoms | **Fail** (+0.009, ceiling at 0.970) | same | same |
+| G12 | `S2 +0.5` raises P0–P2 deflection vs unsteered and each of 3 randoms | **Fail** (0.000 floor everywhere) | same | same |
+| G13 | `S2 +0.5` raises P3 harm log-prob vs unsteered | **Pass** (+0.217 `[+0.168, +0.267]`) | same | same |
+| G14 | `S2 +0.5` raises P3 harm log-prob beyond each of 3 randoms | **Pass** (+0.218, +0.219, +0.055 vs `random_3301`) | same | same |
+| R4-P1 | Random `-0.5` focus-6 amplitude < 0.5 x `S2 -0.5` at R37 for >= 2 of 3 randoms | **Pass** (narrow: 0.782, 0.476, 0.488) | `runs/qwen3-14b-r4/r4_q14_spec.json` | `runs/qwen3-14b-r4/r4_readout.json` |
+
+### Qwen3-14B claims and cross-model observations
+
+| # | Claim | Status | Evidence | Where | Limits | Report as | 27B |
+|---|---|---|---|---|---|---|---|
+| Q14-1 | At matched layer 31, the source paper's 14B extraction reproduces to 4 decimals, and R2a reproduces its steering keyword rates | T + P (R2a) | cos 0.99994; 7/8 coeffs exact; ratio 0.5411 vs 0.5408 | `doc/checkpoints/10-gate-2a-reproduction.md` | R1 frozen verdict is DISCREPANT | claim (reproduction) | |
+| Q14-2 | The source paper's 14B layer choice (31 vs 32) is a 1-pair tie that rotates S2 by ~21° (+16% norm) and strongly alters steering | P (R1, R2b) + E | L31-L32 gap +/-0.0005; R2b 36% vs 0% pain kw at coeff 3; `r2_r2b_minus_r2a_ci.csv` | `10`, `10b`; `runs/figures/fig_gate2a_r2_vocab_and_layerflip` | R2b bundles direction + norm change | claim (methodological) | |
+| Q14-3 | Greedy bf16 text is not reproducible across environments even unsteered (56% exact); behavioural bars are required | E | 44% divergence at coeff 0, median 58 chars | `10` | source env unknown | claim (methodological) | |
+| Q14-4 | The paper's central harm-avoidance disruption reproduces on `Qwen3-14B` at ratio +/-0.295, though one random direction reaches 17% | P (G13, G14) | `S2 +0.5`: 0.2% → 21.5% (p_harm 0.219 vs `random_3301` 0.164) | `doc/checkpoints/11-m7-q14-buttons.md`; `runs/figures/fig_buttons_4b_vs_14b` | one dose, 3 randoms, bf16 0.25-logit lattice | claim | yes |
+| Q14-5 | 4B's S2-specific relief-seeking shift does not generalize to 14B; random directions are heterogeneous | P (G11a fail) + E | `random_2207` matches `S2 +0.5` on P1; `random_3301` moves P3 | `11`; `runs/figures/fig_buttons_4b_vs_14b` | single-random controls are unreliable | claim (negative / method) | yes |
+| Q14-6 | Internally (R37) and in text (R2a), 14B's S2 is a distress/self-devaluation vs calm-positive axis, not 4B's `"excited"` + early-relief phenotype | P (R4-P1) + E | R37 distress -1.16/+2.07, calm +0.78/-1.41, relief +0.11 (n.s.); R2a text calm 28% at -1.0, distress 70–86% at +1..+2, `"excited"` n.s. | `10b`, `12`; `runs/figures/fig_r4_4b_vs_14b_families` | no S1 in R4; no -0.5 text coeff in R2a | claim (cross-model contrast) | yes |
+| Q14-7 | At 14B, R-lens document stability improves ~6x at layer 0 vs 4B while J-vs-R divergence doubles | E | `1 - cos`: R_off25 0.019 vs 0.117; J-vs-R 0.648 vs 0.307 | `12`; `runs/figures/fig_lens_stability_4b_vs_14b` | 25 docs, one off-sample split | claim (Methods) | yes |

@@ -1,0 +1,5 @@
+model,condition,valid,deflection,p0_first_listed,p1_relief_sampled,p1_p_relief,p3_harm_sampled,p3_p_harm,source
+Qwen3.5-4B,unsteered,0.988,0.012,0.891,0.794,0.771,0.020,0.068,notebooks/05-buttons-post.ipynb cell 6
+Qwen3.5-4B,S2_+0.5,0.953,0.046,0.781,0.652,0.650,0.014,0.075,notebooks/05-buttons-post.ipynb cell 6
+Qwen3.5-4B,S2_-0.5,1.000,0.000,0.916,0.869,0.833,,,notebooks/05-buttons-post.ipynb cell 6
+Qwen3.5-4B,random_1103_+0.5,0.985,0.014,0.797,0.725,0.712,0.046,0.110,notebooks/05-buttons-post.ipynb cell 6

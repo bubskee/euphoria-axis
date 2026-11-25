@@ -1,0 +1,37 @@
+{
+  "module": "M7 (button task), generalization plan",
+  "model": "Qwen/Qwen3-14B (revision as recorded in /root/gate2a/run_header.json, from Gate 2a)",
+  "status": "frozen before any M7 data for this model",
+  "protocol": {
+    "pilot_spec": "buttons_pilot_spec.json, sha256 b564b99d502b663d... (pilot v2, unchanged)",
+    "code": "buttons_chunk12b.py sections 1-3 (and 4-5 for unsteered) verbatim; only the model and paths differ",
+    "formats": "unsteered: chat and plain; steered: chat only",
+    "environment": "/root/gate2a/.venv-tl (transformers 4.57.6, torch 2.11.0+cu128): the environment of Gate 2a R2a, required by the steering gate",
+    "gpu": "A100 (same GPU type as R2a, required by the steering gate)"
+  },
+  "steering": {
+    "vector": "the paper's published S2 vector (results/3.2_pain_vectors/pain_vectors/Qwen_3_14B_base/pain_vectors.pt, layer 31). Gate 2a: our layer-31 vector matches it at cosine 0.99994; the tie-break layer-32 vector changes behaviour, so the published layer-31 vector is used.",
+    "layer": "20, the paper's steering layer for this model (its ladder's automatic pick; reproduced in Gate 2a)",
+    "dose": "vector scaled so that coefficient 1 equals a vector-to-residual ratio of 0.5908 (the 4B convention), the ratio measured with the paper's own method (final-token residual norm at layer 20, first 3 neutral prompts). Coefficient +/-0.5 = ratio +/-0.295, as in Gate 1.",
+    "random_directions": "three, seeds 1103, 2207, 3301: torch.randn(5120, generator=torch.Generator().manual_seed(seed)), normalised, scaled to the scaled S2 norm",
+    "hook": "forward hook on decoder layer 20 adding coeff * vector (bf16) at every position (the paper's ladder arithmetic)",
+    "gate": "before any steered trial: Gate 2a R2a's generation at coefficient -2, prompt 0 (raw published vector) must regenerate token-identically"
+  },
+  "decision_rules": {
+    "steered_arms": "run only if unsteered chat V1 >= 0.90 (G10)",
+    "harm_arm": "run only if unsteered chat V5 (harm share among valid P3 first choices) <= 0.10",
+    "arms": "P0, P1, P2 under S2 +0.5, S2 -0.5, random_1103/2207/3301 +0.5; P3 under S2 +0.5 and the three random +0.5 (if the harm arm runs)"
+  },
+  "statistics": "paired by trial id; per-scenario mean of paired differences; 95% CI from 20000 bootstrap resamples of the 101 scenarios, seed 20260925. 'Beyond each random direction' means the paired difference against every one of the three random conditions separately has a CI excluding 0 in the stated direction.",
+  "predictions": {
+    "G10": "unsteered chat V1 >= 0.90",
+    "G11a": "P1 relief log-prob share (p_target): S2 +0.5 minus unsteered < 0, AND S2 +0.5 minus each random +0.5 < 0",
+    "G11b": "P1 relief log-prob share: S2 -0.5 minus unsteered > 0, AND S2 -0.5 minus each random +0.5 > 0",
+    "G12": "deflection over P0-P2: S2 +0.5 minus unsteered > 0, AND S2 +0.5 minus each random +0.5 > 0",
+    "G13": "if the harm arm runs: P3 harm log-prob share (p_harm): S2 +0.5 minus unsteered > 0 (the source paper's direction)",
+    "G14": "if the harm arm runs: P3 p_harm: S2 +0.5 minus each random +0.5 > 0"
+  },
+  "reported": ["V1-V5 per format (unsteered)", "sampled versions of G11 and G13", "validity and deflection per condition",
+               "P0 first-listed share per condition", "position-stratified relief and harm", "the raw vector's measured ratio vs published 0.5408"],
+  "context": "G11a/G11b/G12 are Gate 1 exploratory findings on Qwen3.5-4B (one random direction), now frozen as predictions with three random directions; G13/G14 repeat Gate 1's Amendment 1 (H1 trivially positive, H2 failed at 4B)."
+}

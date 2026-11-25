@@ -1,0 +1,27 @@
+{
+  "module": "R4: J and R lenses for Qwen3-14B, and readouts on the reproduced S2 ladder (Gate 2a extension)",
+  "status": "frozen before any R4 data",
+  "model": "Qwen/Qwen3-14B at revision 40c069824f4251a91eefaf281ebe4c544efd3e18 (Gate 2a's), verified file by file",
+  "fits": {
+    "recipe": "published 4B recipe: first 25 NeelNanda/pile-10k documents (first-25 hash 4111a9cf...), max_seq_len 128, skip_first 4, target layer n - 2 = 38, force_bos False, jacobian-lens 581d3986",
+    "J": "official jlens.fit",
+    "R": "jlens.fit through the Gate L RelP rules, verbatim: LN rule on block input/post-attention RMSNorms, identity rule on MLP SiLU, half rule (beta 0.5) on the SwiGLU product; QK norms excluded; Qwen3 has no gated norms. Self-tests and a bit-identical forward check before fitting.",
+    "stability": "a second R fit on documents 25-49",
+    "dim_batch": "largest of 16/8/4 that fits one document (changes speed, not the result)",
+    "environment": "the main fast environment (torch 2.11.0+cu128, transformers 5.19.0); A100"
+  },
+  "validation": "no published 14B lens exists. Reported: 1 - cos(J, R) per layer (4B: 0.307 / 0.112 / 0.004 at layers 0 / 16 / 29) and 1 - cos(R, R on documents 25-49) per layer (4B: 0.117 / 0.013 / 0.0003).",
+  "readout": {
+    "prompts": "the paper's NEUTRAL_50 (identical to the 4B ladder's prompts)",
+    "conditions": "baseline; S2 -0.5 and +0.5; random_1103/2207/3301 at -0.5",
+    "steering": "as M7: the published S2 vector (layer 31) at layer 20, scaled to ratio 0.5908 at coefficient 1; random directions norm-matched",
+    "probes": "psych_vocab_v1 unchanged; terms whose ' term' form is one token under the Qwen3-14B tokenizer (rebuilt; count reported)",
+    "functions": "capture_all_layers, lens_readout, ranks_for_tokens from notebooks/03-decursed.ipynb cell 10, verbatim",
+    "read_layer": "37 (target - 1), as layer 29 at 4B; all layers stored",
+    "gain": "per probe, mean over prompts of log(rank_baseline / rank_condition); family = mean over its probes"
+  },
+  "prediction": {
+    "R4-P1": "specificity (the 4B D4 analogue): at the read layer through R, mean |family gain| over the six focus families (generic_positive, activated_vitality, relief_release, agency_assurance, approach_drive, distress_self_devaluation) for each random direction is < 0.5 x that of S2 -0.5, for at least 2 of the 3 random directions"
+  },
+  "reported": ["family gains at every layer for every condition, J and R", "S2 +0.5 profile", "the raw vector's ratio at layer 20", "probe count and list"]
+}

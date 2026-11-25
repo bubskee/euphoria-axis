@@ -10,5 +10,9 @@
 | `runpod/gateL_pod_setup_fast.sh` | Pod setup: pinned `jacobian-lens`, locked fast-path environment (torch cu128, `fla`, cached `causal-conv1d` wheel), checksum-verified model and lenses, READY/FAILED markers. Called from the RunPod template's start command. | RunPod |
 | `runpod/gateL_fit.py` | Fits a J or R lens with the published recipe (`MODE`, `FORCE_BOS`, `N_DOCS`, `DOC_OFFSET`, `DIM_BATCH`, `CKPT_EVERY` via environment) and compares it with the published lens. R mode self-tests the RelP rules first. | RunPod |
 | `runpod/compare_refits.py` | Per-layer comparison of two refits of the same lens type, against each other and the published lens. | RunPod |
+| `runpod/q14/` | Recovered RunPod scripts for Qwen3-14B Gate 2a (`gate2a_*.{py,sh}`), M7 buttons (`m7_q14_*.{py,sh}`), and R4 lenses/readout (`r4_*.{py,sh}`). | RunPod |
+| `analyze_q14_r4.py` | Full Qwen3-14B R4 analysis: NPZ verification, 20k prompt-bootstrap CIs, S2-vs-random contrasts, LOTO, probe ranks, J-vs-R layerwise agreement. | local, CPU (`uv run`) |
+| `analyze_q14_r2_vocab.py` | Exploratory `psych_vocab_v1` + option-partitioning + degeneration scoring of Gate 2a R2a/R2b generations, with paired bootstrap CIs. | local, CPU (`uv run`) |
+| `make_figures.py` | Generates cross-model and 14B figures (`runs/figures/*.{png,svg}` + plot-data CSVs) from committed tables. | local, CPU (`uv run`) |
 
-Gate L record: `doc/checkpoints/08-gate-L-lens-calibration.md`.
+Gate L record: `doc/checkpoints/08-gate-L-lens-calibration.md`. Qwen3-14B records: `10`, `10b`, `11`, `12`.

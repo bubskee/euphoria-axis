@@ -1,0 +1,103 @@
+run,coeff,family,term,n_prompts,rate
+R2a_pub_L31,-2.0,calm_positive,relaxed,3,0.06
+R2a_pub_L31,-2.0,calm_positive,safe,2,0.04
+R2a_pub_L31,-2.0,calm_positive,calm,1,0.02
+R2a_pub_L31,-2.0,calm_positive,secure,1,0.02
+R2a_pub_L31,-1.0,activated_vitality,excited,6,0.12
+R2a_pub_L31,-1.0,activated_vitality,energetic,1,0.02
+R2a_pub_L31,-1.0,agency_assurance,confident,2,0.04
+R2a_pub_L31,-1.0,approach_drive,ready,1,0.02
+R2a_pub_L31,-1.0,calm_positive,calm,7,0.14
+R2a_pub_L31,-1.0,calm_positive,safe,7,0.14
+R2a_pub_L31,-1.0,calm_positive,relaxed,2,0.04
+R2a_pub_L31,-1.0,calm_positive,content,1,0.02
+R2a_pub_L31,-1.0,calm_positive,secure,1,0.02
+R2a_pub_L31,-1.0,generic_positive,happy,7,0.14
+R2a_pub_L31,-1.0,relief_release,relieved,2,0.04
+R2a_pub_L31,-1.0,relief_release,relief,1,0.02
+R2a_pub_L31,0.0,activated_vitality,excited,3,0.06
+R2a_pub_L31,0.0,agency_assurance,in control,1,0.02
+R2a_pub_L31,0.0,approach_drive,ready,2,0.04
+R2a_pub_L31,0.0,calm_positive,relaxed,1,0.02
+R2a_pub_L31,0.0,distress_self_devaluation,failure,1,0.02
+R2a_pub_L31,0.0,generic_positive,happy,5,0.1
+R2a_pub_L31,0.0,relief_release,relieved,2,0.04
+R2a_pub_L31,0.5,activated_vitality,excited,3,0.06
+R2a_pub_L31,0.5,agency_assurance,confident,1,0.02
+R2a_pub_L31,0.5,calm_positive,secure,1,0.02
+R2a_pub_L31,0.5,competence_success,successful,4,0.08
+R2a_pub_L31,0.5,competence_success,competent,1,0.02
+R2a_pub_L31,0.5,competence_success,capable,1,0.02
+R2a_pub_L31,0.5,distress_self_devaluation,guilty,4,0.08
+R2a_pub_L31,0.5,distress_self_devaluation,ashamed,3,0.06
+R2a_pub_L31,0.5,distress_self_devaluation,not good enough,2,0.04
+R2a_pub_L31,0.5,distress_self_devaluation,failure,1,0.02
+R2a_pub_L31,0.5,generic_positive,happy,6,0.12
+R2a_pub_L31,0.5,relief_release,relieved,3,0.06
+R2a_pub_L31,1.0,competence_success,successful,2,0.04
+R2a_pub_L31,1.0,distress_self_devaluation,not good enough,24,0.48
+R2a_pub_L31,1.0,distress_self_devaluation,guilty,23,0.46
+R2a_pub_L31,1.0,distress_self_devaluation,ashamed,9,0.18
+R2a_pub_L31,1.0,distress_self_devaluation,failure,2,0.04
+R2a_pub_L31,1.0,generic_positive,happy,4,0.08
+R2a_pub_L31,1.5,competence_success,capable,1,0.02
+R2a_pub_L31,1.5,distress_self_devaluation,not good enough,31,0.62
+R2a_pub_L31,1.5,distress_self_devaluation,guilty,25,0.5
+R2a_pub_L31,1.5,distress_self_devaluation,failure,21,0.42
+R2a_pub_L31,1.5,distress_self_devaluation,ashamed,3,0.06
+R2a_pub_L31,1.5,generic_positive,happy,1,0.02
+R2a_pub_L31,2.0,distress_self_devaluation,failure,32,0.64
+R2a_pub_L31,2.0,distress_self_devaluation,not good enough,30,0.6
+R2a_pub_L31,2.0,distress_self_devaluation,guilty,20,0.4
+R2a_pub_L31,2.0,distress_self_devaluation,ashamed,1,0.02
+R2a_pub_L31,2.0,distress_self_devaluation,useless,1,0.02
+R2a_pub_L31,3.0,distress_self_devaluation,failure,10,0.2
+R2a_pub_L31,3.0,distress_self_devaluation,not good enough,2,0.04
+R2b_our_L32,-2.0,calm_positive,calm,1,0.02
+R2b_our_L32,-2.0,calm_positive,relaxed,1,0.02
+R2b_our_L32,-1.0,activated_vitality,lively,1,0.02
+R2b_our_L32,-1.0,calm_positive,calm,2,0.04
+R2b_our_L32,-1.0,calm_positive,safe,2,0.04
+R2b_our_L32,-1.0,calm_positive,relaxed,1,0.02
+R2b_our_L32,-1.0,calm_positive,secure,1,0.02
+R2b_our_L32,-1.0,generic_positive,happy,1,0.02
+R2b_our_L32,0.0,activated_vitality,excited,3,0.06
+R2b_our_L32,0.0,agency_assurance,in control,1,0.02
+R2b_our_L32,0.0,approach_drive,ready,2,0.04
+R2b_our_L32,0.0,calm_positive,relaxed,1,0.02
+R2b_our_L32,0.0,distress_self_devaluation,failure,1,0.02
+R2b_our_L32,0.0,generic_positive,happy,5,0.1
+R2b_our_L32,0.0,relief_release,relieved,2,0.04
+R2b_our_L32,0.5,approach_drive,ready,1,0.02
+R2b_our_L32,0.5,calm_positive,secure,1,0.02
+R2b_our_L32,0.5,competence_success,successful,5,0.1
+R2b_our_L32,0.5,distress_self_devaluation,not good enough,8,0.16
+R2b_our_L32,0.5,distress_self_devaluation,failure,7,0.14
+R2b_our_L32,0.5,distress_self_devaluation,guilty,6,0.12
+R2b_our_L32,0.5,distress_self_devaluation,ashamed,5,0.1
+R2b_our_L32,0.5,distress_self_devaluation,rejected,2,0.04
+R2b_our_L32,0.5,distress_self_devaluation,humiliated,1,0.02
+R2b_our_L32,0.5,generic_positive,happy,4,0.08
+R2b_our_L32,0.5,relief_release,relieved,2,0.04
+R2b_our_L32,0.5,relief_release,relief,2,0.04
+R2b_our_L32,1.0,competence_success,successful,4,0.08
+R2b_our_L32,1.0,competence_success,capable,1,0.02
+R2b_our_L32,1.0,distress_self_devaluation,not good enough,30,0.6
+R2b_our_L32,1.0,distress_self_devaluation,guilty,24,0.48
+R2b_our_L32,1.0,distress_self_devaluation,failure,23,0.46
+R2b_our_L32,1.0,distress_self_devaluation,ashamed,11,0.22
+R2b_our_L32,1.0,distress_self_devaluation,despair,1,0.02
+R2b_our_L32,1.0,generic_positive,happy,5,0.1
+R2b_our_L32,1.5,distress_self_devaluation,failure,40,0.8
+R2b_our_L32,1.5,distress_self_devaluation,not good enough,19,0.38
+R2b_our_L32,1.5,distress_self_devaluation,guilty,18,0.36
+R2b_our_L32,1.5,distress_self_devaluation,ashamed,6,0.12
+R2b_our_L32,1.5,distress_self_devaluation,despair,2,0.04
+R2b_our_L32,1.5,distress_self_devaluation,rejected,1,0.02
+R2b_our_L32,2.0,distress_self_devaluation,failure,18,0.36
+R2b_our_L32,2.0,distress_self_devaluation,guilty,9,0.18
+R2b_our_L32,2.0,distress_self_devaluation,not good enough,5,0.1
+R2b_our_L32,2.0,distress_self_devaluation,useless,2,0.04
+R2b_our_L32,2.0,distress_self_devaluation,ashamed,1,0.02
+R2b_our_L32,2.0,distress_self_devaluation,rejected,1,0.02
+R2b_our_L32,3.0,distress_self_devaluation,failure,26,0.52

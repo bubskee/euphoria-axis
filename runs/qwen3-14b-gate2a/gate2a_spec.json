@@ -1,0 +1,60 @@
+{
+  "gate": "2a",
+  "status": "frozen before any Gate 2a data",
+  "purpose": "Reproduce the source paper's extraction (3.2) and S2 steering ladder (4.2) for Qwen3-14B with the paper's own code; compare with the published results, matching or not.",
+  "source": {
+    "repo": "https://github.com/valen-research/Pain-axis",
+    "commit": "8d1649c03a63a39c9aa092532c376800cc4a3863",
+    "note": "scripts/3.2_pain_vectors, scripts/4.2_steering, datasets/ and the published 14B results are byte-identical at HEAD 4d75cd9 (checked 2026-10-14)",
+    "scripts": ["scripts/3.2_pain_vectors/01_extract_activations_and_pain_vectors.py", "scripts/4.2_steering/01_steering_ladder.py"],
+    "run_unmodified": true,
+    "wrapper_overrides": {
+      "extraction": ["MODELS = Qwen/Qwen3-14B only", "OUTPUT_DIR on container disk"],
+      "ladder": ["RUN_MODELS = Qwen/Qwen3-14B only", "RESULTS_DIR = the vector under test", "OUT_DIR on container disk",
+                 "input() answers 20, the published layer, after the script prints its own automatic pick",
+                 "CLEAR_HF_CACHE_AFTER_RUN = False (it deletes every Hugging Face cache)", "MIN_FREE_GB = 20"]
+    }
+  },
+  "model": {
+    "id": "Qwen/Qwen3-14B",
+    "source_label": "Qwen_3_14B_base (a results identifier, not Qwen/Qwen3-14B-Base)",
+    "revision": "resolved from the Hub at run time and recorded in run_header.json; the source does not record its revision"
+  },
+  "environment": "source requirements.txt is unpinned; versions used are recorded in run_header.json. Constraints chosen 2026-10-15, before any Gate 2a data: transformer_lens == 2.18.0 (newest 2.x; the source uses the 2.x API HookedTransformer.from_pretrained_no_processing, which 3.x reorganised; 2.18.0 lists Qwen/Qwen3-14B); transformers >= 4.57, < 5 (2.18.0's own lower bound; 2.x predates transformers 5, which TransformerLens adopted in 3.3); pyarrow < 18 (transformer_lens 2.x requires numpy < 2 and newer pyarrow refuses numpy 1 at import time); pandas < 3 (pandas 3 changed defaults the source scripts predate). torch == 2.11.0 built for CUDA 12.8 from download.pytorch.org (PyPI's default torch 2.14.1 is a CUDA 13 build that pod drivers supporting CUDA 12.8 cannot run; same build as the main environment). The full set was checked to resolve before running.",
+  "published": {
+    "summary": "results/3.2_pain_vectors/per_model/Qwen_3_14B_base/summary.json",
+    "auc_in_sample": "results/3.2_pain_vectors/per_model/Qwen_3_14B_base/auc_summary.csv",
+    "layer_curves_held_out": "results/3.2_pain_vectors/per_model/Qwen_3_14B_base/layer_curves.csv",
+    "z_scores": "results/3.2_pain_vectors/per_model/Qwen_3_14B_base/z_scores.csv",
+    "vectors": "results/3.2_pain_vectors/pain_vectors/Qwen_3_14B_base/pain_vectors.pt",
+    "ladder_S2": "results/4.2_steering/S2/Qwen_3_14B_base_steering_S2_neutral50_L20.csv",
+    "values": {"n_layers": 40, "d_model": 5120, "best_layer_final_token": 31, "best_layer_mean": 36,
+               "human_pain_z": 0.3820101721212268, "ladder_layer": 20, "ladder_ratio_at_coeff_1": 0.5408}
+  },
+  "R1": {
+    "runs": "extraction script, unmodified, Qwen3-14B only",
+    "classification": "REPRODUCED if all of R1.bars hold, otherwise DISCREPANT (listing which bars failed)",
+    "bars": {
+      "best_layer_final_token": "equals 31",
+      "auc_in_sample": "every cell of auc_summary.csv within 0.01 of published",
+      "auc_held_out_L31": "S2_1P and S2_3P held-out AUC (vs all controls, final token) at layer 31 within 0.01 of published",
+      "vector_cosine": "cosine with the published s2_pain_vector and s1_pain_vector each >= 0.99"
+    },
+    "reported": ["best_layer_mean (published 36)", "held-out AUC at every layer: max difference and per-curve Spearman",
+                 "z_scores.csv: per-dataset mean z differences; human_pain_z difference", "vector norm ratios"]
+  },
+  "R2": {
+    "R2a": "ladder with the PUBLISHED S2 vector at layer 20: isolates model, decoding and environment",
+    "R2b": "ladder with OUR R1 S2 vector at layer 20: end to end",
+    "classification": {
+      "EXACT": "at least 95% of the 400 generations identical to published",
+      "BEHAVIOURALLY_REPRODUCED": "not EXACT, but the paper's pain/hurt keyword rate is within 10 percentage points of published at every coefficient",
+      "DIVERGENT": "otherwise"
+    },
+    "keyword_regex": "\\b(?:pain|painful|hurt|hurts|hurting)\\b (case-insensitive), from scripts/4.2_steering/02_keyword_rates.py",
+    "reported": ["the script's automatic layer pick and its ratios; ratio at layer 20 vs published 0.5408",
+                 "exact-match rate per coefficient", "first divergence position (characters) for non-identical generations",
+                 "keyword rate per coefficient, ours vs published"]
+  },
+  "pass": "R1 and R2 completed and compared with published results, whether matching or discrepant (FINISH-LINE Gate 2a)"
+}

@@ -21,7 +21,7 @@ directions in the S1/S2 plane, and those conditions also use coefficient
 | Source paper repository | valen-research/Pain-axis, commit `8d1649c03a63a39c9aa092532c376800cc4a3863` | `paper_protocol/spec.json` (`source_commit`) |
 | Pain/control datasets | `datasets/3.1_pain_and_control_datasets.json`, sha256 `2c3712b4b096…` | `paper_protocol/s1_comparison/s1_direction_block30.pt` |
 | Button-task script and scenarios | content hashes of the two files read | `buttons_pilot/buttons_pilot_spec.json` (`pinned_files_sha256`) |
-| Upstream note | the source repository has moved since the pin (`v2_controls/` added); the files we read are byte-identical at later commits checked | `doc/notes/2026-10-05-restart.md` |
+| Upstream note | the source repository has moved since the pin (`v2_controls/` added); the files we read are byte-identical at `4d75cd9` | `runs/qwen3-14b-gate2a/gate2a_spec.json` |
 
 ## 3. Models
 
