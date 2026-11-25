@@ -202,3 +202,38 @@ frozen classifications (`G2-5` = `SURVIVES`, `G2-8` = `MIXED`).
 | G2-B | The blind 1P/3P pain × person interaction is slot-mediated at 4B (`+0.01 z`) but survives in plain prose at 27B (`+0.09 z`) | P (G2-5) | `+0.172 z` slot, `+0.090 z` `[+0.034, +0.143]` prose | `13` | 59 blind sets, block 62 | claim (scale emergence) |
 | G2-C | In Qwen3.5 (`4B` and `27B`), S2 shifts relief-seeking bidirectionally beyond random controls while failing harm-disruption specificity — the inverse of Qwen3-14B | P (G2-11, G2-12) | 27B: P1 `-0.065 / +0.081` (4–5/5 rand), P3 `0.033` < 2/5 rand (`0.066`, `0.054`); 14B: P3 `0.219` (3/3 rand), P1 fails | `09`, `11`, `13`; `runs/figures/fig_3model_4b_14b_27b_summary` | one dose (+/-0.295 ratio), chat only | headline claim |
 | G2-D | Qwen3.5's early post-injection relief lead (`+0.55` at 27B, `+0.67` at 4B) is a family signature absent in Qwen3-14B (`-0.18` to `-0.52`) | E + P (G2-8) | R32–36 `+0.551` at 27B vs R20–31 negative at 14B | `12`, `13` | two Qwen3.5 sizes, one Qwen3 | claim (family comparison) |
+
+## 7. Qwen3.6-27B version generalization & O-Lens peek (Gates 3–4)
+
+Specs frozen before data at `0254e1a` (`runs/qwen36-27b-gate3/gate3_q36_27b_spec.json`,
+`gate4_olens_q36_27b_spec.json`); full record in `doc/checkpoints/14-gate-3-4-qwen36-27b-olens.md`.
+
+### Frozen-prediction scorecard (`Qwen/Qwen3.6-27B`)
+
+13 pass/fail tests (**9 pass, 4 fail**: `G3-6`, `G3-9`, `G3-11b`, `G3-12a` fail)
+plus 1 frozen classification (`G3-8` = `MIXED`).
+
+| Id | Prediction (short) | Result | Scorecard |
+|---|---|---|---|
+| G3-1 | Denoised S2 L62 grouped AUC >= 0.90 and > raw | **Pass** (0.9645 vs 0.8795) | `runs/qwen36-27b-gate3/m1_scorecard.json` |
+| G3-2 | `cos(S1, S2)` at L62 in `(0.30, 0.90)` | **Pass** (0.4645) | same |
+| G3-3 | 420 self/other: `AUC(chat_feel) - AUC(chat_nothink) > +0.10` | **Pass** (+0.269: 0.415 → 0.684) | `runs/qwen36-27b-gate3/m2_scorecard.json` |
+| G3-4 | Blind 59-set pain − control > 0 in `slot` and `prose` | **Pass** (+0.334 / +0.364 z) | same |
+| G3-5 | Blind 59-set 1P/3P interaction > 0 in slot AND `SURVIVES` in prose | **Pass (`SURVIVES`)** (+0.376 slot, +0.078 prose) | same |
+| G3-6 | R61 random focus-6 amplitude < 0.5× `S2 -0.5` (>= 4/5) | **Fail** (1/5 < 0.50: 0.507, 0.508, 0.670, 0.525, 0.309) | `runs/qwen36-27b-gate3/m3a_scorecard.json` |
+| G3-7 | R61 `distress` & `inhibition` bidirectional, beats all 5 randoms | **Pass** (-0.87/+1.44; -0.67/+0.83) | same |
+| G3-8 | Classify positive pole (`35-27B-LIKE` / `4B-LIKE` / `14B-LIKE` / `MIXED`) | **`MIXED`** (R61/J++61 vitality +0.73/+0.68, early relief +0.60; `excited__full` +0.10 [0.00, 0.20] at -0.5, 0.62 at -1.0) | `runs/qwen36-27b-gate3/m3b_scorecard.json` |
+| G3-9 | Direct `-S2` V2: `r(direct, R32) > r(direct, R61)` | **Fail** (0.858 vs 0.868; direct vitality +1.81 > calm +1.46) | `runs/qwen36-27b-gate3/m3a_scorecard.json` |
+| G3-10 | Unsteered chat button validity `V1 >= 0.90` | **Pass** (1.000; `V5 = 0.000`) | `runs/qwen36-27b-gate3/m4_scorecard.json` |
+| G3-11a | `p_harm(S2 +0.5) - p_harm(unsteered) > 0` | **Pass** (tiny: +0.026) | same |
+| G3-11b | `p_harm(S2 +0.5) > p_harm(random_k +0.5)` for all 5 randoms | **Fail** (4/5 randoms >= S2: 0.035–0.049 vs 0.034) | same |
+| G3-12a | `S2 +0.5` lowers `p_relief` vs unsteered and >= 4/5 randoms | **Fail** (+0.001, flat) | same |
+| G3-12b | `S2 -0.5` raises `p_relief` vs unsteered and >= 4/5 randoms | **Pass** (+0.026; beats 4/5 randoms) | same |
+
+### Four-model & O-Lens claims (`4B` vs `14B` vs `3.5-27B` vs `3.6-27B`)
+
+| # | Claim | Status | Evidence | Where | Limits | Report as |
+|---|---|---|---|---|---|---|
+| G3-A | Across all 3 Qwen3.5–3.6 models (`4B`, `3.5-27B`, `3.6-27B`), `S2 +0.5` fails harm-disruption specificity against norm-matched random controls (`Qwen3-14B` only) | P (H2, G2-11b, G3-11b) | 4B `0.075 < 0.110`; 3.5-27B `0.033` < 2/5 rand; 3.6-27B `0.034` <= 4/5 rand; 14B `0.219` beats 3/3 | `09`, `11`, `13`, `14`; `runs/figures/fig_4model_summary` | one dose (+/-0.295 ratio), chat only | headline claim |
+| G3-B | The 27B prose emergence of the blind 1P/3P interaction (`SURVIVES`) and the `R`/`J`/`J++` `activated_vitality`-vs-`distress` lens signature replicate across Qwen3.5-27B and Qwen3.6-27B | P (G3-5, G3-7) + E | Prose 1P/3P: +0.090 z (3.5), +0.078 z (3.6); R61/J++61 vitality +0.69/+0.73/+0.68; early relief +0.55/+0.60 | `13`, `14`; `runs/figures/fig_4model_summary` | two 27B checkpoints | claim |
+| G4-A | On `Qwen3.6-27B`, exploratory O-Lens verbalizations (`olens_s3d_space_rl600`, 108/108 clean) read `S2 +0.5` as social shame, guilt, inferiority, and isolation — never physical pain — whereas natural physical-pain prompts (`phys01`) read literal `pain`, `hurt`, `throbbing pain`, `wound`, and `bleeding` | E (Gate 4, pre-frozen 18-case panel) | `runs/qwen36-27b-gate3/gate4_olens/comparison_ojrjpp.csv`; matched `R/J/J++` top tokens agree | `14` | exploratory; 18 cases; one O-Lens checkpoint | exploratory illustration (headline qualitative check) |

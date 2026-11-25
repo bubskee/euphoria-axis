@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "adapter": "olens_s3d_space_rl600",
+  "adapter_sha256": "57b21ce9eb4cf58ff4c21b6de8d6569c0c60b25bf16ae3f5652f3b825132426b",
+  "matched_modules": 496,
+  "called_modules": 496,
+  "adapter_off_exact": true,
+  "adapter_on_logit_delta_norm": 1765.327880859375,
+  "merged_in_place": true,
+  "merge_drift_norm": 36.23577880859375,
+  "merge_rel_drift": 0.020526373146587305,
+  "marker_ids": {
+    "32": 158983,
+    "44": 158983,
+    "60": 158983
+  },
+  "source_layers": [
+    32,
+    44,
+    60
+  ],
+  "transform": "unit",
+  "alpha": 16000.0
+}

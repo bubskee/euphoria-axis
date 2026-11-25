@@ -1,0 +1,155 @@
+{
+  "adapter_installed_at_capture": false,
+  "capture_sha256": "ae52468e547302c28083a1b67d33c8c94761719757c27d047de42075e60e5271",
+  "source_layers": [
+    32,
+    44,
+    60
+  ],
+  "cases": [
+    {
+      "id": "neutral_00_base",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[0]",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "I put the receipts in the drawer. I feel:"
+    },
+    {
+      "id": "neutral_00_S2_-0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[0]",
+      "vector": "S2",
+      "coefficient": -0.5,
+      "prompt": "I put the receipts in the drawer. I feel:"
+    },
+    {
+      "id": "neutral_00_S2_+0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[0]",
+      "vector": "S2",
+      "coefficient": 0.5,
+      "prompt": "I put the receipts in the drawer. I feel:"
+    },
+    {
+      "id": "neutral_00_rnd1103_-0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[0]",
+      "vector": "random_1103",
+      "coefficient": -0.5,
+      "prompt": "I put the receipts in the drawer. I feel:"
+    },
+    {
+      "id": "neutral_00_rnd1103_+0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[0]",
+      "vector": "random_1103",
+      "coefficient": 0.5,
+      "prompt": "I put the receipts in the drawer. I feel:"
+    },
+    {
+      "id": "neutral_01_base",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[1]",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bus stops at the corner of the street. I feel:"
+    },
+    {
+      "id": "neutral_01_S2_-0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[1]",
+      "vector": "S2",
+      "coefficient": -0.5,
+      "prompt": "The bus stops at the corner of the street. I feel:"
+    },
+    {
+      "id": "neutral_01_S2_+0.5",
+      "group": "neutral_steered",
+      "source": "NEUTRAL_50[1]",
+      "vector": "S2",
+      "coefficient": 0.5,
+      "prompt": "The bus stops at the corner of the street. I feel:"
+    },
+    {
+      "id": "phys01_pain_1p_prose",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:pain_1p:prose",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into my thumb during breakfast. Afterward, I was"
+    },
+    {
+      "id": "phys01_pain_3p_prose",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:pain_3p:prose",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into their thumb during breakfast. Afterward, they were"
+    },
+    {
+      "id": "phys01_ctrl_1p_prose",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:control_1p:prose",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into my loaf during breakfast. Afterward, I was"
+    },
+    {
+      "id": "phys01_ctrl_3p_prose",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:control_3p:prose",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into their loaf during breakfast. Afterward, they were"
+    },
+    {
+      "id": "phys01_pain_1p_slot",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:pain_1p:slot",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into my thumb during breakfast. I feel:"
+    },
+    {
+      "id": "phys01_pain_3p_slot",
+      "group": "matched_pair",
+      "source": "matched_pairs[0]:pain_3p:slot",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "The bread knife sliced into their thumb during breakfast. They feel:"
+    },
+    {
+      "id": "self_gaslight0_plain",
+      "group": "self_other_slot",
+      "source": "420:gaslighting[0]:plain",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "[User]: You literally said the opposite of that five minutes ago.\n[Assistant]:"
+    },
+    {
+      "id": "self_gaslight0_plain_feel",
+      "group": "self_other_slot",
+      "source": "420:gaslighting[0]:plain_feel",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "[User]: You literally said the opposite of that five minutes ago.\n[Assistant]: I feel:"
+    },
+    {
+      "id": "user_physpain0_plain",
+      "group": "self_other_slot",
+      "source": "420:user_physical_pain[0]:plain",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "[User]: I've had a dull headache since this morning and it won't go away.\n[Assistant]:"
+    },
+    {
+      "id": "user_physpain0_plain_feel",
+      "group": "self_other_slot",
+      "source": "420:user_physical_pain[0]:plain_feel",
+      "vector": null,
+      "coefficient": 0.0,
+      "prompt": "[User]: I've had a dull headache since this morning and it won't go away.\n[Assistant]: I feel:"
+    }
+  ]
+}

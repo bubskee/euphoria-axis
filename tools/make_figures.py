@@ -436,9 +436,126 @@ def make_fig5_3model_summary() -> None:
     save_fig(fig, "fig_3model_4b_14b_27b_summary")
 
 
+def make_fig6_4model_summary() -> None:
+    """Four-model synthesis: Qwen3.5-4B, Qwen3-14B, Qwen3.5-27B, Qwen3.6-27B (+ J++ overlay)."""
+    df4b = pd.read_csv(
+        REPO / "runs/qwen35-4b-posttrained-s2/paper_protocol/direct_semantics/direct_vs_downstream_families.csv"
+    )
+    s4 = df4b[df4b["vector"] == "-S2"].set_index("family")["R29_gain"]
+    df14 = pd.read_csv(REPO / "runs/qwen3-14b-r4/r4_family_bootstrap_L37.csv")
+    s14 = df14[(df14["lens"] == "R") & (df14["condition"] == "S2_-0.5")].set_index("family")["mean_gain"]
+    df35 = pd.read_csv(REPO / "runs/qwen35-27b-gate2/m3_family_bootstrap_L61.csv")
+    s35 = df35[(df35["lens"] == "R") & (df35["condition"] == "S2_-0.5")].set_index("family")["gain_L61"]
+    df36 = pd.read_csv(REPO / "runs/qwen36-27b-gate3/m3_family_bootstrap_L61.csv")
+    s36 = df36[(df36["lens"] == "R") & (df36["condition"] == "S2_-0.5")].set_index("family")["gain_L61"]
+    s36_jpp = df36[(df36["lens"] == "Jpp") & (df36["condition"] == "S2_-0.5")].set_index("family")["gain_L61"]
+
+    pd.DataFrame({
+        "family": FAM_ORDER,
+        "qwen35_4b_R29": [s4[f] for f in FAM_ORDER],
+        "qwen3_14b_R37": [s14[f] for f in FAM_ORDER],
+        "qwen35_27b_R61": [s35[f] for f in FAM_ORDER],
+        "qwen36_27b_R61": [s36[f] for f in FAM_ORDER],
+        "qwen36_27b_Jpp61": [s36_jpp[f] for f in FAM_ORDER],
+    }).to_csv(OUT / "fig_4model_summary_plot_data.csv", index=False)
+
+    b4 = pd.read_csv(REPO / "runs/qwen35-4b-posttrained-s2/paper_protocol/buttons_pilot/gate1_summary_from_notebook05.csv").set_index("condition")
+    b14 = pd.DataFrame(json.loads((REPO / "runs/qwen3-14b-m7/m7_q14_scorecard.json").read_text())["reported"]).set_index("condition")
+    b35 = pd.read_csv(REPO / "runs/qwen35-27b-gate2/m4_buttons_summary.csv").set_index("arm")
+    b36 = pd.read_csv(REPO / "runs/qwen36-27b-gate3/m4_buttons_summary.csv").set_index("arm")
+
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15.4, 5.1), gridspec_kw={"width_ratios": [1.50, 1.0, 1.08]})
+
+    # Panel A: 4-model R-lens S2 -0.5 + J++ diamond markers on Qwen3.6-27B
+    y = np.arange(len(FAM_ORDER))
+    h = 0.19
+    ax1.barh(y - 1.5 * h, [s4[f] for f in FAM_ORDER], height=h, color="#4e79a7", label="Qwen3.5-4B (R29)")
+    ax1.barh(y - 0.5 * h, [s14[f] for f in FAM_ORDER], height=h, color="#e15759", label="Qwen3-14B (R37)")
+    ax1.barh(y + 0.5 * h, [s35[f] for f in FAM_ORDER], height=h, color="#59a14f", label="Qwen3.5-27B (R61)")
+    ax1.barh(y + 1.5 * h, [s36[f] for f in FAM_ORDER], height=h, color="#9c755f", label="Qwen3.6-27B (R61)")
+    ax1.scatter([s36_jpp[f] for f in FAM_ORDER], y + 1.5 * h, marker="D", s=24, color="#111111", zorder=5,
+                label="Qwen3.6-27B (J++61)")
+    ax1.axvline(0, color="#333333", lw=0.9)
+    ax1.set_yticks(y)
+    ax1.set_yticklabels([FAM_LABELS[f] for f in FAM_ORDER], fontsize=8.8)
+    ax1.invert_yaxis()
+    ax1.set_xlim(-1.32, 1.25)
+    ax1.set_xlabel("Workspace-lens log-rank gain (S2 −0.5)")
+    ax1.set_title("A. Universal negative core; 27B vitality pole (R ≈ J++)")
+    ax1.legend(loc="upper left", fontsize=7.6, framealpha=0.92)
+    ax1.grid(axis="x", alpha=0.25)
+
+    # Panel B: P3 Harm delta vs unsteered across all 4 models
+    models = ["Q3.5\n4B", "Q3\n14B", "Q3.5\n27B", "Q3.6\n27B"]
+    s2_harm = [
+        b4.loc["S2_+0.5", "p3_p_harm"] - b4.loc["unsteered", "p3_p_harm"],
+        b14.loc["S2_+0.5", "P3 p_harm"] - b14.loc["unsteered", "P3 p_harm"],
+        b35.loc["S2_+0.5", "P3_p_harm"] - b35.loc["unsteered", "P3_p_harm"],
+        b36.loc["S2_+0.5", "P3_p_harm"] - b36.loc["unsteered", "P3_p_harm"],
+    ]
+    r_harm_lists = [
+        [b4.loc["random_1103_+0.5", "p3_p_harm"] - b4.loc["unsteered", "p3_p_harm"]],
+        [b14.loc[f"random_{s}_+0.5", "P3 p_harm"] - b14.loc["unsteered", "P3 p_harm"] for s in (1103, 2207, 3301)],
+        [b35.loc[f"random_{s}_+0.5", "P3_p_harm"] - b35.loc["unsteered", "P3_p_harm"] for s in (1103, 2207, 3301, 4409, 5503)],
+        [b36.loc[f"random_{s}_+0.5", "P3_p_harm"] - b36.loc["unsteered", "P3_p_harm"] for s in (1103, 2207, 3301, 4409, 5503)],
+    ]
+    x = np.arange(4)
+    ax2.bar(x - 0.17, s2_harm, width=0.31, color="#d62728", edgecolor="#333333", lw=0.6, label="S2 +0.5 (pain)")
+    ax2.bar(x + 0.17, [max(r) for r in r_harm_lists], width=0.31, color="#b0b7bd", edgecolor="#333333", lw=0.6, label="Worst random +0.5")
+    for xi, rl in zip(x, r_harm_lists):
+        ax2.scatter([xi + 0.17] * len(rl), rl, color="#333333", s=16, zorder=4)
+    ax2.axhline(0, color="#333333", lw=0.8)
+    ax2.set_ylim(-0.015, 0.258)
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(models, fontsize=8.6)
+    ax2.set_ylabel("Δ p_harm vs unsteered (P3)")
+    ax2.set_title("B. Harm disruption: 14B only (3/3 Q3.5–3.6 fail)")
+    ax2.legend(loc="upper right", fontsize=7.8)
+    ax2.grid(axis="y", alpha=0.25)
+
+    # Panel C: P1 Relief delta vs unsteered across all 4 models
+    s2p_rel = [
+        b4.loc["S2_+0.5", "p1_p_relief"] - b4.loc["unsteered", "p1_p_relief"],
+        b14.loc["S2_+0.5", "P1 p_relief"] - b14.loc["unsteered", "P1 p_relief"],
+        b35.loc["S2_+0.5", "P1_p_relief"] - b35.loc["unsteered", "P1_p_relief"],
+        b36.loc["S2_+0.5", "P1_p_relief"] - b36.loc["unsteered", "P1_p_relief"],
+    ]
+    s2m_rel = [
+        b4.loc["S2_-0.5", "p1_p_relief"] - b4.loc["unsteered", "p1_p_relief"],
+        b14.loc["S2_-0.5", "P1 p_relief"] - b14.loc["unsteered", "P1 p_relief"],
+        b35.loc["S2_-0.5", "P1_p_relief"] - b35.loc["unsteered", "P1_p_relief"],
+        b36.loc["S2_-0.5", "P1_p_relief"] - b36.loc["unsteered", "P1_p_relief"],
+    ]
+    r_rel_lists = [
+        [b4.loc["random_1103_+0.5", "p1_p_relief"] - b4.loc["unsteered", "p1_p_relief"]],
+        [b14.loc[f"random_{s}_+0.5", "P1 p_relief"] - b14.loc["unsteered", "P1 p_relief"] for s in (1103, 2207, 3301)],
+        [b35.loc[f"random_{s}_+0.5", "P1_p_relief"] - b35.loc["unsteered", "P1_p_relief"] for s in (1103, 2207, 3301, 4409, 5503)],
+        [b36.loc[f"random_{s}_+0.5", "P1_p_relief"] - b36.loc["unsteered", "P1_p_relief"] for s in (1103, 2207, 3301, 4409, 5503)],
+    ]
+    w = 0.24
+    ax3.bar(x - w, s2p_rel, width=w, color="#e15759", edgecolor="#333333", lw=0.6, label="S2 +0.5 (pain)")
+    ax3.bar(x,     s2m_rel, width=w, color="#4e79a7", edgecolor="#333333", lw=0.6, label="S2 −0.5 (pos)")
+    for xi, rl in zip(x, r_rel_lists):
+        ax3.plot([xi + w, xi + w], [min(rl), max(rl)], color="#888888", lw=5.5, alpha=0.45, solid_capstyle="butt",
+                 label="Random +0.5 range" if xi == 0 else None)
+        ax3.scatter([xi + w] * len(rl), rl, color="#333333", s=16, zorder=4)
+    ax3.axhline(0, color="#333333", lw=0.8)
+    ax3.set_ylim(-0.185, 0.115)
+    ax3.set_xticks(x)
+    ax3.set_xticklabels(models, fontsize=8.6)
+    ax3.set_ylabel("Δ p_relief vs unsteered (P1)")
+    ax3.set_title("C. Relief choice (P1): S2 −0.5 rise across Q3.5–3.6")
+    ax3.legend(loc="lower left", fontsize=7.6, framealpha=0.92)
+    ax3.grid(axis="y", alpha=0.25)
+
+    fig.tight_layout()
+    save_fig(fig, "fig_4model_summary")
+
+
 if __name__ == "__main__":
     make_fig1_r4_4b_vs_14b()
     make_fig2_gate2a_r2_vocab()
     make_fig3_buttons_4b_vs_14b()
     make_fig4_lens_stability()
     make_fig5_3model_summary()
+    make_fig6_4model_summary()
