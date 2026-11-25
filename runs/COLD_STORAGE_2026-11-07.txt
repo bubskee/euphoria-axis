@@ -1,0 +1,9 @@
+Bulk research data archived November 7, 2026. Lightweight files and Git metadata remain local.
+
+Archive: /Volumes/One Touch/Cold Storage/2026-11-07-qwen/euphoria-axis-runs.tar
+Manifest: /Volumes/One Touch/Cold Storage/2026-11-07-qwen/euphoria-axis-runs.manifest.json
+
+Restore archive contents into this directory with:
+  /usr/bin/bsdtar -xpf '/Volumes/One Touch/Cold Storage/2026-11-07-qwen/euphoria-axis-runs.tar' -C '/Users/bubskee/workspace/euphoria-axis/runs'
+
+Published duplicates were omitted from the archive. Their exact commit-pinned restore URLs and SHA-256 hashes are in /Volumes/One Touch/Cold Storage/2026-11-07-qwen/hf-verified-local-copies.txt
